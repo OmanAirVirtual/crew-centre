@@ -1,0 +1,153 @@
+.staff-page {
+  min-height: 100vh;
+  background: #0a0e27;
+}
+
+.staff-hero {
+  position: relative;
+  padding: 4rem 2rem 3rem;
+  overflow: hidden;
+}
+
+.staff-hero-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0f1642 0%, #1a237e 50%, #0d47a1 100%);
+}
+
+.staff-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.staff-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.staff-back:hover {
+  color: #fff;
+}
+
+.staff-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 0.5rem;
+}
+
+.staff-tagline {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.staff-list {
+  padding: 2rem 2rem 4rem;
+}
+
+.staff-loading,
+.staff-empty {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 3rem;
+  font-size: 1.1rem;
+}
+
+.staff-empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.staff-sections {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.staff-section {
+  margin-bottom: 3rem;
+}
+
+.staff-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.staff-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.staff-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.staff-card-avatar {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.staff-card-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 0.25rem;
+}
+
+.staff-card-role {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.staff-footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.staff-footer-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.staff-footer-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.staff-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

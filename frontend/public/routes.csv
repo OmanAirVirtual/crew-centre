@@ -1,0 +1,620 @@
+"routeNumber","departureICAO","arrivalICAO","aircraft","routeType","notes","estFlightTime","minimumHours","shareable"
+"QR1427","OTTH","HAAB","Generic Airbus A320, Qatar Airways Boeing 777-300ER","Passenger","",220,0,true
+"QR1428","HAAB","OTTH","Generic Airbus A320, Qatar Airways Boeing 777-300ER","Passenger","",210,0,true
+"WY653","OOMS ","OBBI","Oman Air Boeing 737-8 MAX, Generic Boeing 737-800","Passenger","",110,,true
+"WY654","OBBI","OOMS","Oman Air Boeing 737-8 MAX, Generic Boeing 737-800","Passenger","",110,,true
+"QR914","OTTH","YPAD","Qatar Airways Airbus A350","Passenger","",755,0,true
+"WY317","OOMS ","VGHS","Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",270,,true
+"QR915","YPAD","OTTH","Qatar Airways Airbus A350","Passenger","",780,,true
+"WY318","VGHS","OOMS","Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",255,,true
+"WY405","OOMS ","HECA","Oman Air Boeing 737-8 MAX, Generic Boeing 737-800","Passenger","",255,,true
+"WY406","HECA","OOMS","Oman Air Boeing 737-8 MAX, Generic Boeing 737-800","Passenger","",240,,true
+"WY117","OOMS ","EDDF","Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",450,,true
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",420,,true
+"WY131","OOMS ","LFPG","Oman Air Airbus A330-300, Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",390,,true
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300, Oman Air Boeing 787-8, Generic Boeing 787-9","Passenger","",390,,true
+"QR1379","OTTH","DAAG","Generic Airbus A330-300","Passenger","",390,,true
+"WY933,WY965","OOMS ","OOKB","Oman Air Boeing 737-8 MAX, Oman Air E175","Passenger","",35,,true
+"WY934,WY966","OOKB","OOMS","Oman Air Boeing 737-8 MAX, Oman Air E175","Passenger","",35,,true
+"QR755","OTTH","KATL","Qatar Airways Airbus A350","Passenger","",880,0,true
+"QR756","KATL","OTTH","Qatar Airways Airbus A350","Passenger","",825,0,true
+"QR920","OTTH","NZAA","Qatar Airways Boeing 777-200LR","Passenger","",950,,true
+"QR921","NZAA","OTTH","Qatar Airways Boeing 777-200LR","Passenger","",1020,,true
+"QR416,QR418,QR426","OTTH","OLBA","Qatar Airways Boeing 777-300ER, Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",185,,true
+"QR417,QR419, QR427","OLBA","OTTH","Qatar Airways Boeing 777-300ER, Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",210,0,true
+"QR743","OTTH","KBOS","Qatar Airways Airbus A350","Passenger","",780,0,true
+"QR744","KBOS","OTTH","Qatar Airways Airbus A350","Passenger","",735,0,true
+"QR898","OTTH","YBBN","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",825,0,true
+"QR899","YBNN","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",840,0,true
+"QR193,QR195","OTTH","EBBR","Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",380,0,true
+"QR194,QR196","EBBR","OTTH","Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",340,,true
+"QR1369","OTTH","FACT","Qatar Airways Boeing 777-300ER, Qatar Airways Boeing 777-200LR","Passenger","",560,0,true
+"QR1370","FACT","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways Boeing 777-200LR","Passenger","",565,,true
+"QR1395A","OTTH","GMMN","Qatar Airways Airbus A350","Passenger","",460,0,true
+"QR1395B","GMMN","GMMX","Qatar Airways Airbus A350","Passenger","",30,0,true
+"QR1396A","GMMN","OTTH","Qatar Airways Airbus A350","Passenger","",415,0,true
+"QR1396A","GMMX","GMMN","Qatar Airways Airbus A350","Passenger","",30,0,true
+"QR725","OTTH","KORD","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",865,0,true
+"QR726","KORD","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",800,0,true
+"QR654,QR662,QR664","OTTH","VCBI","Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",270,0,true
+"QR655,QR663,QR665","VCBI","OTTH","Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",250,0,true
+"QR159,QR161","OTTH","EKCH","Qatar Airways Boeing 787-8","Passenger","",360,0,true
+"QR160,QR162","EKCH","OTTH","Qatar Airways Boeing 787-8","Passenger","",335,0,true
+"QR160,QR162","EKCH","OTTH","Qatar Airways Boeing 787-8","Passenger","",335,0,true
+"QR729,QR731","OTTH","KDFW","Qatar Airways Airbus A350","Passenger","",940,0,true
+"QR730,QR732","KDFW","OTTH","Qatar Airways Airbus A350","Passenger","",870,0,true
+"QR638,QR640","OTTH","VGHS","Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",285,0,true
+"QR639,QR641","VGHS","OTTH","Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",280,0,true
+"QR17,QR19","OTTH","EIDW","Qatar Airways Boeing 777-300ER, Generic Boeing 787-9, Generic Boeing 787-9","Passenger","",430,0,true
+"QR18,QR20","EIDW","OTTH","Qatar Airways Boeing 777-300ER, Generic Boeing 787-9","Passenger","",400,0,true
+"QR1383","OTTH","HUEN","Qatar Airways Boeing 787-8","Passenger","",280,0,true
+"QR1384","HUEN","OTTH","Qatar Airways Boeing 787-8","Passenger","",295,0,true
+"QR713","OTTH","KIAH","Qatar Airways Airbus A350","Passenger","",960,0,true
+"QR714","KIAH","OTTH","Qatar Airways Airbus A350","Passenger","",880,0,true
+"QR241,QR243","OTTH","LTFJ","Generic Airbus A320","Passenger","",250,0,true
+"QR242,QR244","LTFJ","OTTH","Generic Airbus A320","Passenger","",265,0,true
+"QR1354,QR1378","OTTH","FAOR","Qatar Airways Boeing 787-8, Generic Boeing 787-9, Generic Boeing 787-9","Passenger","",465,0,true
+"QR1354,QR1378","FAOR","OTTH","Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",465,0,true
+"QR1499A","OTTH","HKTJ","Qatar Airways Boeing 787-8","Passenger","",295,0,true
+"QR1499A","OTTH","HTKJ","Qatar Airways Boeing 787-8","Passenger","",295,0,true
+"QR1499B","HTKJ","HTDA","Qatar Airways Boeing 787-8","Passenger","",45,0,true
+"QR1499C","HTDA","OTTH","Qatar Airways Boeing 787-8","Passenger","",320,0,true
+"QR739,QR741","OTTH","KLAX","Qatar Airways Airbus A350","Passenger","",1005,0,true
+"QR740,QR742","KLAX","OTTH","Qatar Airways Airbus A350","Passenger","",945,0,true
+"QR1451A,QR1455A","OTTH","FLKK","Qatar Airways Boeing 787-8","Passenger","",400,0,true
+"QR1451B,QR1455B","FLKK","FVRG","Qatar Airways Boeing 787-8","Passenger","",45,0,true
+"QR1452A,QR1456A","FVRG","FLKK","Qatar Airways Boeing 787-8","Passenger","",50,0,true
+"QR1452B,QR1456B","FLKK","OTTH","Qatar Airways Boeing 787-8","Passenger","",405,0,true
+"QR670,QR676","OTTH","VRMM","Qatar Airways Boeing 777-300ER","Passenger","",245,,true
+"QR670,QR677","VRMM","OTTH","Qatar Airways Boeing 777-300ER","Passenger","",235,0,true
+"QR904,QR988A","OTTH","YMML","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",755,0,true
+"QR988B","YMML","YPAD","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",65,0,true
+"QR989A","YPAD","YMML","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",60,0,true
+"QR905,QR989B","YMML","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways - Retro Boeing 777-300ER","Passenger","",810,0,true
+"QR777,QR781","OTTH","KMIA","Qatar Airways Airbus A350","Passenger","",875,0,true
+"QR778,QR782","KMIA","OTTH","Qatar Airways Airbus A350","Passenger","",825,,true
+"QR339","OTTH","UUEE","Qatar Airways Boeing 777-300ER","Passenger","",300,0,true
+"QR340","UUEE","OTTH","Qatar Airways Boeing 777-300ER","Passenger","",295,0,true
+"QR616","OTTH","OPMT ","Generic Airbus A320","Passenger","",170,0,true
+"QR617","OPMT","OTTH","Generic Airbus A320","Passenger","",180,0,true
+"QR1122,QR1124,QR1126,QR1148","OTTH","OOMS","Generic Airbus A320, Qatar Airways Boeing 777-300ER, Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 777-200LR, Qatar Airways - Retro Boeing 777-300ER","Passenger","",70,0,true
+"QR1123,QR1125,QR1127,QR1149 ","OOMS","OTTH","Generic Airbus A320, Qatar Airways Boeing 777-300ER, Generic Airbus A330-300, Qatar Airways Airbus A350, Qatar Airways Boeing 777-200LR, Qatar Airways - Retro Boeing 777-300ER","Passenger","",75,0,true
+"QR1335,QR1341","OTTH","HKJK","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350","Passenger","",280,0,true
+"QR1336,QR1342","HKJK","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350","Passenger","",295,0,true
+"QR702,QR703,QR706","OTTH","KJFK","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350, Qatar Airways - Retro Boeing 777-300ER","Passenger","",780,0,true
+"QR701,QR703,QR705","KJFK","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350","Passenger","",740,0,true
+"QR175,QR179","OTTH","ENGM","Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",380,0,true
+"QR176,QR180","ENGM ","OTTH","Qatar Airways Boeing 787-8, Generic Boeing 787-9","Passenger","",355,0,true
+"QR900","OTTH","YPPH","Qatar Airways Airbus A380","Passenger","",640,,true
+"QR901","YPPH","OTTH","Qatar Airways Airbus A380","Passenger","",660,0,true
+"QR1130,QR1144","OTTH","OOSA","Generic Airbus A320","Passenger","",100,0,true
+"QR1131,QR1145","OOSA","OTTH","Generic Airbus A320","Passenger","",110,0,true
+"QR737","OTTH","KSFO","Qatar Airways Airbus A350","Passenger","",980,0,true
+"QR738","KSFO","OTTH","Qatar Airways Airbus A350","Passenger","",930,0,true
+"QR719","OTTH","KSEA","Qatar Airways Boeing 777-300ER","Passenger","",915,0,true
+"QR720","KSEA","OTTH","Qatar Airways Boeing 777-300ER","Passenger","",900,0,true
+"QR476","OTTH","OISS","Generic Airbus A320","Passenger","",60,0,true
+"QR477","OISS","OTTH","Generic Airbus A320","Passenger","",60,0,true
+"QR167,QR169","OTTH","ESSA","Qatar Airways Boeing 787-8","Passenger","",375,0,true
+"QR168,QR170","ESSA","OTTH","Qatar Airways Boeing 787-8","Passenger","",350,0,true
+"QR908","OTTH","YSSY ","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A380, Qatar Airways - Retro Boeing 777-300ER","Passenger","",830,,true
+"QR909","YSSY","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A380, Qatar Airways - Retro Boeing 777-300ER","Passenger","",855,0,true
+"QR490,QR498","OTTH","OIIE","Generic Airbus A320, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",100,0,true
+"QR491,QR499","OIIE","OTTH","Generic Airbus A320, Qatar Airways Airbus A350, Qatar Airways Boeing 787-8","Passenger","",100,0,true
+"QR1399,QR1401","OTTH","DTTA","Qatar Airways Boeing 787-8","Passenger","",315,0,true
+"QR1400,QR1402","DTTA","OTTH","Qatar Airways Boeing 787-8","Passenger","",305,0,true
+"QR678","OTTH","FSIA","Qatar Airways Boeing 777-200LR","Passenger","",260,0,true
+"QR679","FSIA","OTTH","Qatar Airways Boeing 777-200LR","Passenger","",245,0,true
+"EY001,003,2226","OMAA","KJFK","Etihad Boeing 777-300ER, Etihad Airways Boeing 787-9","Passenger","",835,,true
+"QR707,QR709","OTTH","KIAD","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350","Passenger","",825,0,true
+"QR708,QR710","KIAD","OTTH","Qatar Airways Boeing 777-300ER, Qatar Airways Airbus A350","Passenger","",775,,true
+"EY002,004,2227","KJFK","OMAA","Etihad Boeing 777-300ER, Etihad Airways Boeing 787-9","Passenger","",835,,true
+"QR1487","OTTH","HTZA","Generic Airbus A320","Passenger","",315,0,true
+"QR1487","OTTH","HTZA","Generic Airbus A320","Passenger","",315,0,true
+"EY005","OMAA","KIAD","Etihad Airways Boeing 787-9","Passenger","",840,,true
+"QR1488","HTZA","OTTH","Generic Airbus A320","Passenger","",330,0,true
+"A3 822","LGAV","EDDB","Generic Airbus A321","Passenger","",175,0,true
+"A3 823","EDDB","LGAV","Generic Airbus A321","Passenger","",175,0,true
+"A3 998","LGAV","LTFM","Aegean Airlines - 2020 Airbus A320","Passenger","",96,0,true
+"A3 999","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",96,0,true
+"A3 622","LGAV","EBBR","Aegean Airlines - 2020 Airbus A320","Passenger","",200,0,true
+"A3 623","EBBR","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",200,0,true
+"A3 632","LGAV","EGPH","Aegean Airlines - 2020 Airbus A320","Passenger","",255,0,true
+"A3 633","EGPH ","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",255,0,true
+"A3 696","LGAV","LFBD","Aegean Airlines - 2020 Airbus A320","Passenger","",205,0,true
+"A3 697","LFBD","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",205,0,true
+"A3 698","LGAV","LFBO","Aegean Airlines - 2020 Airbus A320","Passenger","",195,0,true
+"A3 699","LFBO","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",195,0,true
+"EY6","KIAD","OMAA","Etihad Airways Boeing 787-9","Passenger","",840,,true
+"A3 714","LGAV","LEZL","Aegean Airlines - 2020 Airbus A320","Passenger","",240,0,true
+"A3 715","LEZL","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",240,0,true
+"EY021","OMAA","CYYZ","Etihad Airways Airbus A380","Passenger","",835,,true
+"A3 716","LGAV","LEVC","Aegean Airlines - 2020 Airbus A320","Passenger","",200,0,true
+"EY022","CYYZ","OMAA","Etihad Airways Airbus A380","Passenger","",835,,true
+"A3 717","LEVC","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",240,0,true
+"A3 724 ","LGAV","LPPR","Aegean Airlines - 2020 Airbus A320","Passenger","",250,0,true
+"A3 725","LPPR","LGAV","Aegean Airlines - 2020 Airbus A320","Passenger","",250,0,true
+"OA 423","LGAV","CYUL","Olympic Boeing 747-200","Passenger","",575,0,true
+"OA 423/1","CYUL","LGAV","Olympic Boeing 747-200","Passenger","",575,0,true
+"EY061,63,65,67","OMAA","EGLL","Etihad Airways Boeing 787-9, Etihad Airways Airbus A380, Etihad Airways Boeing 787-10","Passenger","",448,,true
+"MS995","HECA","CYYZ","Generic Boeing 787-9, EgyptAir Boeing 777-300ER","Passenger","",675,0,true
+"MS996","CYYZ","HECA","Generic Boeing 787-9, EgyptAir Boeing 777-300ER","Passenger","",675,0,true
+"MS951","HECA","ZSPD","Generic Boeing 787-9, EgyptAir Boeing 777-300ER","Passenger","",600,0,true
+"MS952","ZSPD","HECA","Generic Boeing 787-9, EgyptAir Boeing 777-300ER","Passenger","",600,0,true
+"MS835 A","HECA","HRYR","EgyptAir Boeing 737-800","Passenger","",300,0,true
+"MS835 C","HRYR","HECA","EgyptAir Boeing 737-800","Passenger","",300,0,true
+"MS42","HECA","HEGN","EgyptAir Airbus A220-300, EgyptAir Boeing 737-800","Passenger","",40,0,true
+"MS43","HEGN","HECA","EgyptAir Airbus A220-300, EgyptAir Boeing 737-800","Passenger","",40,0,true
+"MS753","HECA","LEMD","Generic Boeing 787-9, EgyptAir Boeing 737-800","Passenger","",280,0,true
+"MS754","LEMD","HECA","Generic Boeing 787-9, EgyptAir Boeing 737-800","Passenger","",280,0,true
+"RJ133","OJAI","LCLK","Generic Airbus A320","Passenger","",65,0,true
+"RJ134","LCLK","OJAI","Generic Airbus A320","Passenger","",65,0,true
+"RJ134","OJAI","LSGG","Generic E190","Passenger","",295,0,true
+"RJ156","LSGG","OJAI","Generic E190","Passenger","",295,0,true
+"RJ169","OJAI","LTAI","Generic Airbus A320","Passenger","",98,0,true
+"RJ170","LTAI","OJAI","Generic Airbus A320","Passenger","",98,0,true
+"RJ115","OJAI","EGCC","Generic Airbus A320","Passenger","",332,0,true
+"RJ116","EGCC","OJAI","Generic Airbus A320","Passenger","",332,0,true
+"RJ281","OJAI","KIAD","Royal Jordanian Boeing 787-8","Passenger","",774,0,true
+"RJ282","KIAD","OJAI","Royal Jordanian Boeing 787-8","Passenger","",774,0,true
+"EY062,64,66,68","EGLL","OMAA","Etihad Airways Boeing 787-9, Etihad Airways Airbus A380, Etihad Airways Boeing 787-10","Passenger","",448,,true
+"EY212,214,216,218","OMAA","VIDP","Etihad Boeing 777-300ER, Etihad Airways Boeing 787-9, Etihad Airways Boeing 787-10, Etihad Airbus A321","Passenger","",196,,true
+"EY213,215,217,219","VIDP","OMAA","Etihad Boeing 777-300ER, Etihad Airways Boeing 787-9, Etihad Airways Boeing 787-10, Etihad Airbus A321","Passenger","",196,,true
+"EY294,296,298","OMAA","OPKC","Generic Airbus A320, Etihad Airbus A321","Passenger","",120,,true
+"EY295,297,299","OPKC","OMAA","Generic Airbus A320, Etihad Airbus A321","Passenger","",120,,true
+"EY183","OMAA","LGSR","Generic Airbus A320, Etihad Airbus A321","Passenger","",240,,true
+"EY184","LGSR","OMAA","Generic Airbus A320, Etihad Airbus A321","Passenger","",240,,true
+"EY","KORD","EDDF","Generic Boeing 777-200LR","Passenger","",454,,true
+"EY","EDDF","KORD","Generic Boeing 777-200LR","Passenger","",454,,true
+"EY","OMAA","FAOR","Etihad Cargo Boeing 777F","Cargo","",464,,true
+"EY","FAOR","OMAA","Etihad Cargo Boeing 777F","Cargo","",464,,true
+"EY","OMAA","OERK","Etihad Cargo Boeing 777F","Cargo","",110,,true
+"EY","OERK","OMAA","Etihad Cargo Boeing 777F","Cargo","",110,,true
+"LX92","LSZH","SBGR","Generic Boeing 777-300ER","Passenger","",669,0,true
+"LX93","SBGR","LSZH","Generic Boeing 777-300ER","Passenger","",669,0,true
+"LX64","LSZH","KMIA","Generic Boeing 777-300ER","Passenger","",558,0,true
+"LX65","KMIA","LSZH","Generic Boeing 777-300ER","Passenger","",558,0,true
+"LX86","KMIA","LSZH","Generic Boeing 777-300ER","Passenger","",558,0,true
+"MH390","WMKK","ZSAM","Malaysia Airlines Boeing 737-800","Passenger","",265,,true
+"MH391","ZSAM","WMKK","Malaysia Airlines Boeing 737-800","Passenger","",265,,true
+"MH129","WMKK","YMML","Generic Airbus A330-300, Generic Airbus A330-900","Passenger","",436,,true
+"MH128","YMML","WMKK","Generic Airbus A330-300, Generic Airbus A330-900","Passenger","",436,,true
+"MH752","WMKK","VVNB","Malaysia Airlines Boeing 737-800","Passenger","",191,,true
+"MH753","VVNB","WMKK","Malaysia Airlines Boeing 737-800","Passenger","",191,,true
+"MH125/127","WMKK","YPPH","Generic Airbus A330-300, Malaysia Airlines Boeing 737-800","Passenger","",306,,true
+"MH124/126","YPPH","WMKK","Generic Airbus A330-300, Malaysia Airlines Boeing 737-800","Passenger","",306,,true
+"MH605/607","WMKK","WSSS","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",49,,true
+"MH606/608","WSSS","WMKK","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",49,,true
+"MH860/864","WMKK","WIMM","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",45,,true
+"MH861/865","WIMM","WMKK","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",45,,true
+"MH366","WMKK","RCTP","Generic Airbus A330-300","Passenger","",275,,true
+"MH367","RCTP","WMKK","Generic Airbus A330-300","Passenger","",275,,true
+"MH871/873","WMKK","WARR","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",134,,true
+"MH870/872","WARR","WMKK","Generic Boeing 737-8 MAX, Malaysia Airlines Boeing 737-800","Passenger","",134,,true
+"MH38/66","WMKK","RKSI","Generic Airbus A330-300","Passenger","",403,,true
+"MH39/67","RKSI","WMKK","Generic Airbus A330-300","Passenger","",403,,true
+"MH841","WMKK","WIBB","Malaysia Airlines Boeing 737-800","Passenger","",45,,true
+"MH840","WIBB","WMKK","Malaysia Airlines Boeing 737-800","Passenger","",45,,true
+"FJ911/915","NFFN","YSSY","Fiji Airways Airbus A350, Fiji Airways Boeing 737-8 MAX","Passenger","",253,,true
+"FJ910/914","YSSY","NFFN","Fiji Airways Airbus A350, Fiji Airways Boeing 737-8 MAX","Passenger","",253,,true
+"FJ931/935","NFFN","YMML","Fiji Airways Airbus A350, Fiji Airways Boeing 737-8 MAX","Passenger","",337,,true
+"FJ930/934","YMML","NFFN","Fiji Airways Airbus A350, Fiji Airways Boeing 737-8 MAX","Passenger","",337,,true
+"FJ921","NFFN","YBBN","Fiji Airways Airbus A330-300","Passenger","",248,,true
+"FJ920","YBBN","NFFN","Fiji Airways Airbus A330-300","Passenger","",248,,true
+"FJ961","NFFN","YPAD","Fiji Airways Boeing 737-8 MAX","Passenger","",285,,true
+"FJ960","YPAD","NFFN","Fiji Airways Boeing 737-8 MAX","Passenger","",285,,true
+"FJ951","NFFN","YSCB","Fiji Airways Boeing 737-8 MAX","Passenger","",287,,true
+"FJ950","YSCB","NFFN","Fiji Airways Boeing 737-8 MAX","Passenger","",287,,true
+"FJ971","NFFN","YBCS","Generic Boeing 737-800","Passenger","",273,,true
+"FJ970","YBCS","NFFN","Generic Boeing 737-800","Passenger","",273,,true
+"FJ363","NFFN","WSSS","Fiji Airways Airbus A330-300","Passenger","",610,,true
+"FJ362","WSSS","NFFN","Fiji Airways Airbus A330-300","Passenger","",610,,true
+"FJ351","NFFN","RJAA","Fiji Airways Airbus A330-300","Passenger","",539,,true
+"FJ350","RJAA","NFFN","Fiji Airways Airbus A330-300","Passenger","",539,,true
+"FJ870","NFFN","KSFO","Fiji Airways Airbus A350","Passenger","",575,,true
+"FJ871","KSFO","NFFN","Fiji Airways Airbus A350","Passenger","",575,,true
+"FJ890","NFFN","KDFW","Fiji Airways Airbus A350","Passenger","",725,,true
+"FJ891","KDFW","NFFN","Fiji Airways Airbus A350","Passenger","",725,,true
+"KQ6712","HTDA","HTZA","Kenya Airways E190","Passenger","",20,,true
+"KQ6713","HTZA","HTDA","Kenya Airways E190","Passenger","",20,,true
+"KQ600","HKJK","HKMO","Kenya Airways E190, Kenya Airways Boeing 737-800","Passenger","",40,,true
+"KQ601","HKMO","HKJK","Kenya Airways E190, Kenya Airways Boeing 737-800","Passenger","",40,,true
+"KQ2","HKJK","KJFK","Kenya Airways Boeing 787-8","Passenger","",808,,true
+"KQ3","KJFK","HKJK","Kenya Airways Boeing 787-8","Passenger","",808,,true
+"KQ784","HKJK","FACT","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",325,,true
+"KQ785","FACT","HKJK","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",325,,true
+"KQ760/762","HKJK","FAOR","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",235,,true
+"KQ761/763","FAOR","HKJK","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",235,,true
+"KQ882","HKJK","ZGGG","Kenya Airways Boeing 787-8","Passenger","",640,,true
+"KQ883","ZGGG","HKJK","Kenya Airways Boeing 787-8","Passenger","",640,,true
+"KQ886","HKJK","VTBS","Kenya Airways Boeing 787-8","Passenger","",551,,true
+"KQ887","VTBS","HKJK","Kenya Airways Boeing 787-8","Passenger","",551,,true
+"KQ508/510","HKJK","DGAA","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",320,,true
+"KQ509/511","DGAA","HKJK","Kenya Airways Boeing 737-800, Kenya Airways Boeing 787-8","Passenger","",320,,true
+"KQ352","HKJK","HJJJ","Kenya Airways E190","Passenger","",80,,true
+"KQ353","HJJJ","HKJK","Kenya Airways E190","Passenger","",80,,true
+"GA402","WIII","WADD","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",80,,true
+"GA401","WADD","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",80,,true
+"GA20","WADD","WAAA","Garuda Indonesia Boeing 737-800","Passenger","",70,,true
+"GA21","WAAA","WADD","Garuda Indonesia Boeing 737-800","Passenger","",80,,true
+"GA349","WADD","WARR","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",50,,true
+"GA342","WARR","WADD","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",50,,true
+"GA118","WIII","WIMM","Garuda Indonesia Airbus A330-300, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",115,,true
+"GA121","WIMM","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",115,,true
+"GA820","WIII","WMKK","Garuda Indonesia Boeing 737-800","Passenger","",110,,true
+"GA821","WMKK","WIII","Garuda Indonesia Boeing 737-800","Passenger","",110,,true
+"GA874","WIII","RJTT","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 777-300ER","Passenger","",420,,true
+"GA875","RJTT","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 777-300ER","Passenger","",420,,true
+"GA712","WIII","YSSY","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 777-300ER","Passenger","",390,,true
+"GA713","YSSY","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 777-300ER","Passenger","",390,,true
+"GA860","WIII","VHHH","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",290,,true
+"GA861","VHHH","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",290,,true
+"GA824","WIII","WSSS","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",95,,true
+"GA825","WSSS","WIII","Garuda Indonesia Airbus A330-300, Garuda Indonesia Airbus A330-900, Garuda Indonesia Boeing 737-800, Garuda Indonesia Boeing 777-300ER","Passenger","",95,,true
+"GA72","WIII","WILL","Garuda Indonesia Boeing 737-800","Passenger","",35,,true
+"GA73","WILL","WIII","Garuda Indonesia Boeing 737-800","Passenger","",35,,true
+"PK898","OPLA","WMKK","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",480,,true
+"PK899","WMKK","OPLA","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",480,,true
+"PK870","OPIS","ZGGG","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",337,,true
+"PK871","ZGGG","OPIS","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",337,,true
+"PK785","OPIS","EGLL","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",481,,true
+"PK786","EGLL","OPIS","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",481,,true
+"PK159","OPLA","UBBB","Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",300,,true
+"PK160","UBBB","OPLA","Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",300,,true
+"PK211","OPIS","OMDB","Generic Boeing 777-300ER, Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",195,,true
+"PK212","OMDB","OPIS","Generic Boeing 777-300ER, Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",195,,true
+"PK268","OPKC","VNKT","Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",270,,true
+"PK269","VNKT","OPKC","Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",270,,true
+"PK291","OPIS","OOMS","Pakistan International Airlines Airbus A320","Passenger","",150,,true
+"PK292","OOMS","OPIS","Pakistan International Airlines Airbus A320","Passenger","",150,,true
+"PK749","OPIS","LFPG","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",420,,true
+"PK750","LFPG","OPIS","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",420,,true
+"PK781","OPIS","CYYZ","Pakistan International Airlines Boeing 777-200LR","Passenger","",792,,true
+"PK782","CYYZ","OPIS","Pakistan International Airlines Boeing 777-200LR","Passenger","",792,,true
+"PK247","OPLA","OEDF","Pakistan International Airlines Airbus A320","Passenger","",210,,true
+"PK248","OEDF","OPLA","Pakistan International Airlines Airbus A320","Passenger","",210,,true
+"PK749","OPKC","LOWW","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",435,,true
+"PK750","LOWW","OPKC","Generic Boeing 777-300ER, Pakistan International Airlines Boeing 777-200LR","Passenger","",435,,true
+"PK753","OPIS","OERK","Generic Boeing 777-300ER, Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",240,,true
+"PK754","OERK","OPIS","Generic Boeing 777-300ER, Pakistan International Airlines Airbus A320, Pakistan International Airlines Boeing 777-200LR","Passenger","",240,,true
+"PK279","OPLA","OTHH","Pakistan International Airlines Airbus A320","Passenger","",225,,true
+"PK280","OTHH","OPLA","Pakistan International Airlines Airbus A320","Passenger","",225,,true
+"WY903/905/909","OOMS","OOSA","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",100,,true
+"WY904/906/910","OOSA","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",100,,true
+"WY935/937","OOMS","OMAA","Generic Boeing 737-800, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY936/937","OMAA","OOMS","Generic Boeing 737-800, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY411","OOMS","OJAI","Generic Boeing 737-800","Passenger","",180,,true
+"WY412","OJAI","OOMS","Generic Boeing 737-800","Passenger","",180,,true
+"WY171","OOMS","EHAM","Generic Boeing 787-9","Passenger","",390,,true
+"WY172","EHAM","OOMS","Generic Boeing 787-9","Passenger","",390,,true
+"WY191","OOMS","LGAV","Generic Boeing 737-800","Passenger","",270,,true
+"WY192","LGAV","OOMS","Generic Boeing 737-800","Passenger","",270,,true
+"WY815/817","OOMS","VTBS","Generic Boeing 787-9, Oman Air Boeing 787-8","Passenger","",340,,true
+"WY816/818","VTBS","OOMS","Generic Boeing 787-9, Oman Air Boeing 787-8","Passenger","",340,,true
+"WY283","OOMS","VOBL","Generic Boeing 737-800","Passenger","",210,,true
+"WY284","VOBL","OOMS","Generic Boeing 737-800","Passenger","",210,,true
+"WY849","OOMS","WIII","Generic Boeing 787-9","Passenger","",420,,true
+"WY850","WIII","OOMS","Generic Boeing 787-9","Passenger","",420,,true
+"WY673/675","OOMS","OEJN","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",155,,true
+"WY674/676","OEJN","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",135,,true
+"WY253","OOMS","VOMM","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",225,,true
+"WY254","VOMM","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",225,,true
+"WY317","OOMS","VGHS","Generic Boeing 737-800","Passenger","",240,,true
+"WY318","VGHS","OOMS","Generic Boeing 737-800","Passenger","",240,,true
+"WY695","OOMS","OEDF","Generic Boeing 737-800","Passenger","",75,,true
+"WY696","OEDF","OOMS","Generic Boeing 737-800","Passenger","",75,,true
+"WY707","OOMS","HTDA","Generic Boeing 737-800","Passenger","",240,,true
+"WY708","HTDA","OOMS","Generic Boeing 737-800","Passenger","",240,,true
+"TG301","VTBS","VYYY","Generic Airbus A320, Generic Airbus A321","Passenger","",60,,true
+"TG302","VYYY","VTBS","Generic Airbus A320, Generic Airbus A321","Passenger","",60,,true
+"TG309","VTBS","VNKT","Generic Airbus A320, Thai International Airways Airbus A330-300","Passenger","",180,,true
+"TG310","VNKT","VTBS","Generic Airbus A320, Thai International Airways Airbus A330-300","Passenger","",180,,true
+"TG312","VTBS","ZPPP","Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",195,,true
+"TG313","ZPPP","VTBS","Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",195,,true
+"TG620","VTBS","RPLL","Generic Airbus A320, Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",180,,true
+"TG321","RPLL","VTBS","Generic Airbus A320, Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",180,,true
+"TG600","VTBS","VHHH","Generic Airbus A320, Generic Airbus A321, Thai International Airways Airbus A330-300, Thai Airways Airbus A350","Passenger","",150,,true
+"TG601","VHHH","VTBS","Generic Airbus A320, Generic Airbus A321, Thai International Airways Airbus A330-300, Thai Airways Airbus A350","Passenger","",150,,true
+"TG652","VTBS","RKSI","Thai Airways Airbus A350","Passenger","",300,,true
+"TG353","RKSI","VTBS","Thai Airways Airbus A350","Passenger","",300,,true
+"TG640","VTBS","RJAA","Thai Airways Airbus A350, Thai Airways Boeing 777-300ER","Passenger","",360,,true
+"TG641","RJAA","VTBS","Thai Airways Airbus A350, Thai Airways Boeing 777-300ER","Passenger","",360,,true
+"TG481","VTBS","YPPH","Generic Boeing 787-9, Thai Airways Boeing 787-8","Passenger","",390,,true
+"TG482","YPPH","VTBS","Generic Boeing 787-9, Thai Airways Boeing 787-8","Passenger","",390,,true
+"TG349","VTBS","OPIS","Thai International Airways Airbus A330-300","Passenger","",270,,true
+"TG350","OPIS","VTBS","Thai International Airways Airbus A330-300","Passenger","",270,,true
+"TG315","VTBS","VIDP","Generic Airbus A320, Generic Airbus A321, Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",270,,true
+"TG316","VIDP","VTBS","Generic Airbus A320, Generic Airbus A321, Thai Airways Boeing 777-300ER, Thai Airways Boeing 787-8","Passenger","",270,,true
+"TG954","VTBS","ENGM","Thai Airways Airbus A350","Passenger","",720,,true
+"TG955","ENGM","VTBS","Thai Airways Airbus A350","Passenger","",720,,true
+"TG950","VTBS","EKCH","Thai Airways Boeing 777-300ER","Passenger","",705,,true
+"TG951","EKCH","VTBS","Thai Airways Boeing 777-300ER","Passenger","",705,,true
+"TG900","VTBS","LTFM","Thai Airways Airbus A350","Passenger","",600,,true
+"TG901","LTFM","VTBS","Thai Airways Airbus A350","Passenger","",600,,true
+"TG471","VTBS","YSSY","Thai Airways Airbus A350","Passenger","",540,,true
+"TG472","YSSY","VTBS","Thai Airways Airbus A350","Passenger","",540,,true
+"TG960","VTBS","ESSA","Thai Airways Airbus A350","Passenger","",720,,true
+"TG961","ESSA","VTBS","Thai Airways Airbus A350","Passenger","",720,,true
+"JX850","RCTP","RJCC","Starlux Airlines Airbus A330-900","Passenger","",205,,true
+"JX851","RJCC","RCTP","Starlux Airlines Airbus A330-900","Passenger","",205,,true
+"JX10","RCTP","KONT","Starlux Airbus A350","Passenger","",647,,true
+"JX9","KONT","RCTP","Starlux Airbus A350","Passenger","",647,,true
+"JX12","RCTP","KSFO","Starlux Airbus A350","Passenger","",611,,true
+"JX11","KSFO","RCTP","Starlux Airbus A350","Passenger","",611,,true
+"JX32","RCTP","KSEA","Starlux Airbus A350","Passenger","",615,,true
+"JX31","KSEA","RCTP","Starlux Airbus A350","Passenger","",615,,true
+"JX61","RCTP","WIII","Generic Airbus A321, Generic Airbus A321","Passenger","",315,,true
+"JX62","WIII","RCTP","Generic Airbus A321","Passenger","",315,,true
+"JX800","RCTP","RJAA","Generic Airbus A321, Starlux Airbus A350","Passenger","",160,,true
+"JX801","RJAA","RCTP","Generic Airbus A321, Starlux Airbus A350","Passenger","",160,,true
+"JX235","RCTP","VHHH","Starlux Airlines Airbus A330-900","Passenger","",110,,true
+"JX236","VHHH","RCTP","Starlux Airlines Airbus A330-900","Passenger","",110,,true
+"JX771","RCTP","WSSS","Starlux Airlines Airbus A330-900","Passenger","",280,,true
+"JX772","WSSS","RCTP","Starlux Airlines Airbus A330-900","Passenger","",280,,true
+"JX846","RCTP","RJFT","Starlux Airlines Airbus A330-900","Passenger","",85,,true
+"JX847","RJFT","RCTP","Starlux Airlines Airbus A330-900","Passenger","",85,,true
+"JX834","RCTP","RCBE","Generic Airbus A321","Passenger","",130,,true
+"JX835","RJBE","RCTP","Generic Airbus A321","Passenger","",130,,true
+"WY184","UUEE","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",350,,true
+"WY183","OOMS ","UUEE","Oman Air Boeing 737-8 MAX","Passenger","",350,,true
+"WY241,243","OOMS","VIDP","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",240,,true
+"WT242,244","VIDP","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",240,,true
+"WY661,663","OOMS","OTHH","Generic Boeing 737-800, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY662,664","OTHH","OOMS","Generic Boeing 737-800, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY601,WY603,WY605,WY607,WY611,WY613","OOMS","OMDB","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY602,WY604,WY606,WY608,WY612,WY614","OMDB","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",60,,true
+"WY115","OOMS","EDDF","Oman Air Boeing 787-8","Passenger","",390,,true
+"WY116","EDDF","OOMS","Oman Air Boeing 787-8","Passenger","",390,,true
+"WY207","OOMS","VOGO","Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY208","VOGO","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY231","OOMS","VOHS","Oman Air Boeing 737-8 MAX","Passenger","",195,,true
+"WY232","VOHS","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",195,,true
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","Passenger","",240,,true
+"WY166","LTFM","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",240,,true
+"WY261","OOMS","VILK","Oman Air Boeing 737-8 MAX","Passenger","",200,,true
+"WY262","VILK","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",200,,true
+"WY325","OOMS","OPKC","Oman Air Boeing 737-8 MAX","Passenger","",90,,true
+"WY326","OPKC","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",90,,true
+"WY383","OOMS","VRMM","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",180,,true
+"WY384","VRMM","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",180,,true
+"WY225,227","OOMS","VOCI","Oman Air Boeing 737-8 MAX","Passenger","",200,,true
+"WY226,228","VOCI","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",200,,true
+"WY843","OOMS","RPLL","Oman Air Boeing 787-8","Passenger","",285,,true
+"WY844","RPLL","OOMS","Oman Air Boeing 787-8","Passenger","",465,,true
+"WY823","OOMS","WMKK","Oman Air Boeing 787-8","Passenger","",390,,true
+"WY824","WMKK","OOMS","Oman Air Boeing 787-8","Passenger","",390,,true
+"WY446","OOMS","OIMM","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",110,,true
+"WY447","OIMM","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",110,,true
+"WY643","OOMS","OKBK","Oman Air Boeing 737-8 MAX","Passenger","",90,,true
+"WY644","OKBK","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",90,,true
+"WY679","OOMS","OEMA","Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY680","OEMA","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY343","OOMS","OPLA","Oman Air Boeing 737-8 MAX","Passenger","",135,,true
+"WY344","OPLA","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",195,,true
+"WY343","OOMS","LIMC","Oman Air Boeing 787-8","Passenger","",350,,true
+"WY144","LIMC","OOMS","Oman Air Boeing 787-8","Passenger","",350,,true
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","Passenger","",450,,true
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","Passenger","",450,,true
+"WY181","OOMS","UUEE","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",300,,true
+"WY182","UUEE","OOMS","Oman Air Boeing 787-8","Passenger","",300,,true
+"WY201,203","OOMS","VABB","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY202,204","VABB","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",150,,true
+"WY127","OOMS","EDDM","Oman Air Boeing 787-8","Passenger","",360,,true
+"WY128","EDDM","OOMS","Oman Air Boeing 787-8","Passenger","",360,,true
+"WY827","OOMS","VTSP","Generic Boeing 737-800, Oman Air Boeing 737-8 MAX","Passenger","",330,,true
+"WY828","VTSP","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",330,,true
+"WY141","OOMS","LIRF","Oman Air Boeing 787-8","Passenger","",330,,true
+"WY142","LIRF","OOMS","Oman Air Boeing 787-8","Passenger","",330,,true
+"WY681,683","OOMS","OERK","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",100,,true
+"WY682,684","OERK","OOMS","Generic Boeing 737-800, Generic Boeing 737-900, Oman Air Boeing 737-8 MAX","Passenger","",100,,true
+"WY441","OOMS","OISS","Oman Air Boeing 737-8 MAX","Passenger","",75,,true
+"WY442","OISS","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",75,,true
+"WY435","OOMS","OIEE","Oman Air Boeing 737-8 MAX","Passenger","",120,,true
+"WY436","OIEE","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",120,,true
+"WY211","OOMS","VOTV","Oman Air Boeing 737-8 MAX","Passenger","",190,,true
+"WY212","VOTV","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",190,,true
+"WY195","OOMS","LTCG","Oman Air Boeing 737-8 MAX","Passenger","",220,,true
+"WY196","LTCG","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",220,,true
+"WY707","OOMS","HTZA","Oman Air Boeing 737-8 MAX","Passenger","",250,,true
+"WY708","HTZA","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",250,,true
+"WY153","OOMS","LSZH","Oman Air Boeing 787-8","Passenger","",360,,true
+"WY154","LSZH","OOMS","Oman Air Boeing 737-8 MAX","Passenger","",360,,true
+"DY843","ESSA","ENBR","Norwegian Air Shuttle Boeing 737-800","Passenger","",60,,true
+"DY844","ENBR","ESSA","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",60,,true
+"DY1160","ENBR","EDDB","Norwegian Air Shuttle Boeing 737-800","Passenger","",80,,true
+"DY1161","EDDB","ENBR","Norwegian Air Shuttle Boeing 737-800","Passenger","",80,,true
+"D84571","ESSA","LKPR","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",89,,true
+"D84572","LKPR","ESSA","Norwegian Air Shuttle Boeing 737-800","Passenger","",89,,true
+"D83153","EFHK","EKCH","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",91,,true
+"D83154","EKCH","EFHK","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",91,,true
+"D83606","EKCH","EIDW","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",98,,true
+"D83607","EIDW","EKCH","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",98,,true
+"D83607","EIDW","EKCH","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",98,,true
+"D83638","EKCH","LFPG","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",100,,true
+"D83639","LFPG","EKCH","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",100,,true
+"D82038","ESSA","EHAM","Norwegian Air Shuttle Boeing 737-800","Passenger","",110,,true
+"D82039","EHAM","ESSA","Norwegian Air Shuttle Boeing 737-800","Passenger","",110,,true
+"D84501","ESSA","EDDM","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",110,,true
+"D84502","EDDM","ESSA","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",110,,true
+"D82766","EFHK","EGKK","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",170,,true
+"D82767","EGKK","EFHK","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",170,,true
+"D83704","EKCH","LEMD","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",170,,true
+"D83705","LEMD","EKCH","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",170,,true
+"D82802","EFHK","LFMN","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",195,,true
+"D82803","LFMN","EFHK","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",195,,true
+"D84607","ESSA","LTAI","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",207,,true
+"D84608","LTAI","ESSA","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",207,,true
+"DU1278","ENGM","LTFM","Norwegian Air Shuttle Boeing 737-800","Passenger","",210,,true
+"DY1279","LTFM","ENGM","Norwegian Air Shuttle Boeing 737-800","Passenger","",210,,true
+"D82890","EFHK","LEPA","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",221,,true
+"D82891","LEPA","EFHK","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",221,,true
+"DY1272","ENBR","LTAI","Norwegian Air Shuttle Boeing 737-800","Passenger","",236,,true
+"DY1273","LTAI","ENBR","Norwegian Air Sweden Boeing 737-8 MAX","Passenger","",236,,true
+"LS959","EGCC","LOWW","Jet2 Boeing 737-800, Jet2 Boeing 757-200","Passenger","",150,,true
+"LS960","LOWW","EGCC","Jet2 Boeing 737-800, Jet2 Boeing 757-200","Passenger","",155,,true
+"LS831","EGCC","LEPA","Generic Airbus A330-300, Generic Airbus A321, Jet2 Boeing 737-800, Jet2 Boeing 757-200","Passenger","",175,,true
+"LS832","LEPA","EGCC","Generic Airbus A330-300, Generic Airbus A321, Jet2 Boeing 737-800, Jet2 Boeing 757-200","Passenger","",170,,true
+"LS943","EGCC","LCLK","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",290,,true
+"LS944","LCLK","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",320,,true
+"LS833","EGCC","LFMN","Jet2 Boeing 737-800","Passenger","",140,,true
+"LS834","LFMN","EGCC","Jet2 Boeing 737-800","Passenger","",145,,true
+"LS853","EGCC","EDDB","Generic Airbus A321","Passenger","",125,,true
+"LS854","EDDB","EGCC","Generic Airbus A321","Passenger","",125,,true
+"LS1721","EGCC","LPMA","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",240,,true
+"LS1722","LPMA","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",235,,true
+"LS981","EGCC","LPPR","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",155,,true
+"LS982","LPPR","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",150,,true
+"LS1003","EGCC","LTBJ","Jet2 Boeing 737-800","Passenger","",240,,true
+"LS1004","LTBJ","EGCC","Jet2 Boeing 737-800","Passenger","",255,,true
+"LS77","EGCC","KEWR","Jet2 Boeing 757-200","Passenger","",450,,true
+"LS78","KEWR","EGCC","Jet2 Boeing 757-200","Passenger","",420,,true
+"LS1727","EGCC","LTAI","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",270,,true
+"LS1728","LTAI","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",285,,true
+"LS1751","EGCC","LTFE","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",255,,true
+"LS1752","LTFE","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",270,,true
+"LS1015","EGCC","LTBS","Jet2 Boeing 737-800","Passenger","",265,,true
+"LS1016","LTBS","EGCC","Jet2 Boeing 737-800","Passenger","",285,,true
+"LS1779","EGCC","LSGG","Jet2 Boeing 737-800","Passenger","",120,,true
+"LS1780","LSGG","EGCC","Jet2 Boeing 737-800","Passenger","",125,,true
+"LS1725","EGCC","GMMX","Jet2 Boeing 737-800","Passenger","",220,,true
+"LS1726","GMMX","EGCC","Jet2 Boeing 737-800","Passenger","",230,,true
+"LS1027","EGCC","ENBR","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",95,,true
+"LS1028","ENBR","EGCC","Generic Airbus A321, Jet2 Boeing 737-800","Passenger","",105,,true
+"VN8","VVTS","LFPG","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",670,,true
+"VN10","LFPG","VVNB","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",670,,true
+"VN33","VVTS","EDDM","Vietnam Airlines Boeing 787-9","Passenger","",720,,true
+"VN32","EDDM","VVTS","Vietnam Airlines Boeing 787-9","Passenger","",720,,true
+"VN63","VVNB","UUEE","Vietnam Airlines Airbus A350","Passenger","",480,,true
+"VN62","UUEE","VVNB","Vietnam Airlines Airbus A350","Passenger","",480,,true
+"VN72H","VVNB","LIMC","Vietnam Airlines Airbus A350","Passenger","",660,,true
+"VN71H","LIMC","VVNB","Vietnam Airlines Airbus A350","Passenger","",660,,true
+"VN773","VVTS","YSSY","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",480,,true
+"VN772","YSSY","VVTS","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",480,,true
+"VN781","VVTS","YMML","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",490,,true
+"VN780","YMML","VVTS","Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",490,,true
+"VN440","VVCR","RKSI","Vietnam Airlines Airbus A321","Passenger","",240,,true
+"VN441","RKSI","VVCR","Vietnam Airlines Airbus A321","Passenger","",240,,true
+"VN350","VVTS","RJFF","Vietnam Airlines Airbus A321","Passenger","",240,,true
+"VN351","RJFF","VVTS","Vietnam Airlines Airbus A321","Passenger","",240,,true
+"VN326","VVTS","RJBB","Vietnam Airlines Airbus A321, Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",270,,true
+"VN327","RJBB","VVTS","Vietnam Airlines Airbus A321, Vietnam Airlines Boeing 787-9, Vietnam Airlines Airbus A350","Passenger","",270,,true
+"VN979","VVTS","VABB","Vietnam Airlines Airbus A321","Passenger","",270,,true
+"VN978","VABB","VVTS","Vietnam Airlines Airbus A321","Passenger","",270,,true
+"VN148","VVTS","VVDN","Vietnam Airlines Airbus A321","Passenger","",60,,true
+"VN147","VVDN","VVTS","Vietnam Airlines Airbus A321","Passenger","",60,,true
+"VN651","VVTS","WSSS","Vietnam Airlines Airbus A321","Passenger","",110,,true
+"VN652","WSSS","VVTS","Vietnam Airlines Airbus A321","Passenger","",110,,true
+"VN1834","VVPQ","VVTS","Vietnam Airlines Airbus A321","Passenger","",80,,true
+"VN1833","VVTS","VVPQ","Vietnam Airlines Airbus A321","Passenger","",80,,true
+"VN677","VVTS","WMKK","Vietnam Airlines Airbus A321","Passenger","",105,,true
+"VN678","WMKK","VVTS","Vietnam Airlines Airbus A321","Passenger","",105,,true
+"VN506","VVNB","ZGGG","Vietnam Airlines Airbus A321","Passenger","",130,,true
+"VN507","ZGGG","ZGGG","Vietnam Airlines Airbus A321","Passenger","",130,,true
+"AY59","EFHK","ZLXY","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",485,,true
+"AY60","ZLXY","EFHK","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",485,,true
+"AY5","EFHK","KJFK","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",500,,true
+"AY6","KJFK","EFHK","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",500,,true
+"AY91","EFHK","ZUCK","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",510,,true
+"AY92","ZUCK","EFHK","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",510,,true
+"AY17","ESSA","KMIA","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",590,,true
+"AY18","KMIA","ESSA","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",590,,true
+"AY145","ESSA","VYBS","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",660,,true
+"AY146","VTBS","ESSA","Finnair Airbus A330-300, Finnair Airbus A350","Passenger","",660,,true
+"AY2132","EFHK","HEGN","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321","Passenger","",290,,true
+"AY2133","HEGN","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321","Passenger","",290,,true
+"AY1771","EFHK","LIPE","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",180,,true
+"AY1772","LIPE","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",180,,true
+"AY1761","EFHK","LIRF","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",190,,true
+"AY1762","LIRF","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",190,,true
+"AY1933","EFHK","LTFG","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321","Passenger","",220,,true
+"AY1934","LTFG","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321","Passenger","",220,,true
+"AY1361","EFHK","EGCC","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",150,,true
+"AY1362","EGCC","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",150,,true
+"AY801","EFHK","ESSA","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",60,,true
+"AY802","ESSA","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",60,,true
+"AY911","EFHK","ENGM","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",95,,true
+"AY912","ENGM","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",95,,true
+"AY601","EFHK","EFIV","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",105,,true
+"AY602","EFIV","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190","Passenger","",105,,true
+"AY1071","EFHK","EVRA","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190, Generic Bombardier Dash 8-Q400","Passenger","",70,,true
+"AY1072","EVRA","EFHK","Generic Airbus A320, Generic Airbus A319, Finnair Airbus A321, Finnair E190, Generic Bombardier Dash 8-Q400","Passenger","",70,,true
+"DLH1006","EDDF","EBBR","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH1007","EBBR","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH1112","EDDF","LEMD","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",130,,true
+"DLH1115","LEMD","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",130,,true
+"DLH1128","EDDF","LEBL","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",120,,true
+"DLH1125","LEBL","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",120,,true
+"DLH1142","EDDF","LOWW","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH1243","LOWW","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH1397","LKPR","EDDF","Lufthansa Airbus A321","Passenger","",45,,true
+"DLH850","EDDF","EFHK","Lufthansa Airbus A321","Passenger","",120,,true
+"DLH855","EFHK","EDDF","Lufthansa Airbus A321","Passenger","",120,,true
+"DLH978","EDDF","EIDW","Lufthansa Airbus A321","Passenger","",105,,true
+"DLH977","EIDW","EDDF","Lufthansa Airbus A321","Passenger","",105,,true
+"DLH860","EDDF","ENGM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",100,,true
+"DLH861","ENGM","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",100,,true
+"DLH998","EDDF","EHAM","Lufthansa Airbus A319","Passenger","",50,,true
+"DLH999","EHAM","EDDF","Lufthansa Airbus A319","Passenger","",50,,true
+"DLH948","EDDF","EGCC","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",50,,true
+"DLH949","EGCC","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",50,,true
+"DLH247","LIMC","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH248","EDDF","LIMC","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",70,,true
+"DLH1040","EDDF","LFPG","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",90,,true
+"DLH1041","LFPG","EDDF","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",90,,true
+"DLH1198","EDDF","LSZH","Lufthansa Airbus A319","Passenger","",60,,true
+"DLH1199","LSZH","EDDF","Lufthansa Airbus A319","Passenger","",60,,true
+"DLH1396","EDDF","LKPR","Lufthansa Airbus A321","Passenger","",65,,true
+"LH1397","LKPR","EDDF","Lufthansa Airbus A321","Passenger","",65,,true
+"DLH2282","EDDM","EBBR","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",80,,true
+"DLH2283","EBBR","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",80,,true
+"DLH1806","EDDM","LEMD","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",105,,true
+"DLH1807","LEMD","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",105,,true
+"DLH1810","EDDM","LEBL","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",125,,true
+"DLH1811","LEBL","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",125,,true
+"DLH1692","EDDM","LKPR","Lufthansa Airbus A319","Passenger","",50,,true
+"DLH1693","LKPR","EDDM","Lufthansa Airbus A319","Passenger","",50,,true
+"DLH2460","EDDM","EFHK","Lufthansa Airbus A321","Passenger","",210,,true
+"DLH2461","EFHK","EDDM","Lufthansa Airbus A321","Passenger","",210,,true
+"DLH2516","EDDM","EIDW","Lufthansa Airbus A319","Passenger","",100,,true
+"DLH2517","EIDW","EDDM","Lufthansa Airbus A319","Passenger","",100,,true
+"DLH2454","EDDM","ENGM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",135,,true
+"DLH2455","ENGM","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",135,,true
+"DLH2310","EDDM","EHAM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",100,,true
+"DLH2311","EHAM","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",100,,true
+"DLH1614","EDDM","EPWA","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",95,,true
+"DLH1615","EPWA","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",95,,true
+"DLH1856","EDDM","LIMC","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",65,,true
+"DLH1857","LIMC","EDDM","Lufthansa Airbus A320, Lufthansa - 2018 Airbus A320","Passenger","",65,,true
+"DLH2228","EDDM","LFPG","Lufthansa Airbus A321","Passenger","",95,,true
+"DLH2229","LFPG","EDDM","Lufthansa Airbus A321","Passenger","",95,,true
+"RX006","OERK","WSSS","Generic Boeing 787-9","Passenger","",475,,true
+"RX005","WSSS","OERK","Generic Boeing 787-9","Passenger","",475,,true
+"RX007","ZBAA","OERK","Generic Boeing 787-9","Passenger","",560,,true
+"RX008","OERK","ZBAA","Generic Boeing 787-9","Passenger","",560,,true
+"RX011","OERK","ZSPD","Generic Boeing 787-9","Passenger","",690,,true
+"RX012","ZSPD","OERK","Generic Boeing 787-9","Passenger","",690,,true
+"RX014","OERK","KATL","Generic Boeing 787-9","Passenger","",845,,true
+"RX013","KATL","OERK","Generic Boeing 787-9","Passenger","",845,,true
+"RX016","OERK","KLAX","Generic Boeing 787-9","Passenger","",920,,true
+"RX015","KLAX","OERK","Generic Boeing 787-9","Passenger","",920,,true
+"RX018","OERK","KJFK","Generic Boeing 787-9","Passenger","",850,,true
+"RX017","KJFK","OERK","Generic Boeing 787-9","Passenger","",850,,true
+"RX024","OERK","EGCC","Generic Boeing 787-9","Passenger","",410,,true
+"RX023","EGCC","OERK","Generic Boeing 787-9","Passenger","",410,,true
+"RX401","OERK","EGLL","Generic Boeing 787-9","Passenger","",435,,true
+"RX402","EGLL","OERK","Generic Boeing 787-9","Passenger","",435,,true
+"RX019","OERK","HECA","Generic Boeing 787-9","Passenger","",185,,true
+"RX020","HECA","OERK","Generic Boeing 787-9","Passenger","",185,,true
+"RX022","OERK","LTFM","Generic Boeing 787-9","Passenger","",270,,true
+"RX021","LTFM","OERK","Generic Boeing 787-9","Passenger","",270,,true
+"RX042","OERK","VIDP","Generic Boeing 787-9","Passenger","",315,,true
+"RX043","VIDP","OERK","Generic Boeing 787-9","Passenger","",315,,true
+"RX044","OERK","VABB","Generic Boeing 787-9","Passenger","",250,,true
+"RX045","VABB","OERK","Generic Boeing 787-9","Passenger","",250,,true
+"RX029","OERK","OTHH","Generic Boeing 787-9","Passenger","",95,,true
+"RX030","OTHH","OERK","Generic Boeing 787-9","Passenger","",95,,true
+"RX033","OERK","OMAA","Generic Boeing 787-9","Passenger","",130,,true
+"RX034","OERK","OMAA","Generic Boeing 787-9","Passenger","",130,,true
+"RX038","OERK","OEMA","Generic Boeing 787-9","Passenger","",95,,true
+"RX037","OEMA","OERK","Generic Boeing 787-9","Passenger","",95,,true
+"WY425","OOMS","EKCH","Generic Boeing 787-9, Oman Air Airbus A330-300, Oman Air Boeing 737-8 MAX, Oman Air Boeing 787-8","Passenger","",447,,true

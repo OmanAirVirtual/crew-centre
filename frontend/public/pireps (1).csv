@@ -1,0 +1,748 @@
+"flightNumber","departureICAO","arrivalICAO","aircraft","pilot","operator","flightTime","state","fuelUsage","flightType","flightLoad","multiplier","flightDate","reportDate","comments"
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","001WY","Oman Air",420,"Approved","100","Passenger","0","None","Thu, 23 Oct 2025 00:00:00 GMT","Thu, 23 Oct 2025 22:20:37 GMT",
+"WY118","EDDF","OOMS","Generic Boeing 787-9","001WY","Oman Air",420,"Approved","2","Passenger","0","None","Thu, 23 Oct 2025 00:00:00 GMT","Thu, 23 Oct 2025 22:24:02 GMT",
+"WY923","EGLL","OOMS","Oman Air Airbus A330-300","923WY","Oman Air",784,"Approved","0","Passenger","0","None","Sat, 25 Oct 2025 00:00:00 GMT","Sun, 26 Oct 2025 23:47:43 GMT","Didn’t get load or fuel before crew centre release "
+"WY923","OOMS","EDDM","Oman Air Airbus A330-300","923WY","Oman Air",720,"Approved","0","Passenger","0","None","Tue, 21 Oct 2025 00:00:00 GMT","Sun, 26 Oct 2025 23:50:28 GMT",
+"QR920","OTHH","NZAA","Qatar Airways Boeing 777-200LR","789WY","Qatar Airways",874,"Approved","68842","Passenger","284","None","Sun, 26 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 07:23:27 GMT",
+"WY117","OOMS ","EDDF","Oman Air Airbus A330-300","923WY","Oman Air",425,"Approved","1234","Passenger","150","None","Mon, 27 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 08:32:07 GMT",
+"QR921","NZAA","OTHH","Qatar Airways Boeing 777-300ER","923WY","Qatar Airways",1195,"Approved","90005","Passenger","1234","None","Mon, 27 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 09:46:17 GMT",
+"DILVERY ","KPAE","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",812,"Approved","8000","Passenger","245","None","Mon, 27 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 14:14:24 GMT",
+"WY601","OOMS","OMDB","Oman Air Boeing 737-8 MAX","270WY","Oman Air",39,"Approved","4000","Passenger","151","None","Mon, 27 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 15:56:16 GMT",
+"WY003","KPAE","OOMS","Oman Air Boeing 787-8","002WY","Umman Hava Yolları",830,"Approved","85557","Passenger","0","GROUP FLİGHT(2.5x)","Sun, 26 Oct 2025 00:00:00 GMT","Mon, 27 Oct 2025 19:00:17 GMT",
+"WY270","OOMS","WIII","Oman Air Boeing 787-8","270WY","Oman Air",391,"Approved","25450","Passenger","250","None","Tue, 28 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 01:04:25 GMT","Landed"
+"WY154","LSZH","OOMS","Oman Air Boeing 787-8","923WY","Oman Air",323,"Approved","1234","Passenger","123","None","Tue, 28 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 02:27:17 GMT",
+"WY154","LSZH","OOMS","Oman Air Boeing 787-8","923WY","Oman Air",323,"Approved","1234","Passenger","123","None","Tue, 28 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 02:49:27 GMT",
+"WY224","LSZH","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",334,"Approved","36738","Passenger","132","None","Mon, 27 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 02:57:23 GMT",
+"WY644","OKKK","OOMS","Generic Boeing 737-800","600WY","Oman Air",99,"Approved","4235","Passenger","184","None","Tue, 28 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 04:15:33 GMT",
+"WY154","LSZH","OOMS","Oman Air Boeing 787-8","789WY","N/A",312,"Approved","29295","Passenger","81","None","Mon, 27 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 06:24:18 GMT",
+"JAL007WY","KBOS","RJAA","Generic Boeing 787-9","340WY","Oman Air",729,"Approved","89468","Passenger","273","ROTW(2x)","Fri, 24 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 10:34:49 GMT",
+"WY343","OOMS ","OPLA","Oman Air Boeing 737-8 MAX","150WY","Oman Air",177,"Approved","3000","Passenger","150","None","Tue, 28 Oct 2025 00:00:00 GMT","Tue, 28 Oct 2025 15:10:41 GMT",
+"WY270","OOMS","EGCC","Oman Air Airbus A330-300","270WY","Oman Air",459,"Approved","24000","Passenger","250","None","Wed, 29 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 00:31:05 GMT","Group Flight/Landed"
+"JAL007WY","KBOS","RJAA","Generic Boeing 787-9","340WY","Oman Air",729,"Approved","89468","Passenger","273","None","Fri, 24 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 00:33:38 GMT",
+"DL006","KJFK","OOMS","Generic Boeing 777-200LR","006WY","Oman Air",663,"Approved","1234","Passenger","1234","None","Wed, 22 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 04:22:36 GMT","quiz flight"
+"TK006","LTFM","OOMS","Turkish Airlines Boeing 737-8 MAX","006WY","Turkish Airlines",241,"Approved","1234","Passenger","1234","None","Thu, 23 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 04:38:08 GMT","quiz "
+"QR920","OTHH","NZAA","Qatar Airways Boeing 777-200LR","006WY","Qatar Airways",918,"Approved","1234","Passenger","1234","None","Sat, 25 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 04:39:07 GMT",
+"AA127","KDFW","ZSPD","Generic Boeing 787-9","006WY","Oman Air",859,"Approved","1234","Passenger","1234","ROTW Non Oman(1.5x)","Tue, 28 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 04:40:59 GMT",
+"WY644","OKKK","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",101,"Approved","5000","Passenger","112","None","Tue, 28 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 04:53:01 GMT",
+"HISTORIC","OOMS","EGCC","Oman Air Airbus A330-300","150WY","Oman Air",467,"Approved","6150","Passenger","199","ROTW(2x)","Tue, 28 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 05:45:49 GMT",
+"EY22","CYYZ","OMAA","Etihad Airways Airbus A380","212WY","Etihad",890,"Approved","77931","Passenger","486","ROTW Non Oman(1.5x)","Tue, 28 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 08:52:23 GMT",
+"WY661","OOMS","OTHH","Oman Air Boeing 737-8 MAX","738WY","Oman Air",86,"Approved","1234","Passenger","123","None","Fri, 17 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:02:49 GMT",
+"WY661","OOMS","OTHH","Oman Air Boeing 737-8 MAX","738WY","Oman Air",71,"Approved","1234","Passenger","123","None","Sun, 19 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:05:03 GMT",
+"QR416","OTHH","OLBA","Oman Air Airbus A330-300","738WY","Qatar Airways",178,"Approved","1234","Passenger","234","None","Sun, 19 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:07:37 GMT",
+"WY931","OOMS","OOKB","Oman Air Boeing 737-8 MAX","738WY","Oman Air",41,"Approved","123","Passenger","123","None","Sun, 19 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:10:11 GMT",
+"WY844","RPLL","OOMS","Oman Air Airbus A330-300","738WY","Oman Air",449,"Approved","1234","Passenger","234","None","Mon, 20 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:14:46 GMT",
+"AA127","KDFW","ZSPD ","Generic Boeing 777-300ER","923WY","Oman Air",901,"Approved","1234","Passenger","350","ROTW Non Oman(1.5x)","Wed, 29 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 11:58:39 GMT","American Airlines livery used game crashed at gate "
+"FJ351","NFFN","RJAA","Fiji Airways Airbus A330-300","006WY","Fiji Airways",461,"Approved","69042","Passenger","335","ROTW Non Oman(1.5x)","Wed, 29 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 13:09:52 GMT",
+"AQR4","LTFM","OOMS","Turkish Airlines Boeing 737-8 MAX","308WY","Turkish Airlines",209,"Approved","0","Passenger","151","ROTW(2x)","Tue, 28 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 16:14:35 GMT",
+"00000","OOMS","OTTH","Oman Air Boeing 737-8 MAX","168WY","Umman Hava Yolları",90,"Approved","13706","Passenger","169","EVENT(5x)","Fri, 19 Sep 2025 00:00:00 GMT","Wed, 29 Oct 2025 18:37:34 GMT","Hello oman hello world"
+"000000","OOMS","KJFK ","Oman Air Boeing 787-8","168WY","Umman Hava Yolları",5158,"Approved","78216","Passenger","316","None","Thu, 23 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 18:40:17 GMT","85 hours non-stop flight with Oman "
+"WY653","OOMS","OBBI","Oman Air Boeing 737-8 MAX","212WY","Oman Air",90,"Approved","3600","Passenger","157","ROTW(2x)","Wed, 29 Oct 2025 00:00:00 GMT","Wed, 29 Oct 2025 19:14:26 GMT",
+"VIP-1","OOMS","KADW","Generic Boeing 747-8","789WY","Oman Air",891,"Approved","30438","Passenger","336","ROTW(2x)","Wed, 29 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 06:49:04 GMT",
+"VIP-1","OOMS","KADW","Generic Boeing 747-8","006WY","Oman Air",855,"Approved","155182","Passenger","5","GROUP FLİGHT(2.5x)","Wed, 29 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 09:48:35 GMT",
+"HISTORIC","OOMS","EGCC","Oman Air Airbus A330-300","001WY","Oman Air",420,"Approved","3000","Passenger","250","ROTW(2x)","Tue, 28 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 13:32:11 GMT","I love EYMEN"
+"WY325","OOMS","OPKC","Oman Air Boeing 737-8 MAX","150WY","Oman Air",70,"Approved","5080","Passenger","120","None","Thu, 30 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 15:25:05 GMT","Next time, please fly with WY"
+"WY201","OOMS","VABB","Oman Air Boeing 787-8","224WY","Oman Air",113,"Approved","27498","Passenger","198","None","Thu, 30 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 18:07:52 GMT",
+"LX349","EGLL","LSGG","Generic Airbus A220-300","738WY","Swiss-Edelweiss",231,"Approved","1234","Passenger","123","None","Wed, 29 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 18:11:35 GMT",
+"000000","OOMS","KADW","Generic Boeing 747-8","168WY","Umman Hava Yolları",1038,"Approved","96","Passenger","45","ROTW(2x)","Thu, 30 Oct 2025 00:00:00 GMT","Thu, 30 Oct 2025 18:35:58 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","212WY","Oman Air",278,"Approved","9479","Passenger","195","ROTW(2x)","Thu, 30 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 02:00:01 GMT",
+"WY117","OOMS ","EDDF","Oman Air Airbus A330-300","150WY","Oman Air",450,"Approved","8050","Passenger","240","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 05:59:27 GMT",
+"EY22","CYYZ","OMAA","Etihad Airways Airbus A380","006WY","Etihad",659,"Approved","165790","Passenger","367","ROTW Non Oman(1.5x)","Thu, 30 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 06:05:51 GMT",
+"WY207","OOMS","VOGO","Oman Air Boeing 737-8 MAX","150WY","Oman Air",175,"Approved","6150","Passenger","199","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 10:24:54 GMT",
+"270WY","OOMS","EDFF","Oman Air Airbus A330-300","270WY","Oman Air",357,"Approved","10000","Passenger","200","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 10:24:57 GMT","Landed"
+"WY601","OOMS","OMDB","Oman Air Boeing 737-8 MAX","150WY","Oman Air",46,"Approved","3000","Passenger","140","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 14:41:48 GMT",
+"WY602","OMDB","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",47,"Approved","3890","Passenger","160","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 14:44:44 GMT",
+"MS952","ZSPD","HECA","Generic Boeing 787-9","738WY","Egypt Air",653,"Approved","2345","Passenger","234","ROTW Non Oman(1.5x)","Thu, 30 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 15:10:16 GMT",
+"WY270","EDDF","OOMS","Oman Air Airbus A330-300","270WY","Oman Air",360,"Approved","29659","Passenger","220","ROTW(2x)","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 18:32:57 GMT","Landed"
+"003WY","LSZH","OOMS","Oman Air Boeing 787-8","002WY","Umman Hava Yolları",347,"Approved","35106","Passenger","31298","None","Thu, 30 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 21:15:39 GMT",
+"003WY","OOMS","EGCC","Oman Air Airbus A330-300","002WY","Umman Hava Yolları",455,"Approved","123","Passenger","123","GROUP FLİGHT(2.5x)","Tue, 28 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 21:46:18 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","786WY","Oman Air",405,"Approved","29300","Passenger","242","ROTW(2x)","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 23:21:14 GMT","My first flight for WYVA"
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","738WY","Oman Air",327,"Approved","2345","Passenger","234","None","Fri, 31 Oct 2025 00:00:00 GMT","Fri, 31 Oct 2025 23:41:40 GMT",
+"048WY","EDDF","OOMS ","Oman Air Airbus A330-300","Callsign Missing","Umman Hava Yolları",351,"Approved","42592","Passenger","320","ROTW(2x)","Fri, 31 Oct 2025 00:00:00 GMT","Sat, 01 Nov 2025 05:19:22 GMT","EDDF-OOMS"
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","221WY","Oman Air",50,"Approved","80323","Passenger","364","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 07:25:53 GMT",
+"WY117","OOMS ","EDDF","Oman Air Boeing 787-8","168WY","Katar Havayolları",360,"Approved","78216","Passenger","316","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 08:31:07 GMT",
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","168WY","Umman Hava Yolları",391,"Approved","67878","Passenger","316","ROTW(2x)","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 08:32:29 GMT",
+"AA127","KDFW","ZSPD","Generic Boeing 787-9","212WY","American Airlines",928,"Approved","41137","Passenger","256","ROTW(2x)","Fri, 31 Oct 2025 00:00:00 GMT","Sat, 01 Nov 2025 11:27:29 GMT",
+"GA825","WSSS","WIII","Garuda Indonesia Airbus A330-300","340WY","Garuda Indonesia",208,"Approved","7487","Passenger","204","ROTW Non Oman(1.5x)","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 11:46:10 GMT",
+"WY325","OOMS","OPKC","Oman Air Boeing 737-8 MAX","150WY","Oman Air",90,"Approved","3000","Passenger","123","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 15:23:17 GMT",
+"WY326","OPKC","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",126,"Approved","4000","Passenger","127","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 15:26:56 GMT",
+"WY653","OOMS","OBBI","Oman Air Boeing 737-8 MAX","221WY","Oman Air",69,"Approved","2747","Passenger","200","ROTW(2x)","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 16:10:22 GMT",
+"EY22","CYYZ","OMAA","Etihad Airways Airbus A380","738WY","Etihad",760,"Approved","2345","Passenger","345","ROTW Non Oman(1.5x)","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 16:50:36 GMT",
+"WY674","OEJN","OOMS","Oman Air Boeing 737-8 MAX","221WY","Oman Air",122,"Approved","5395","Passenger","189","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 19:21:37 GMT",
+"003WY","RPLL","OOMS","Oman Air Airbus A330-300","002WY","Umman Hava Yolları",446,"Approved","52282","Passenger","298","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 20:16:49 GMT",
+"WY111","HKJK","OOMS","Oman Air Boeing 787-8","786WY","Oman Air",247,"Approved","17000","Passenger","242","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 21:07:25 GMT",
+"WY270","GMMN","OOMS","Oman Air Airbus A330-300","270WY","Oman Air",382,"Approved","29570","Passenger","230","None","Sat, 01 Nov 2025 00:00:00 GMT","Sat, 01 Nov 2025 21:55:18 GMT","Landed"
+"212WY","OOMS","EGLL ","Oman Air Airbus A330-300","212WY","Oman Air",437,"Approved","27927","Passenger","274","ROTW(2x)","Sat, 01 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 01:10:08 GMT","Please use rotw 2x "
+"WY849","OOMS","WIII","Oman Air Boeing 787-8","221WY","Oman Air",123,"Approved","58133","Passenger","250","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 06:05:05 GMT",
+"W102","EGLL","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",371,"Approved","9000","Passenger","250","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 08:05:38 GMT",
+"WY270","OOMS","LIRF","Oman Air Boeing 787-8","270WY","Oman Air",367,"Approved","24850","Passenger","240","None","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 10:40:01 GMT","Landed"
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","221WY","Oman Air",82,"Approved","8125","Passenger","168","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 10:46:14 GMT",
+"212WY","OOMS","EGLL","Oman Air Airbus A330-300","168WY","Umman Hava Yolları",409,"Approved","67878","Passenger","268","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 12:28:51 GMT",
+"213WY","EGLL","OOMS","Oman Air Airbus A330-300","168WY","Umman Hava Yolları",573,"Approved","67878","Passenger","316","ROTW(2x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 12:31:06 GMT",
+"WY148","LIRF","OOMS","Oman Air Boeing 737-8 MAX","738WY","Oman Air",341,"Approved","1234","Passenger","123","Special(3x)","Sat, 01 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 14:06:19 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","150WY","Oman Air",287,"Approved","4000","Passenger","150","None","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 14:18:47 GMT",
+"WY270","EGLL","OOMS","Oman Air Boeing 787-8","270WY","Oman Air",333,"Approved","25450","Passenger","240","None","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 17:25:45 GMT","Landed"
+"WY815","OOMS","VTBS","Oman Air Airbus A330-300","786WY","Oman Air",338,"Approved","25334","Passenger","264","None","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 21:41:01 GMT",
+"212WY","LFPG","OOMS ","Oman Air Airbus A330-300","212WY","Oman Air",379,"Approved","35741","Passenger","303","Special(3x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 22:53:54 GMT",
+"WY143","OOMS","LIMC ","Oman Air Boeing 787-8","738WY","Oman Air",373,"Approved","2345","Passenger","234","Special(3x)","Sun, 02 Nov 2025 00:00:00 GMT","Sun, 02 Nov 2025 23:08:28 GMT",
+"WY166","LTFM ","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",283,"Approved","13000","Passenger","160","None","Sun, 02 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 05:38:53 GMT",
+"AA127","KDFW","ZSPD ","Generic Boeing 777-300ER","923WY","Oman Air",901,"Approved","1234","Passenger","1234","ROTW Non Oman(1.5x)","Sat, 01 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 05:39:00 GMT",
+"VIP ","OOMS","KADW","Generic Boeing 747-8","923WY","Oman Air",1172,"Approved","1234","Passenger","1234","ROTW(2x)","Thu, 30 Oct 2025 00:00:00 GMT","Mon, 03 Nov 2025 05:43:00 GMT","Landed with 3kg fuel left, or 4 seconds remaining of fuel "
+"TG472","YSSY","VTBS ","Thai Airways Airbus A350","923WY","Oman Air",564,"Approved","1234","Passenger","1234","None","Sun, 02 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 05:46:24 GMT","Come on guys I’m not paying real money in atlas for things to not be used properly. Please fix up crew centre asap and use the benefits "
+"OMA696WY","OEDF","OOMS","Oman Air Boeing 737-8 MAX","340WY","Oman Air",68,"Approved","2334","Passenger","132","ROTW(2x)","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 06:17:09 GMT",
+"WY696","OEDF","OOMS","Oman Air Boeing 737-8 MAX","221WY","Oman Air",74,"Approved","2861","Passenger","200","ROTW(2x)","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 07:14:49 GMT",
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","001WY","Oman Air",338,"Approved","22222","Passenger","316","Special(3x)","Fri, 31 Oct 2025 00:00:00 GMT","Mon, 03 Nov 2025 07:47:00 GMT",
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","001WY","Oman Air",334,"Approved","78216","Passenger","316","Special(3x)","Sat, 01 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 08:11:17 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",475,"Approved","16000","Passenger","250","None","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 08:23:22 GMT",
+"WY184","UUEE","OOMS","Oman Air Airbus A330-300","001WY","Oman Air",327,"Approved","78216","Passenger","222","Special(3x)","Sat, 01 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 08:32:27 GMT",
+"WY131","OOMS ","LFPG","Oman Air Boeing 787-8","001WY","Oman Air",395,"Approved","78216","Passenger","300","None","Sun, 02 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 09:28:49 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","233WY","Oman Air",432,"Approved","28959","Passenger","235","Special(3x)","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 09:30:39 GMT",
+"WY270","EDDF","OOMS","Oman Air Airbus A330-300","270WY","Oman Air",332,"Approved","25850","Passenger","200","None","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 17:26:50 GMT","Landed"
+"WY153","OOMS","LSZH","Oman Air Boeing 787-8","212WY","Oman Air",394,"Approved","27522","Passenger","306","Special(3x)","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 22:35:56 GMT",
+"WY 153","OOMS","LSZH","Oman Air Airbus A330-300","786WY","Oman Air",409,"Approved","30945","Passenger","264","None","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 22:44:02 GMT",
+"WY172","EHAM","OOMS","Oman Air Boeing 787-8","738WY","Oman Air",353,"Approved","1234","Passenger","234","Special(3x)","Mon, 03 Nov 2025 00:00:00 GMT","Mon, 03 Nov 2025 23:58:29 GMT",
+"WY102","EGLL","OOMS","Oman Air Airbus A330-300","221WY","N/A",138,"Approved","87694","Passenger","400","Special(3x)","Mon, 03 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 12:41:37 GMT",
+"QR737","OTTH","KSFO","Qatar Airways Airbus A350","923WY","Qatar Airways",1031,"Approved","1234","Passenger","1234","None","Tue, 04 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 15:17:31 GMT",
+"WY191","OOMS","LGAV","Oman Air Boeing 737-8 MAX","150WY","Oman Air",275,"Approved","13000","Passenger","139","None","Tue, 04 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 15:37:32 GMT",
+"WY123","OOMS","EDDM","Oman Air Airbus A330-300","221WY","Oman Air",124,"Approved","58444","Passenger","400","Special(3x)","Tue, 04 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 17:42:09 GMT",
+"WY661","OOMS","OTHH","Oman Air Boeing 737-8 MAX","221WY","Oman Air",62,"Approved","1500","Passenger","250","ROTW(2x)","Tue, 04 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 17:47:09 GMT",
+"WY270","EGLL","OOMS","Oman Air Boeing 787-8","270WY","Oman Air",335,"Approved","25950","Passenger","230","None","Tue, 04 Nov 2025 00:00:00 GMT","Tue, 04 Nov 2025 19:09:13 GMT","Landed"
+"WY124","EDDM","OOMS","Oman Air Boeing 737-8 MAX","738WY","Oman Air",354,"Approved","1234","Passenger","123","Special(3x)","Tue, 04 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 00:31:09 GMT",
+"WY270","EDDM","OOMS","Oman Air Boeing 737-8 MAX","270WY","Oman Air",345,"Approved","25860","Passenger","130","Special(3x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 01:40:19 GMT","Landed/Group flight"
+"WY128","EDDM","OOMS","Oman Air Boeing 737-8 MAX","212WY","Oman Air",363,"Approved","10365","Passenger","109","Special(3x)","Tue, 04 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 01:44:37 GMT","Group flight 3x multiplier "
+"WY128","EDDM","OOMS","Oman Air Boeing 787-8","233WY","Oman Air",338,"Approved","28229","Passenger","272","Special(3x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 08:04:42 GMT",
+"QR738","KSFO","OTHH","Qatar Airways Airbus A350","923WY","Qatar Airways",988,"Approved","1234","Passenger","320","None","Tue, 04 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 10:44:35 GMT",
+"WY124","EDDM","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",383,"Approved","13000","Passenger","160","Special(3x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 11:09:53 GMT",
+"WY131","OOMS","LFPG","Oman Air Boeing 787-8","221WY","Oman Air",400,"Approved","72445","Passenger","220","Special(3x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 16:18:24 GMT",
+"WY270","LTFM","OOMS","Oman Air Airbus A330-300","270WY","Oman Air",274,"Approved","23800","Passenger","200","GROUP FLİGHT(2.5x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 17:41:05 GMT","Landed"
+"WY 101","OOMS","EGLL","Oman Air Airbus A330-300","786WY","Oman Air",501,"Approved","36609","Passenger","264","None","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 17:45:09 GMT",
+"QR12","EGLL","OTHH ","Qatar Airways Boeing 777-300ER","738WY","Oman Air",360,"Approved","1234","Passenger","234","ROTW Non Oman(1.5x)","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 19:51:28 GMT",
+"WY166","LTFM","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",331,"Approved","16000","Passenger","132","None","Wed, 05 Nov 2025 00:00:00 GMT","Wed, 05 Nov 2025 20:16:25 GMT",
+"QR491","OIIE","OTHH","Qatar Airways Boeing 787-8","738WY","Qatar Airways",106,"Approved","1234","Passenger","123","ROTW Non Oman(1.5x)","Wed, 05 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 00:24:37 GMT",
+"WY844","RPLL","OOMS","Oman Air Airbus A330-300","221WY","Oman Air",469,"Approved","68555","Passenger","350","ROTW(2x)","Wed, 05 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 05:08:35 GMT",
+"WY166","LTFM","OOMS","Oman Air Airbus A330-300","923WY","Oman Air",250,"Approved","1234","Passenger","123","None","Wed, 05 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 05:11:42 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","469WY","Oman Air",495,"Approved","19977","Passenger","288","ROTW(2x)","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 07:24:17 GMT",
+"WY270","LIRF","OOMS","Oman Air Airbus A330-300","270WY","Oman Air",303,"Approved","24870","Passenger","200","None","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 10:00:49 GMT","Landed"
+"WY144","LGAV","OOMS","Oman Air Airbus A330-300","221WY","Oman Air",276,"Approved","27843","Passenger","320","Special(3x)","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 11:16:38 GMT",
+"WY343","OOMS","OPLA","Oman Air Boeing 737-8 MAX","150WY","Oman Air",131,"Approved","13000","Passenger","135","None","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 11:53:53 GMT",
+"WY142","LIRF","OOMS","Oman Air Boeing 737-8 MAX","221WY","Oman Air",344,"Approved","8554","Passenger","180","ROTW(2x)","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 19:04:25 GMT",
+"WY142","LIRF","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",326,"Approved","15600","Passenger","139","None","Thu, 06 Nov 2025 00:00:00 GMT","Thu, 06 Nov 2025 21:09:11 GMT",
+"WY131","OOMS","LFPG","Oman Air Boeing 787-8","221WY","Oman Air",419,"Approved","71246","Passenger","300","ROTW(2x)","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 06:10:34 GMT",
+"EY693","OMAA","OOMS","Etihad Airbus A321","221WY","Etihad",32,"Approved","1676","Passenger","180","ROTW Non Oman(1.5x)","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 07:09:58 GMT",
+"WY148","LIRF","OOMS","Oman Air Boeing 787-8","015WY","N/A",315,"Approved","25000","Passenger","310","None","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 09:18:47 GMT","Nice flight :) "
+"WY202,204","VABB","OOMS","Oman Air Boeing 737-8 MAX","923WY","Oman Air",227,"Approved","1234","Passenger","160","ROTW(2x)","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 11:40:44 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","923WY","Oman Air",422,"Approved","1234","Passenger","1234","None","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 11:44:33 GMT",
+"WY202","VABB","OOMS","Oman Air Boeing 737-8 MAX","221WY","Oman Air",127,"Approved","5524","Passenger","180","ROTW(2x)","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 11:45:01 GMT",
+"EY6","KIAD","OMAA","Etihad Airways Boeing 787-9","738WY","Etihad",748,"Approved","2345","Passenger","234","ROTW Non Oman(1.5x)","Fri, 07 Nov 2025 00:00:00 GMT","Fri, 07 Nov 2025 22:52:46 GMT",
+"WY102","OOMS","EGLL","Oman Air Airbus A330-300","221WY","Oman Air",443,"Approved","5355","Passenger","325","Special(3x)","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 05:01:51 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",475,"Approved","6150","Passenger","199","None","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 11:15:33 GMT",
+"MH605/607","WMKK","WSSS","Malaysia Airlines Boeing 737-800","923WY","Malaysia",2880,"Approved","1234","Passenger","123","None","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 12:54:56 GMT",
+"QR740","KLAX","OTHH","Qatar Airways Boeing 777-300ER","923WY","Qatar Airways",1020,"Approved","1234","Passenger","1234","None","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 12:57:10 GMT",
+"WY202,204","VABB","OOMS","Oman Air Boeing 737-8 MAX","923WY","Oman Air",227,"Approved","1234","Passenger","1234","ROTW(2x)","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 12:58:38 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","015WY","N/A",490,"Approved","31000","Passenger","254","None","Sat, 08 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 20:47:47 GMT","Nice flight :) "
+"EY 21","OMAA","CYYZ","Etihad Airways Airbus A380","786WY","Etihad",768,"Approved","126205","Passenger","486","None","Fri, 07 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 21:46:27 GMT",
+"RJ111","OJAI","EGLL","Royal Jordanian Boeing 787-8","738WY","Royal Jordanian",303,"Approved","1234","Passenger","234","ROTW Non Oman(1.5x)","Fri, 07 Nov 2025 00:00:00 GMT","Sat, 08 Nov 2025 21:54:01 GMT",
+"WY123","OOMS","EGLL","Oman Air Airbus A330-300","221WY","Oman Air",443,"Approved","59331","Passenger","325","Special(3x)","Sun, 09 Nov 2025 00:00:00 GMT","Sun, 09 Nov 2025 03:59:17 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","923WY","Oman Air",505,"Approved","1234","Passenger","390","EVENT(5x)","Sat, 08 Nov 2025 00:00:00 GMT","Sun, 09 Nov 2025 09:57:03 GMT","3 go arounds, first time 2 clowns entered the runway moments before landing. 2nd time my main gear hit the runway but I was heading for tower and wasn’t aligned (very bad weather), this resulted in my flight time stopping in game  3rd time I came into base too early and couldn’t align straight away. 4th was butter landing "
+"ETD693WY","OMAA","OOMS","Etihad Airbus A321","340WY","Etihad",32,"Approved","1708","Passenger","200","ROTW Non Oman(1.5x)","Sun, 09 Nov 2025 00:00:00 GMT","Sun, 09 Nov 2025 12:51:44 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","789WY","Oman Air",458,"Approved","31058","Passenger","244","ROTW(2x)","Sat, 08 Nov 2025 00:00:00 GMT","Sun, 09 Nov 2025 15:19:12 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","469WY","Oman Air",495,"Approved","350000","Passenger","250","None","Sun, 09 Nov 2025 00:00:00 GMT","Sun, 09 Nov 2025 20:16:32 GMT",
+"QANTAS PROJECT SUNRISE ","YSSY","EGLL","Qantas Airbus A380","923WY","Oman Air",1332,"Approved","181042","Passenger","480","ROTW Non Oman(1.5x)","Mon, 10 Nov 2025 00:00:00 GMT","Mon, 10 Nov 2025 14:18:30 GMT","ROTW "
+"WY131","OOMS ","LFPG","Oman Air Airbus A330-300","150WY","Oman Air",493,"Approved","13888","Passenger","199","None","Mon, 10 Nov 2025 00:00:00 GMT","Mon, 10 Nov 2025 16:17:39 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 787-8","221WY","Oman Air",255,"Approved","15854","Passenger","315","Special(3x)","Mon, 10 Nov 2025 00:00:00 GMT","Mon, 10 Nov 2025 17:54:01 GMT",
+"212WY","OOMS","EGLL","Oman Air Airbus A330-300","212WY","Oman Air",549,"Approved","30960","Passenger","346","Special(3x)","Mon, 10 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 00:26:04 GMT",
+"CX838","VHHH","CYVR","Generic Boeing 777-300ER","923WY","Oman Air",744,"Approved","112345","Passenger","330","ROTW Non Oman(1.5x)","Mon, 10 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 04:51:18 GMT",
+"WY117","OOMS","EDDF","Oman Air Airbus A330-300","221WY","Oman Air",396,"Approved","50035","Passenger","258","Special(3x)","Tue, 11 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 06:08:44 GMT",
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300","150WY","Oman Air",401,"Approved","6150","Passenger","158","None","Mon, 10 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 09:04:31 GMT",
+"EY 22","CYYZ","OMAA","Etihad Airways Airbus A380","786WY","Etihad",750,"Approved","129949","Passenger","486","None","Mon, 10 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 12:21:56 GMT",
+"BA99","EGLL","CYYZ","Generic Boeing 777-300ER","923WY","Oman Air",433,"Approved","115022","Passenger","364","ROTW Non Oman(1.5x)","Tue, 11 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 14:07:01 GMT",
+"WY317","OOMS ","VGHS","Oman Air Boeing 787-8","469WY","Oman Air",300,"Approved","290","Passenger","190","None","Tue, 11 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 14:51:50 GMT",
+"WY343","OOMS","LIMC","Oman Air Airbus A330-300","150WY","N/A",393,"Approved","6150","Passenger","158","None","Tue, 11 Nov 2025 00:00:00 GMT","Tue, 11 Nov 2025 18:43:18 GMT",
+"WY144","LIMC","OOMS","Oman Air Airbus A330-300","150WY","Oman Air",423,"Approved","6150","Passenger","199","None","Wed, 12 Nov 2025 00:00:00 GMT","Wed, 12 Nov 2025 05:44:47 GMT",
+"WY 153","OOMS","LSZH","Oman Air Airbus A330-300","786WY","Oman Air",441,"Approved","26179","Passenger","264","ROTW(2x)","Wed, 12 Nov 2025 00:00:00 GMT","Wed, 12 Nov 2025 12:00:53 GMT","ROTW"
+"WY153","OOMS","LSZH","Oman Air Boeing 787-8","221WY","Oman Air",341,"Approved","50023","Passenger","315","Special(3x)","Wed, 12 Nov 2025 00:00:00 GMT","Wed, 12 Nov 2025 19:13:52 GMT",
+"WY154","LSZH","OOMS","Oman Air Airbus A330-300","221WY","Oman Air",345,"Approved","53554","Passenger","320","Special(3x)","Wed, 12 Nov 2025 00:00:00 GMT","Wed, 12 Nov 2025 19:15:17 GMT",
+"WY 154","LSZH","OOMS","Oman Air Airbus A330-300","786WY","Oman Air",332,"Approved","24541","Passenger","264","None","Wed, 12 Nov 2025 00:00:00 GMT","Thu, 13 Nov 2025 03:22:15 GMT","LSZH-OOMS"
+"WY147","OOMS","LIRF","Oman Air Boeing 787-8","221WY","Oman Air",377,"Approved","56242","Passenger","340","Special(3x)","Thu, 13 Nov 2025 00:00:00 GMT","Thu, 13 Nov 2025 04:52:34 GMT",
+"WY146","LIRF ","OOMS","Oman Air Boeing 787-8","221WY","Oman Air",332,"Approved","40689","Passenger","254","Special(3x)","Thu, 13 Nov 2025 00:00:00 GMT","Thu, 13 Nov 2025 12:45:56 GMT",
+"WY196","LTCG","OOMS","Oman Air Boeing 737-8 MAX","469WY","Oman Air",260,"Approved","193","Passenger","162","None","Thu, 13 Nov 2025 00:00:00 GMT","Thu, 13 Nov 2025 15:36:34 GMT",
+"QF140","NZAA","YSSY","Generic Boeing 737-800","221WY","N/A",236,"Approved","5692","Passenger","220","ROTW Non Oman(1.5x)","Thu, 13 Nov 2025 00:00:00 GMT","Thu, 13 Nov 2025 19:00:45 GMT",
+"QR908","OTHH","YSSY","Qatar Airways Airbus A380","786WY","Qatar Airways",802,"Approved","134101","Passenger","519","None","Thu, 13 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 03:36:55 GMT",
+"QF2","EGLL","YSSY","Qantas Airbus A380","789WY","Qatar Airways",1376,"Approved","156090","Passenger","386","None","Thu, 13 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 08:43:14 GMT",
+"WY165","OOMS","LTFM","Oman Air Airbus A330-300","150WY","Oman Air",276,"Approved","6150","Passenger","199","None","Fri, 14 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 11:16:32 GMT",
+"WY172","EHAM","OOMS","Oman Air Airbus A330-300","221WY","Oman Air",340,"Approved","5959","Passenger","253","Special(3x)","Fri, 14 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 11:20:17 GMT",
+"WY816","VTBS","OOMS","Oman Air Boeing 787-8","221WY","Oman Air",288,"Approved","45868","Passenger","238","ROTW(2x)","Fri, 14 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 17:23:12 GMT",
+"QF2","EGLL","YYSY","Qantas Airbus A380","001WY","Oman Air",1140,"Approved","78216","Passenger","316","ROTW Non Oman(1.5x)","Wed, 12 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 18:49:15 GMT",
+"GA860","WIII","VHHH","Garuda Indonesia Airbus A330-900","786WY","Garuda Indonesia",341,"Approved","19409","Passenger","346","ROTW Non Oman(1.5x)","Fri, 14 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 21:35:38 GMT",
+"GA824","WIII","WSSS","Garuda Indonesia Airbus A330-900","786WY","Garuda Indonesia",74,"Approved","6339","Passenger","346","ROTW Non Oman(1.5x)","Sat, 15 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 21:36:45 GMT",
+"QR1395A","OTTH","GMMN","Qatar Airways Airbus A350","469WY","Qatar Airways",505,"Denied","550","Passenger","300","None","Fri, 14 Nov 2025 00:00:00 GMT","Fri, 14 Nov 2025 22:37:36 GMT",
+"WY143","OOMS","LIMC","Oman Air Boeing 787-8","221WY","Oman Air",356,"Approved","38872","Passenger","280","Special(3x)","Sat, 15 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 05:40:36 GMT",
+"WY144","LIMC","OOMS","Oman Air Boeing 787-8","221WY","Oman Air",322,"Approved","52237","Passenger","280","Special(3x)","Sat, 15 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 15:50:22 GMT","Why did you put 3X "
+"WY823","OOMS","WMKK","Oman Air Boeing 787-8","155WY","Oman Air",353,"Approved","35203","Passenger","277","None","Sat, 15 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 18:21:20 GMT",
+"CX838","VHHH","CYVR","Generic Boeing 777-300ER","738WY","Oman Air",712,"Approved","1234","Passenger","234","ROTW Non Oman(1.5x)","Sun, 09 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 19:54:39 GMT","Used Cathay Pacific livery for Cathay route"
+"BA2036","KMCO","EGKK","Malaysia Airlines Boeing 777-200ER","738WY","Oman Air",416,"Approved","1235","Passenger","234","ROTW Non Oman(1.5x)","Tue, 11 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 19:56:38 GMT","Used British Airways livery"
+"QR920","OTHH","NZAA","Qatar Airways Boeing 777-200LR","738WY","Qatar Airways",901,"Approved","1234","Passenger","234","ROTW Non Oman(1.5x)","Thu, 13 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 19:58:48 GMT",
+"MS952","ZSPD","HECA ","EgyptAir Boeing 777-300ER","015WY","N/A",793,"Approved","51999","Passenger","367","None","Sat, 15 Nov 2025 00:00:00 GMT","Sat, 15 Nov 2025 22:56:23 GMT","Nice flight :) "
+"325WY","ZGGG","OOMS","Oman Air Boeing 787-8","Callsign Missing","Oman Air",404,"Approved","32334","Passenger","167","ROTW(2x)","Sat, 15 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 01:52:09 GMT",
+"WYH000","ZGGG","OOMS","Oman Air Boeing 787-8","221WY","Oman Air",414,"Approved","55898","Passenger","310","ROTW(2x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 05:34:49 GMT",
+"WYH000","ZGGG","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",415,"Approved","58154","Passenger","198","ROTW(2x)","Sat, 15 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 06:37:09 GMT","Call sign 224WY, Rosh George.. I had participated in the group flight yesterday. Thank you."
+"KQA6712WY","HTDA","HTZA","Kenya Airways E190","340WY","N/A",26,"Approved","2226","Passenger","96","ROTW Non Oman(1.5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 08:13:32 GMT",
+"WY604","OMDB","OOMS","Oman Air Boeing 737-8 MAX","224WY","Oman Air",51,"Approved","4365","Passenger","110","ROTW(2x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 10:27:52 GMT",
+"WYH000","ZGGG","OOMS","Oman Air Airbus A330-300","786WY","Oman Air",415,"Approved","32566","Passenger","346","ROTW(2x)","Sat, 15 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 11:26:03 GMT","2x multiplier group flight"
+"WYH000","ZGGG","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",434,"Approved","6150","Passenger","258","ROTW(2x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 13:17:23 GMT",
+"WY602,WY604,WY606,WY608,WY612,WY614","OMDB","OOMS","Oman Air Boeing 737-8 MAX","923WY","Oman Air",38,"Approved","1234","Passenger","223","Special(3x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 13:47:39 GMT",
+"WY601,WY603,WY605,WY607,WY611,WY613","OOMS","OMDB","Oman Air Boeing 737-8 MAX","923WY","Oman Air",37,"Approved","1234","Passenger","220","Special(3x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 13:49:02 GMT",
+"QF2","EGLL","YSSY","Qantas Airbus A380","923WY","Oman Air",1215,"Approved","130000","Passenger","480","ROTW Non Oman(1.5x)","Sat, 15 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 13:54:14 GMT","Go around was initiated twice but my wheels touched down half way down runway so my flight time wasn’t actually counted after going around again "
+"WY406","HECA","OOMS","Oman Air Boeing 737-8 MAX","469WY","Oman Air",270,"Denied","250","Passenger","180","None","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 15:59:24 GMT",
+"WY406","HECA ","OOMS ","Oman Air Airbus A330-300","015WY","N/A",212,"Denied","18664","Passenger","274","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 16:09:10 GMT","Nice flight :) "
+"EVENT","HECA","OOMS","Oman Air Airbus A330-300","221WY","Oman Air",235,"Approved","54852","Passenger","280","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 16:43:39 GMT",
+"WY408","HECA","OOMS","Oman Air Airbus A330-300","786WY","Oman Air",244,"Approved","20598","Passenger","346","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 17:35:51 GMT","Wings of Oman, Official event "
+"WY408","HECA","OOMS","Oman Air Airbus A330-300","224WY","Oman Air",235,"Approved","4365","Passenger","110","ROTW(2x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 17:55:45 GMT",
+"035WY","HECA","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",235,"Approved","18174","Passenger","20174","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 18:03:07 GMT",
+"007TF","ZGGG","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",222,"Approved","40128","Passenger","300","EVENT(5x)","Sat, 15 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 18:06:06 GMT",
+"EVENT","HECA","OOMD","Oman Air Airbus A330-300","021WY","Oman Air",237,"Approved","25864","Passenger","11660","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 21:05:04 GMT",
+"WY406","HECA","OOMS","Oman Air Airbus A330-300","233WY","Oman Air",253,"Approved","15844","Passenger","200","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Sun, 16 Nov 2025 21:58:29 GMT",
+"WY166","LTFM","OOMS ","Oman Air Boeing 787-8","015WY","N/A",242,"Approved","16994","Passenger","198","None","Sun, 16 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 07:54:09 GMT","Nice flight :) "
+"WY406","HECA","OOMS","Oman Air Airbus A330-300","923WY","Oman Air",204,"Approved","40000","Passenger","310","EVENT(5x)","Sun, 16 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 08:54:40 GMT",
+"WY5768","LTFM","OOMS","Oman Air Airbus A330-300","786WY","Oman Air",252,"Approved","19942","Passenger","346","ROTW(2x)","Sun, 16 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 12:41:10 GMT",
+"035WY","LTFM","OOMS","Oman Air Boeing 737-8 MAX","006WY","N/A",261,"Approved","11256","Passenger","15678","GROUP FLİGHT(2.5x)","Sun, 16 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 18:43:21 GMT",
+"TG652","VTBS","RKSI","Thai Airways Airbus A350","212WY","Thai Air",285,"Approved","25704","Passenger","315","None","Mon, 17 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 19:26:17 GMT",
+"WY406","HECA","OOMS","Oman Air Boeing 737-8 MAX","469WY","Oman Air",260,"Approved","135","Passenger","160","None","Mon, 17 Nov 2025 00:00:00 GMT","Mon, 17 Nov 2025 19:26:36 GMT",
+"WY184","UUEE","OOMS","Oman Air Boeing 737-8 MAX","221WY","Oman Air",310,"Approved","10056","Passenger","200","GROUP FLİGHT(2.5x)","Mon, 17 Nov 2025 00:00:00 GMT","Tue, 18 Nov 2025 07:02:16 GMT",
+"WY184","UUEE","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",340,"Approved","6150","Passenger","199","ROTW(2x)","Tue, 18 Nov 2025 00:00:00 GMT","Tue, 18 Nov 2025 09:29:42 GMT",
+"WY601","OOMS","OMDB","Oman Air Boeing 737-8 MAX","116WY","Oman Air",46,"Approved","1779","Passenger","189","None","Tue, 18 Nov 2025 00:00:00 GMT","Tue, 18 Nov 2025 09:35:09 GMT",
+"WY115","OOMS","EDDF","Oman Air Airbus A330-300","786WY","Oman Air",387,"Approved","28864","Passenger","346","ROTW(2x)","Mon, 17 Nov 2025 00:00:00 GMT","Tue, 18 Nov 2025 12:18:36 GMT",
+"WY142","LIRF","OOMS","Oman Air Boeing 787-8","469WY","Oman Air",330,"Approved","30000","Passenger","260","None","Tue, 18 Nov 2025 00:00:00 GMT","Tue, 18 Nov 2025 12:34:35 GMT",
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300","150WY","Oman Air",369,"Approved","6150","Passenger","199","ROTW(2x)","Wed, 19 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 04:53:01 GMT",
+"QF8145","YSSY","OMDB","Qantas Airbus A380","221WY","Qantas",920,"Approved","90875","Passenger","750","ROTW Non Oman(1.5x)","Tue, 18 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 12:54:59 GMT",
+"325WY","KJFK","HKJK","Kenya Airways Boeing 787-8","Callsign Missing","N/A",654,"Approved","36026","Passenger","167","ROTW Non Oman(1.5x)","Wed, 19 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 14:55:11 GMT",
+"WY661,663","OOMS","OTHH","Oman Air Boeing 737-8 MAX","006WY","N/A",68,"Approved","11256","Passenger","15678","None","Wed, 19 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 20:46:59 GMT",
+"LS1727","EGCC","LTAI","Garuda Indonesia Boeing 737-800","006WY","N/A",131,"Approved","11256","Passenger","15678","ROTW Non Oman(1.5x)","Tue, 18 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 20:48:25 GMT",
+"WYH000","HKJK","OOMS","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",251,"Approved","9631","Passenger","192","GROUP FLİGHT(2.5x)","Wed, 19 Nov 2025 00:00:00 GMT","Wed, 19 Nov 2025 22:35:53 GMT","I joined group flight today :) "
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",412,"Approved","6150","Passenger","199","None","Thu, 20 Nov 2025 00:00:00 GMT","Thu, 20 Nov 2025 16:49:57 GMT",
+"AA259","LPPT","KPHL","Generic Boeing 777-300ER","004WY","American Airlines",414,"Approved","39188","Passenger","320","GROUP FLİGHT(2.5x)","Thu, 20 Nov 2025 00:00:00 GMT","Fri, 21 Nov 2025 07:53:13 GMT","Aircraft — 777-300ER American Airlines Livery"
+"WY343","OOMS","OPLA","Oman Air Boeing 737-8 MAX","150WY","Oman Air",127,"Approved","34544","Passenger","233","None","Fri, 21 Nov 2025 00:00:00 GMT","Fri, 21 Nov 2025 13:13:41 GMT",
+"653","OOMS","OBBI","Oman Air Boeing 737-8 MAX","006WY","Oman Air",77,"Approved","10694","Passenger","15678","ROTW(2x)","Fri, 21 Nov 2025 00:00:00 GMT","Fri, 21 Nov 2025 16:49:57 GMT",
+"JL12","KDFW","RJTT ","Fiji Airways Airbus A350","150WY","Oman Air",758,"Approved","6150","Passenger","199","None","Sat, 22 Nov 2025 00:00:00 GMT","Sat, 22 Nov 2025 13:20:36 GMT","Hi I submiting perip because there is no A350 Japan livery in Perip I choose another Aircraft and livery."
+"WY192","LGAV","OOMS","Oman Air Boeing 737-8 MAX","155WY","Oman Air",319,"Approved","10135","Passenger","110","EVENT(5x)","Sat, 22 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 07:41:09 GMT",
+"WY192","LGAV","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",361,"Approved","6150","Passenger","199","EVENT(5x)","Sat, 22 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 08:03:42 GMT",
+"FJI890WY","NFFN","KDFW","Fiji Airways Airbus A350","340WY","Fiji Airways",683,"Approved","38434","Passenger","253","ROTW Non Oman(1.5x)","Sat, 22 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 08:17:55 GMT",
+"WY192","LGAV","OOMS","Oman Air Boeing 737-8 MAX","004WY","Oman Air",309,"Approved","9747","Passenger","110","EVENT(5x)","Sat, 22 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 08:39:17 GMT",
+"WY602","OMDB","OOMS","Oman Air Boeing 737-8 MAX","116WY","Oman Air",40,"Approved","1557","Passenger","159","None","Sun, 23 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 09:34:49 GMT",
+"WY344","OPLA","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",225,"Approved","6150","Passenger","258","None","Sun, 23 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 13:02:30 GMT",
+"441","OOMS","LTFM","Oman Air Boeing 737-8 MAX","006WY","Oman Air",259,"Approved","11256","Passenger","4000","ROTW(2x)","Sun, 23 Nov 2025 00:00:00 GMT","Sun, 23 Nov 2025 15:59:16 GMT",
+"182","UUEE","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",295,"Approved","8755","Passenger","15678","ROTW(2x)","Sun, 23 Nov 2025 00:00:00 GMT","Mon, 24 Nov 2025 15:12:12 GMT",
+"BA1000","EGLL","NZAA","Qantas Airbus A380","150WY","British",1204,"Approved","6150","Passenger","407","GROUP FLİGHT(2.5x)","Sun, 23 Nov 2025 00:00:00 GMT","Mon, 24 Nov 2025 18:55:48 GMT","Aircraft= A380 British "
+"539WY","OOMS","EHAM","Oman Air Boeing 787-8","002WY","Umman Hava Yolları",400,"Approved","38823","Passenger","287","None","Mon, 24 Nov 2025 00:00:00 GMT","Mon, 24 Nov 2025 20:17:07 GMT",
+"539WY","OOMS","VRMM","Oman Air Boeing 737-8 MAX","002WY","Umman Hava Yolları",220,"Approved","12423","Passenger","189","None","Mon, 24 Nov 2025 00:00:00 GMT","Mon, 24 Nov 2025 20:18:24 GMT",
+"035WY","UUEE","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",351,"Approved","11256","Passenger","15678","ROTW(2x)","Tue, 25 Nov 2025 00:00:00 GMT","Tue, 25 Nov 2025 03:13:06 GMT",
+"035WY","OOMS","VTBS","Oman Air Boeing 787-8","006WY","Oman Air",291,"Approved","11256","Passenger","15678","ROTW(2x)","Tue, 25 Nov 2025 00:00:00 GMT","Tue, 25 Nov 2025 14:21:31 GMT",
+"TK2308","LTFM","LTBJ","Turkish Airlines Airbus A320","469WY","Turkish Airlines",60,"Approved","1000","Passenger","160","ROTW Non Oman(1.5x)","Tue, 25 Nov 2025 00:00:00 GMT","Tue, 25 Nov 2025 17:56:33 GMT",
+"TK2308","LTFM","LTBJ","Turkish Airlines Airbus A320","015WY","N/A",39,"Approved","2547","Passenger","118","ROTW Non Oman(1.5x)","Tue, 25 Nov 2025 00:00:00 GMT","Tue, 25 Nov 2025 19:19:37 GMT","Nice flight :) "
+"035WY","EHAM","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",387,"Approved","11256","Passenger","256","ROTW(2x)","Wed, 26 Nov 2025 00:00:00 GMT","Tue, 25 Nov 2025 21:00:30 GMT",
+"WY201","OOMS","VABB","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",154,"Approved","4525","Passenger","160","ROTW(2x)","Wed, 26 Nov 2025 00:00:00 GMT","Wed, 26 Nov 2025 22:02:22 GMT","Did a flight from ROTW"
+"WY132","LFPG","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",369,"Approved","6150","Passenger","199","None","Wed, 26 Nov 2025 00:00:00 GMT","Thu, 27 Nov 2025 10:50:00 GMT",
+"WY224","VOCI","OOMS","Oman Air Boeing 737-8 MAX","224WY","Oman Air",201,"Approved","9600","Passenger","145","ROTW(2x)","Thu, 27 Nov 2025 00:00:00 GMT","Thu, 27 Nov 2025 15:04:14 GMT","My in game callsign and the real world route call sign are the same.."
+"035WY","EHAM","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",378,"Approved","30474","Passenger","281","ROTW(2x)","Thu, 27 Nov 2025 00:00:00 GMT","Thu, 27 Nov 2025 16:10:46 GMT",
+"035WY","CYYZ","KJFK","Oman Air E175","006WY","N/A",53,"Approved","1797","Passenger","85","EVENT(5x)","Thu, 27 Nov 2025 00:00:00 GMT","Thu, 27 Nov 2025 19:29:24 GMT",
+"WY183","OOMS ","UUEE","Oman Air Boeing 737-8 MAX","469WY","Oman Air",380,"Approved","150","Passenger","170","ROTW Non Oman(1.5x)","Thu, 27 Nov 2025 00:00:00 GMT","Thu, 27 Nov 2025 22:05:49 GMT",
+"035WY","EGLL","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",401,"Approved","34245","Passenger","300","GROUP FLİGHT(2.5x)","Fri, 28 Nov 2025 00:00:00 GMT","Fri, 28 Nov 2025 15:43:02 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",429,"Approved","6150","Passenger","199","Special(3x)","Fri, 28 Nov 2025 00:00:00 GMT","Fri, 28 Nov 2025 15:58:48 GMT",
+"035WY","OOMS","VTBS","Oman Air Boeing 787-8","006WY","Oman Air",313,"Approved","24834","Passenger","289","ROTW(2x)","Fri, 28 Nov 2025 00:00:00 GMT","Fri, 28 Nov 2025 23:49:45 GMT",
+"WY172","EHAM","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",382,"Approved","37654","Passenger","277","ROTW(2x)","Wed, 26 Nov 2025 00:00:00 GMT","Sat, 29 Nov 2025 04:12:14 GMT",
+"GA874","WIII","RJTT","Garuda Indonesia Boeing 777-300ER","006WY","Garuda Indonesia",463,"Approved","65266","Passenger","385","ROTW Non Oman(1.5x)","Fri, 28 Nov 2025 00:00:00 GMT","Sat, 29 Nov 2025 04:14:10 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","150WY","Oman Air",325,"Approved","6150","Passenger","199","None","Sat, 29 Nov 2025 00:00:00 GMT","Sat, 29 Nov 2025 09:13:35 GMT",
+"WY816/818","VTBS","OOMS","Oman Air Boeing 787-8","001WY","Oman Air",319,"Approved","55666","Passenger","300","GROUP FLİGHT(2.5x)","Sat, 29 Nov 2025 00:00:00 GMT","Sun, 30 Nov 2025 13:15:27 GMT",
+"WY172","EHAM","OOMS","Oman Air Boeing 787-8","001WY","Oman Air",350,"Approved","456","Passenger","1234","None","Tue, 25 Nov 2025 00:00:00 GMT","Sun, 30 Nov 2025 13:17:47 GMT",
+"WY816/818","VTBS","OOMS","Oman Air Airbus A330-300","150WY","Oman Air",329,"Approved","6150","Passenger","199","ROTW(2x)","Sat, 29 Nov 2025 00:00:00 GMT","Sun, 30 Nov 2025 14:20:45 GMT",
+"WY816","VTBS","OOMS","Oman Air Airbus A330-300","Callsign Missing","Oman Air",177,"Approved","38500","Passenger","316","GROUP FLİGHT(2.5x)","Sat, 29 Nov 2025 00:00:00 GMT","Sun, 30 Nov 2025 14:33:00 GMT",
+"035WY","CYYZ","OMAA","Etihad Airways Airbus A380","006WY","Etihad",711,"Approved","154980","Passenger","471","ROTW Non Oman(1.5x)","Sun, 30 Nov 2025 00:00:00 GMT","Sun, 30 Nov 2025 17:18:14 GMT",
+"WY844","RPLL","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",470,"Approved","6150","Passenger","199","None","Mon, 01 Dec 2025 00:00:00 GMT","Mon, 01 Dec 2025 10:08:54 GMT",
+"WY708","HTZA","OOMS","Oman Air Boeing 737-8 MAX","469WY","Oman Air",275,"Approved","9500","Passenger","170","None","Mon, 01 Dec 2025 00:00:00 GMT","Mon, 01 Dec 2025 15:31:02 GMT",
+"035WY","KATL","OTHH","Qatar Airways Boeing 777-200LR","006WY","Qatar Airways",621,"Approved","95689","Passenger","294","ROTW Non Oman(1.5x)","Tue, 02 Dec 2025 00:00:00 GMT","Mon, 01 Dec 2025 21:38:54 GMT",
+"EY78","EGCC ","OMAA","Etihad Boeing 777-300ER","015WY","N/A",277,"Approved","33000","Passenger","356","ROTW Non Oman(1.5x)","Tue, 02 Dec 2025 00:00:00 GMT","Tue, 02 Dec 2025 18:31:25 GMT","Nice flight :) "
+"WY827","OOMS","VTSP","Generic Boeing 737-800","469WY","Oman Air",360,"Approved","3000","Passenger","170","None","Wed, 03 Dec 2025 00:00:00 GMT","Wed, 03 Dec 2025 18:35:39 GMT",
+"035WY","OOMS","VILK","Oman Air Boeing 737-8 MAX","006WY","Oman Air",180,"Approved","5745","Passenger","149","ROTW(2x)","Wed, 03 Dec 2025 00:00:00 GMT","Wed, 03 Dec 2025 19:01:38 GMT",
+"035WY","OOMS","OOSA","Oman Air Airbus A330-300","006WY","Oman Air",110,"Approved","8000","Passenger","335","None","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 05:03:29 GMT",
+"TK199","RJTT","LTFM","Turkish Airlines Boeing 777-300ER","150WY","Turkish Airlines",897,"Approved","6150","Passenger","123","ROTW(2x)","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 11:37:24 GMT",
+"WY171","OOMS","EHAM","Oman Air Boeing 787-8","224WY","Oman Air",436,"Approved","41886","Passenger","202","ROTW(2x)","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 12:02:22 GMT","FOM Career Mode Week 1 Dec 4"
+"035WY","OOSA","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",90,"Approved","31352","Passenger","335","None","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 14:33:17 GMT",
+"035WY","OOMS","VGHS","Oman Air Airbus A330-300","006WY","Oman Air",206,"Approved","19350","Passenger","323","ROTW(2x)","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 18:22:56 GMT",
+"TK199","RJTT","LTFM","Etihad Cargo Boeing 777F","006WY","Turkish Airlines",890,"Approved","104036","Cargo","90672","None","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 18:27:41 GMT",
+"WY172","EHAM","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",411,"Approved","41886","Passenger","202","ROTW(2x)","Thu, 04 Dec 2025 00:00:00 GMT","Thu, 04 Dec 2025 18:31:47 GMT","Career Mode FOM Week 1 Day 1 Route 2"
+"035WY","VGHS","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",206,"Approved","25903","Passenger","256","ROTW(2x)","Thu, 04 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 04:53:01 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",449,"Approved","6150","Passenger","300","None","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 05:43:12 GMT",
+"035WY","OOMS","WIII","Oman Air Airbus A330-300","006WY","Oman Air",379,"Approved","43910","Passenger","320","None","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 12:41:44 GMT",
+"WY603","OOMS","OMDB","Oman Air Boeing 787-8","224WY","Oman Air",44,"Approved","10814","Passenger","259","ROTW(2x)","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 13:28:00 GMT","CAREER MODE FOM WEEK 1 DAY 2 OFF {FLYING BY REQUEST ON OFF DAY}"
+"WY681","OOMS","OTHH","Oman Air Boeing 737-8 MAX","223WY","Oman Air",66,"Approved","6654","Passenger","169","ROTW(2x)","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 14:51:06 GMT",
+"WY610","OMDB","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",39,"Approved","10814","Passenger","198","ROTW(2x)","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 16:23:24 GMT","CAREER MODE FOM WEEK 1 DAY 2 OFF {FLYING BY REQUEST ON OFF DAY}"
+"035WY","WIII","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",410,"Approved","41997","Passenger","302","None","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 05 Dec 2025 21:14:43 GMT",
+"JL476","RJOT","RJTT","Generic Boeing 737-800","212WY","Japan Airlines",61,"Approved","2669","Passenger","186","ROTW Non Oman(1.5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 07:16:08 GMT",
+"BA7","EGLL","RJTT","Generic Boeing 787-9","223WY","Oman Air",787,"Approved","33622","Passenger","331","ROTW Non Oman(1.5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 07:31:55 GMT","No BA so i chose Oman Air"
+"035WY","OOMS","EDDF","Generic Boeing 787-9","006WY","Oman Air",404,"Approved","37896","Passenger","266","ROTW(2x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 07:36:58 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",452,"Approved","45000","Passenger","105","None","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 08:47:51 GMT",
+"TK199","RJTT","LTFM","Turkish Cargo Boeing 777F","001WY","N/A",889,"Approved","78216","Cargo","50000","GROUP FLİGHT(2.5x)","Wed, 03 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 09:06:37 GMT",
+"TK199","RJTT","LTFM","Turkish Cargo Boeing 777F","002WY","Türk Hava Yolları",889,"Approved","123","Cargo","123","GROUP FLİGHT(2.5x)","Wed, 03 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 09:08:08 GMT",
+"539WY","KATL","KORD","Generic Boeing 737-800","002WY","N/A",110,"Approved","123","Passenger","123","None","Thu, 04 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 09:09:42 GMT",
+"WY681,683","OOMS","OERK","Oman Air Boeing 737-8 MAX","001WY","Oman Air",109,"Approved","3000","Passenger","200","None","Thu, 04 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 10:10:06 GMT",
+"WY682,684","OERK","OOMS","Oman Air Boeing 737-8 MAX","001WY","Oman Air",187,"Approved","7821","Passenger","200","None","Thu, 04 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 10:14:06 GMT",
+"SJX850WY","RCTP","RJCC","Starlux Airlines Airbus A330-900","340WY","Oman Air",180,"Approved","6004","Passenger","321","ROTW Non Oman(1.5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 10:15:17 GMT",
+"OMAN AİR 950WY","OOMS","WIII","Oman Air Airbus A330-300","Callsign Missing","Umman Hava Yolları",410,"Approved","55000","Passenger","392","None","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 14:08:57 GMT",
+"WY823","OOMS","WMKK","Oman Air Boeing 787-8","224WY","Oman Air",377,"Approved","34931","Passenger","284","ROTW(2x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 16:22:44 GMT","Career Mode FOM Week 1 Day 3 Route 3"
+"035WY","EDDF","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",311,"Approved","22042","Passenger","331","None","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 16:41:00 GMT",
+"LAN115","SCSE","SCEL","Generic Airbus A319","150WY","latam",53,"Approved","6150","Passenger","123","EVENT(5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 17:31:11 GMT",
+"OMAN AİR 950WY","WIII","OOMS","Oman Air Airbus A330-300","Callsign Missing","Umman Hava Yolları",440,"Approved","50000","Passenger","402","None","Sat, 06 Dec 2025 00:00:00 GMT","Sat, 06 Dec 2025 20:45:50 GMT",
+"BAW007WY","EGLL","RJTT","Generic Boeing 787-9","340WY","Oman Air",740,"Approved","134631","Passenger","321","ROTW Non Oman(1.5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 01:45:34 GMT",
+"WY824","WMKK","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",367,"Approved","38596","Passenger","270","ROTW(2x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 02:16:38 GMT","FOM Career Mode Week 1 Day 3....This return route was started yesterday night and landed today"
+"WK17","KDEN","LSZH","Edelweiss Air Airbus A350","223WY","Swiss-Edelweiss",531,"Approved","49341","Passenger","297","None","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 05:38:59 GMT",
+"WY212","SCSE","SCEL ","Generic Airbus A320","212WY","LATAM",55,"Approved","2484","Passenger","117","EVENT(5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 06:05:12 GMT",
+"WK17","KDEN","LSZH","Edelweiss Air Airbus A350","212WY","N/A",507,"Approved","46299","Passenger","304","None","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 06:11:41 GMT",
+"WY843","OOMS","RPLL","Oman Air Boeing 787-8","224WY","N/A",414,"Denied","38596","Passenger","270","ROTW(2x)","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 12:31:01 GMT","Career Mode FOM Week 1 Day 4 Route 1"
+"035WY","OOMS","LSZH","Oman Air Airbus A330-300","006WY","Oman Air",373,"Approved","15246","Passenger","258","None","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 13:27:29 GMT",
+"WY000","OOMS","OPIS","Oman Air Boeing 737-8 MAX","223WY","Oman Air",141,"Approved","5593","Passenger","120","EVENT(5x)","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 15:56:05 GMT","PIA EVENT"
+"LA105","SCSE","SCEL","Generic Airbus A320","002WY","N/A",48,"Approved","123","Passenger","123","EVENT(5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 20:05:42 GMT",
+"LA105","SCSE","SCEL","Generic Airbus A320","001WY","Oman Air",59,"Approved","123","Passenger","100","EVENT(5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 22:21:59 GMT",
+"035WY","LSZH","OOMS","Oman Air Airbus A330-300","006WY","Oman Air",361,"Approved","54236","Passenger","285","None","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 22:22:43 GMT",
+"WY101","OOMS","EGLL","Oman Air Airbus A330-300","001WY","Oman Air",453,"Approved","78216","Passenger","316","GROUP FLİGHT(2.5x)","Sat, 06 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 22:26:26 GMT",
+"WY000","OOMS","OPIS","Oman Air Boeing 737-8 MAX","001WY","Oman Air",153,"Approved","123","Passenger","123","EVENT(5x)","Sun, 07 Dec 2025 00:00:00 GMT","Sun, 07 Dec 2025 22:29:03 GMT",
+"WY844","RPLL","OOMS","Oman Air Boeing 787-8","224WY","Oman Air",417,"Approved","44145","Passenger","336","None","Sun, 07 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 02:19:18 GMT","Career Mode FOM Week 1"
+"OMA682WY","OERK","OOMS","Generic Boeing 737-900","340WY","Oman Air",89,"Approved","3239","Passenger","142","ROTW(2x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 06:07:09 GMT",
+"WY172","EHAM","OOMS","Generic Boeing 787-9","469WY","Oman Air",420,"Approved","15500","Passenger","250","ROTW Non Oman(1.5x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 12:41:00 GMT",
+"BA60","VRMM","EGLL","Generic Boeing 777-300ER","150WY","BRITHSH",555,"Approved","45677","Passenger","197","None","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 13:44:46 GMT","B777 British airway "
+"WY211","OOMS","VOTV","Oman Air Boeing 737-8 MAX","223WY","Oman Air",199,"Approved","11549","Passenger","150","ROTW(2x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 14:46:07 GMT",
+"WY681,683","OOMS","OERK","Oman Air Boeing 737-8 MAX","150WY","Oman Air",109,"Approved","25009","Passenger","150","None","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 15:26:35 GMT",
+"WY603","OOMS","OMDB","Oman Air Boeing 787-8","224WY","N/A",39,"Approved","8876","Passenger","325","ROTW(2x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 16:26:46 GMT","FOM Career Mode Week 1"
+"AK352","WIII","WMKK","Generic Airbus A320","223WY","Oman Air",98,"Approved","4690","Passenger","109","ROTW Non Oman(1.5x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 17:18:24 GMT","No Asia so i chose Generic Oman"
+"WY682,684","OERK","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",105,"Approved","45677","Passenger","208","None","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 17:42:53 GMT",
+"035WY","OOMS","WIII","Oman Air Airbus A330-300","006WY","Oman Air",331,"Approved","25608","Passenger","285","ROTW(2x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 08 Dec 2025 19:07:30 GMT",
+"OMAN AİR 950WY","OOMS","LFPG","Oman Air Airbus A330-300","Callsign Missing","Umman Hava Yolları",430,"Approved","60000","Passenger","390","None","Mon, 08 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 05:22:43 GMT",
+"QR8146","KATL","OTHH","Qatar Airways Boeing 777-300ER","223WY","Qatar Airways",419,"Approved","21017","Cargo","4","ROTW Non Oman(1.5x)","Tue, 09 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 10:14:27 GMT","No qatar cargo 777F"
+"WY823","OOMS","WMKK","Oman Air Boeing 737-8 MAX","150WY","Oman Air",400,"Approved","45200","Passenger","123","None","Tue, 09 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 10:14:45 GMT",
+"WY184","UUEE","OOMS","Oman Air Boeing 737-8 MAX","469WY","Oman Air",390,"Approved","15000","Passenger","180","ROTW Non Oman(1.5x)","Tue, 09 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 15:52:40 GMT",
+"OMAN AİR 950WY","LFPG","OOMS","Oman Air Airbus A330-300","Callsign Missing","Umman Hava Yolları",413,"Approved","900000","Passenger","360","None","Tue, 09 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 19:28:39 GMT",
+"TK6305","LTFM","EGSS","Turkish Airlines Airbus A330-300","738WY","Turkish Airlines",197,"Approved","1234","Cargo","10000","ROTW Non Oman(1.5x)","Mon, 08 Dec 2025 00:00:00 GMT","Tue, 09 Dec 2025 21:11:20 GMT",
+"006WY","WIII","OOMS","Oman Air Airbus A330-300","006WY","N/A",407,"Approved","25467","Passenger","285","None","Tue, 09 Dec 2025 00:00:00 GMT","Wed, 10 Dec 2025 05:41:22 GMT",
+"WY406","HECA","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",209,"Approved","6150","Passenger","199","EVENT(5x)","Tue, 09 Dec 2025 00:00:00 GMT","Wed, 10 Dec 2025 06:02:49 GMT",
+"WY202","OOMS","VABB","Oman Air Boeing 737-8 MAX","202WY","Oman Air",127,"Approved","8000","Passenger","160","None","Wed, 10 Dec 2025 00:00:00 GMT","Wed, 10 Dec 2025 08:22:47 GMT",
+"TK57","WIII","LTFM","Turkish Airlines Airbus A350","223WY","Turkish Airlines",694,"Approved","43898","Passenger","265","ROTW Non Oman(1.5x)","Wed, 10 Dec 2025 00:00:00 GMT","Wed, 10 Dec 2025 09:15:57 GMT",
+"006WY","KLAX","OOMS","Generic Boeing 747-8","006WY","Oman Air",967,"Approved","258066","Passenger","0","GROUP FLİGHT(2.5x)","Wed, 10 Dec 2025 00:00:00 GMT","Wed, 10 Dec 2025 21:43:18 GMT",
+"WY849","OOMS","WIII","Oman Air Boeing 787-8","093WY","Oman Air",394,"Approved","35798","Passenger","248","ROTW(2x)","Thu, 11 Dec 2025 00:00:00 GMT","Thu, 11 Dec 2025 13:32:29 GMT",
+"GA981","OEJN","WIII","Garuda Indonesia Boeing 777-300ER","233WY","Garuda Indonesia",500,"Approved","39839","Passenger","398","ROTW Non Oman(1.5x)","Thu, 11 Dec 2025 00:00:00 GMT","Thu, 11 Dec 2025 14:37:20 GMT",
+"TK6305","LTFM","EGSS","Turkish Airlines Airbus A330-300","223WY","Turkish Airlines",193,"Approved","14326","Cargo","7003","ROTW Non Oman(1.5x)","Thu, 11 Dec 2025 00:00:00 GMT","Thu, 11 Dec 2025 16:16:17 GMT",
+"WY101","OOMS","YSSY","Generic Boeing 747-400","150WY","Oman Air",750,"Approved","45890","Passenger","395","ROTW(2x)","Wed, 10 Dec 2025 00:00:00 GMT","Thu, 11 Dec 2025 18:06:30 GMT",
+"006WY","LTCG","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",178,"Approved","11256","Passenger","251","GROUP FLİGHT(2.5x)","Thu, 11 Dec 2025 00:00:00 GMT","Fri, 12 Dec 2025 09:21:00 GMT",
+"WY196","LTCG","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",196,"Approved","10445","Passenger","151","GROUP FLİGHT(2.5x)","Fri, 12 Dec 2025 00:00:00 GMT","Fri, 12 Dec 2025 10:20:16 GMT",
+"WY000","OOMS","OETF","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",165,"Approved","5906","Passenger","160","Special(3x)","Fri, 12 Dec 2025 00:00:00 GMT","Fri, 12 Dec 2025 13:51:59 GMT","Special flight ! 3x bonus"
+"WY682","OERK","OOMS","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",79,"Approved","2973","Passenger","155","ROTW(2x)","Fri, 12 Dec 2025 00:00:00 GMT","Fri, 12 Dec 2025 15:47:46 GMT","Rotw 2x "
+"OMA849WY","OOMS","WIII","Oman Air Boeing 787-8","340WY","Oman Air",371,"Approved","43591","Passenger","310","ROTW(2x)","Fri, 12 Dec 2025 00:00:00 GMT","Sat, 13 Dec 2025 01:43:51 GMT",
+"FD171","VOCI ","VTBD ","Edelweiss Airbus A320","015WY","N/A",101,"Approved","6257","Passenger","168","None","Sat, 13 Dec 2025 00:00:00 GMT","Sat, 13 Dec 2025 11:44:19 GMT","Nice flight :) couldn't find Air Asia a320 or generic a320, so I used Edelweiss a320"
+"QR8146","KATL","OTHH","Etihad Cargo Boeing 777F","233WY","Qatar Airways",782,"Approved","540000","Cargo","2","ROTW(2x)","Sat, 13 Dec 2025 00:00:00 GMT","Sat, 13 Dec 2025 12:01:14 GMT","The Qatar b77F want an option to select so I used the B77F ethiad as a cover up"
+"LX2811","LSGG","LSZH","Generic Airbus A321","020WY ","Swiss-Edelweiss",51,"Approved","2308","Passenger","177","EVENT(5x)","Sat, 13 Dec 2025 00:00:00 GMT","Sat, 13 Dec 2025 14:43:29 GMT","Nice event! Busy traffic "
+"LX2811","LSGG","LSZH","Generic Airbus A321","150WY","Swiss-Edelweiss",61,"Approved","6180","Passenger","117","EVENT(5x)","Sat, 13 Dec 2025 00:00:00 GMT","Sat, 13 Dec 2025 14:52:23 GMT","A321 swiss event"
+"731WY","EDDF","EDDM","Lufthansa Boeing 787-9","731WY","N/A",30,"Approved","7886","Passenger","74","None","Sun, 14 Dec 2025 00:00:00 GMT","Sun, 14 Dec 2025 07:26:45 GMT","chicken jockey"
+"731WY","OOMS","WIII","Oman Air Boeing 787-8","731WY","Oman Air",470,"Approved","44402","Passenger","20514","None","Sun, 14 Dec 2025 00:00:00 GMT","Sun, 14 Dec 2025 12:08:37 GMT",
+"WY131","OOMS ","LFPG","Oman Air Airbus A330-300","469WY","Oman Air",420,"Approved","12000","Passenger","220","ROTW Non Oman(1.5x)","Sun, 14 Dec 2025 00:00:00 GMT","Sun, 14 Dec 2025 21:39:02 GMT",
+"AY41","EFHK","RKSI ","Finnair Airbus A350","015WY","N/A",720,"Approved","69000","Passenger","312","GROUP FLİGHT(2.5x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 08:41:02 GMT","Nice flight :) "
+"BA60","VRMM","EGLL","Generic Boeing 777-300ER","001WY","Oman Air",554,"Approved","78216","Passenger","316","Special(3x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:18:37 GMT",
+"BA436","EGLL","EHAM","Generic Airbus A321","001WY","Oman Air",56,"Approved","5555","Passenger","123","None","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:20:34 GMT",
+"BA105","EGLL","OMDB","Lufthansa Airbus A380","001WY","Oman Air",356,"Approved","7821","Passenger","500","None","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:29:49 GMT",
+"WY850","WIII","OOMS","Oman Air Airbus A330-300","001WY","Oman Air",405,"Approved","78216","Passenger","316","GROUP FLİGHT(2.5x)","Mon, 08 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:32:12 GMT",
+"RF1","OOMS","YSSY","Generic Boeing 747-400","001WY","Oman Air",745,"Approved","78216","Passenger","500","GROUP FLİGHT(2.5x)","Wed, 10 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:33:29 GMT",
+"AY41","EFHK","RKSI","Finnair Airbus A350","150WY","Finnair",718,"Approved","6150","Passenger","199","GROUP FLİGHT(2.5x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:36:02 GMT",
+"WY196","LTCG","OOMS","Oman Air Boeing 737-8 MAX","001WY","Oman Air",207,"Approved","4000","Passenger","200","None","Thu, 11 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 12:39:48 GMT",
+"731WY","NZAA","OTHH","Qatar Airways Boeing 777-200LR","731WY","Qatar Airways",1020,"Approved","127348","Passenger","272","None","Fri, 19 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 14:10:49 GMT",
+"QF4B","NZAA","YSSY","Generic Boeing 787-9","233WY","Oman Air",195,"Approved","45735","Passenger","361","ROTW Non Oman(1.5x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 15:51:37 GMT","qantas wasnt available so i used generic in aircraft section and the operator is also not available so i chose oman air"
+"WY849","OOMS","WIII","Generic Boeing 787-9","469WY","Oman Air",450,"Approved","42000","Passenger","250","ROTW(2x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 19:13:03 GMT",
+"002WY","OOMS","OMDB","Oman Air Boeing 737-8 MAX","002WY","Oman Air",46,"Approved","8000","Passenger","180","None","Sat, 13 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 19:30:33 GMT",
+"WY685","OOMS","OERK","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",167,"Approved","3992","Passenger","160","ROTW(2x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 20:14:58 GMT","ROTW"
+"WY682","OERK","OOMS","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",86,"Approved","3129","Passenger","144","ROTW(2x)","Mon, 15 Dec 2025 00:00:00 GMT","Mon, 15 Dec 2025 21:52:33 GMT","Rotw"
+"731WY","HEGN","HECA","EgyptAir Boeing 737-800","731WY","N/A",40,"Approved","5089","Passenger","178","None","Fri, 19 Dec 2025 00:00:00 GMT","Tue, 16 Dec 2025 03:27:08 GMT",
+"TK204","KSEA","LTFM","Turkish Airlines Airbus A350","233WY","Turkish Airlines",627,"Approved","58823","Passenger","271","ROTW Non Oman(1.5x)","Tue, 16 Dec 2025 00:00:00 GMT","Tue, 16 Dec 2025 11:01:30 GMT",
+"WY425","OOMS","EKCH","Oman Air Airbus A330-300","469WY","Oman Air",480,"Approved","45000","Passenger","290","None","Tue, 16 Dec 2025 00:00:00 GMT","Tue, 16 Dec 2025 19:30:19 GMT",
+"731WY","KIAD","OJAI","Royal Jordanian Boeing 787-8","731WY","Royal Jordanian",778,"Approved","69434","Passenger","270","None","Wed, 17 Dec 2025 00:00:00 GMT","Wed, 17 Dec 2025 04:54:05 GMT",
+"731WY","EDDF","EHAM","Lufthansa Airbus A319","731WY","N/A",50,"Approved","5310","Passenger","137","None","Sat, 20 Dec 2025 00:00:00 GMT","Wed, 17 Dec 2025 10:20:41 GMT","chicken jockey"
+"WY153","OOMS","LSZH","Oman Air Boeing 787-8","469WY","Oman Air",405,"Approved","33000","Passenger","290","ROTW(2x)","Wed, 17 Dec 2025 00:00:00 GMT","Wed, 17 Dec 2025 21:38:41 GMT",
+"WY241,243","OOMS","VIDP","Generic Boeing 737-900","469WY","Oman Air",285,"Approved","14500","Passenger","220","ROTW(2x)","Wed, 17 Dec 2025 00:00:00 GMT","Wed, 17 Dec 2025 22:27:28 GMT",
+"WY425","OOMS","EKCH ","Oman Air Airbus A330-300","015WY","N/A",473,"Approved","37150","Passenger","346","GROUP FLİGHT(2.5x)","Wed, 17 Dec 2025 00:00:00 GMT","Thu, 18 Dec 2025 00:47:06 GMT","Nice flight :) "
+"WY171","OOMS","EHAM","Oman Air Boeing 787-8","093WY","Oman Air",431,"Approved","33294","Passenger","248","ROTW(2x)","Wed, 17 Dec 2025 00:00:00 GMT","Thu, 18 Dec 2025 01:35:12 GMT","ROTW"
+"QR909","YSSY","OTHH","Qatar Airways Airbus A380","223WY","Qatar Airways",777,"Approved","145000","Passenger","324","ROTW Non Oman(1.5x)","Thu, 18 Dec 2025 00:00:00 GMT","Thu, 18 Dec 2025 09:15:18 GMT",
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",452,"Approved","6150","Passenger","199","None","Thu, 18 Dec 2025 00:00:00 GMT","Thu, 18 Dec 2025 09:59:20 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",276,"Approved","9714","Passenger","160","ROTW(2x)","Thu, 18 Dec 2025 00:00:00 GMT","Thu, 18 Dec 2025 17:26:58 GMT","Rotw"
+"KQ508","HKJK","DGAA","Kenya Airways Boeing 737-800","223WY","Kenya Airways",286,"Approved","11080","Passenger","123","None","Fri, 19 Dec 2025 00:00:00 GMT","Fri, 19 Dec 2025 07:10:32 GMT",
+"QR909","YSSY","OTHH","Qatar Airways Airbus A380","233WY","Qatar Airways",821,"Approved","84570","Passenger","460","ROTW Non Oman(1.5x)","Fri, 19 Dec 2025 00:00:00 GMT","Fri, 19 Dec 2025 13:28:06 GMT",
+"WY166","LTFM","OOMS","Oman Air Boeing 737-8 MAX","118WY","Oman Air",247,"Approved","9483","Passenger","156","ROTW(2x)","Fri, 19 Dec 2025 00:00:00 GMT","Fri, 19 Dec 2025 17:02:11 GMT","My first ever flight with Oman Air VA!😄"
+"WY172","EHAM","OOMS","Oman Air Boeing 787-8","093WY","Oman Air",379,"Approved","29464","Passenger","248","ROTW(2x)","Thu, 18 Dec 2025 00:00:00 GMT","Fri, 19 Dec 2025 23:35:47 GMT","ROTW"
+"TG950","VTBS","EKCH","Thai Airways Boeing 777-300ER","223WY","Oman Air",650,"Approved","41042","Passenger","301","None","Sat, 20 Dec 2025 00:00:00 GMT","Sat, 20 Dec 2025 09:17:05 GMT","No thai Airways"
+"WY472","YSSY","VTBS","Thai Airways Airbus A350","118WY","Oman Air",600,"Approved","50131","Passenger","257","GROUP FLİGHT(2.5x)","Sat, 20 Dec 2025 00:00:00 GMT","Sat, 20 Dec 2025 09:31:20 GMT",
+"TG950","VTBS","EKCH","Thai Airways Boeing 777-300ER","223WY","Oman Air",650,"Approved","40174","Passenger","301","None","Sat, 20 Dec 2025 00:00:00 GMT","Sat, 20 Dec 2025 10:14:30 GMT","No thai Airways"
+"QTR909","YSSY","OTHH","Qatar Airways Airbus A380","150WY","Qatar Airways",930,"Approved","6180","Passenger","256","None","Sat, 20 Dec 2025 00:00:00 GMT","Sat, 20 Dec 2025 13:16:30 GMT",
+"QF4A","KJFK","NZAA","Generic Boeing 787-9","233WY","Oman Air",985,"Approved","87192","Passenger","223","ROTW Non Oman(1.5x)","Sat, 20 Dec 2025 00:00:00 GMT","Sat, 20 Dec 2025 13:27:07 GMT","the qantas aircraft option wasnt available so i selected b789 generic, same as the operator qantas wasnt available so i chose oman air."
+"KQA6712WY","HTDA","HTZA","Kenya Airways E190","340WY","Kenya Airways",14,"Approved","3713","Passenger","65","None","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 04:10:49 GMT",
+"KQA6713WY","HTZA","HTDA","Kenya Airways E190","340WY","Kenya Airways",12,"Approved","3512","Passenger","55","None","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 04:12:07 GMT",
+"731WY","RJTT","WIII","Garuda Indonesia Airbus A330-900","731WY","N/A",420,"Approved","42550","Passenger","301","None","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 06:45:23 GMT","sadge"
+"TK2376","LTAI","LTFM","Turkish Airlines Boeing 777-300ER","150WY","Turkish Airlines",57,"Approved","32400","Passenger","117","None","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 15:32:19 GMT",
+"WT242,244","VIDP","OOMS","Generic Boeing 737-900","469WY","Oman Air",285,"Approved","145000","Passenger","180","ROTW(2x)","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 15:38:29 GMT",
+"WY154","LSZH","OOMS","Oman Air Boeing 787-8","469WY","Oman Air",405,"Approved","33000","Passenger","290","ROTW(2x)","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 15:45:01 GMT",
+"WY1","KPAE","EGPF","Oman Air Boeing 737-8 MAX","118WY","Oman Air",523,"Approved","15774","Passenger","2","GROUP FLİGHT(2.5x)","Sun, 21 Dec 2025 00:00:00 GMT","Sun, 21 Dec 2025 16:53:41 GMT",
+"QFA4AWY","KJFK","NZAA","Generic Boeing 787-9","340WY","Oman Air",1398,"Approved","140765","Passenger","275","ROTW Non Oman(1.5x)","Sat, 20 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 02:20:24 GMT",
+"THY6648WY","KATL","KIAH","Turkish Cargo Boeing 777F","340WY","Turkish Airlines",85,"Approved","35142","Cargo","201328","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 04:37:44 GMT",
+"OMA931WY","OOMS","OOKB","Generic Boeing 737-800","340WY","Oman Air",31,"Approved","1318","Passenger","163","ROTW(2x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 05:24:33 GMT",
+"CCA898AWY","SBGR","LEMD","Generic Boeing 787-9","340WY","Oman Air",503,"Approved","45723","Passenger","315","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 12:27:45 GMT",
+"WF4A","KJFK","NZAA","Generic Boeing 787-9","006WY","Oman Air",1071,"Approved","101457","Passenger","216","ROTW Non Oman(1.5x)","Sat, 20 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 15:36:48 GMT","Qantas "
+"QF4A","KJFK","NZAA","Generic Boeing 787-9","150WY","qantas",1113,"Approved","6180","Passenger","199","None","Sun, 21 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 16:38:41 GMT","qantas"
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",365,"Approved","35304","Passenger","300","ROTW(2x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 17:00:00 GMT",
+"WY1","EGPF","OOMS","Oman Air Boeing 737-8 MAX","118WY","Oman Air",524,"Approved","14063","Passenger","2","GROUP FLİGHT(2.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 18:18:27 GMT",
+"006WY","EDDF","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",330,"Approved","32666","Passenger","180","None","Sun, 21 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 20:04:22 GMT",
+"AA252","KMIA","MUHA","Generic Airbus A321","001WY","Oman Air",37,"Approved","9000","Passenger","200","None","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 21:06:42 GMT",
+"WY603","OOMS","OMDB","Oman Air Boeing 737-8 MAX","001WY","Oman Air",40,"Approved","9000","Passenger","155","None","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 21:09:29 GMT",
+"QF4A","KJFK","NZAA","Generic Boeing 787-9","001WY","Oman Air",1246,"Approved","100000","Passenger","350","None","Sun, 21 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 21:11:51 GMT",
+"AA51","EGLL","KDFW","Generic Boeing 777-300ER","223WY","Oman Air",625,"Approved","65239","Passenger","321","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 22:25:15 GMT",
+"006WY","KMIA","TNCM","Oman Air Boeing 737-8 MAX","006WY","N/A",173,"Approved","5190","Passenger","180","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Mon, 22 Dec 2025 22:47:22 GMT",
+"CX873","KSFO","VHHH","Generic Boeing 777-300ER","006WY","Oman Air",780,"Approved","120403","Passenger","301","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 10:49:16 GMT","Cathay pacific"
+"AA3213","KMIA ","TNCM","Oman Air Boeing 737-8 MAX","233WY","Oman Air",136,"Approved","15842","Passenger","131","ROTW Non Oman(1.5x)","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 12:49:54 GMT","American airlines was used in this flight "
+"WY850","WIII","OOMS","Generic Boeing 787-9","469WY","Oman Air",450,"Approved","42000","Passenger","250","ROTW(2x)","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 14:36:59 GMT",
+"DHL860","EDDF","ENGM","Lufthansa Airbus A321","020WY ","N/A",113,"Approved","4995","Passenger","170","None","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 16:25:38 GMT",
+"AA3213","KMIA","TNCM","Generic Boeing 737-800","223WY","Oman Air",137,"Approved","4510","Passenger","110","ROTW Non Oman(1.5x)","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 16:30:27 GMT",
+"DHL2454","EDDM","ENGM","Lufthansa Airbus A320","020WY ","N/A",129,"Approved","5532","Passenger","155","None","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 16:53:07 GMT",
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300","469WY","Oman Air",420,"Approved","12000","Passenger","220","ROTW Non Oman(1.5x)","Tue, 23 Dec 2025 00:00:00 GMT","Tue, 23 Dec 2025 21:11:46 GMT",
+"CA898A","SBGR","LEMD","Generic Boeing 787-9","233WY","Oman Air",567,"Approved","7931","Passenger","339","ROTW Non Oman(1.5x)","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 08:58:21 GMT","air china b789 was used for this flight "
+"CCA898BWY","LEMD","ZBAA","Generic Boeing 787-9","340WY","Oman Air",596,"Approved","34856","Passenger","326","ROTW Non Oman(1.5x)","Mon, 22 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 10:28:56 GMT",
+"CPA3273WY","KMIA","KDFW","Generic Boeing 747-400","340WY","Oman Air",182,"Approved","53574","Cargo","272260","ROTW Non Oman(1.5x)","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 10:30:49 GMT",
+"BAW550WY","EGLL","LIRF","Generic Airbus A319","340WY","N/A",106,"Approved","4989","Passenger","95","ROTW Non Oman(1.5x)","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 10:32:07 GMT",
+"DHL1112","EDDF","LEMD","Lufthansa Airbus A321","020WY ","N/A",112,"Approved","3456","Passenger","170","None","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 13:38:52 GMT",
+"DHL1113","LEMD","EDDF","Lufthansa Airbus A321","020WY ","N/A",125,"Approved","4043","Passenger","156","None","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 15:09:54 GMT",
+"IB731","LEMD","EHAM","Generic Airbus A321","233WY","Oman Air",128,"Approved","9998","Passenger","149","ROTW Non Oman(1.5x)","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 16:58:44 GMT","iberia a321 was used for this flight"
+"LS1722","LPMA","EGCC","Jet2 Boeing 737-800","223WY","Oman Air",228,"Approved","8924","Passenger","118","None","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 19:37:28 GMT",
+"WY844","RPLL","OOMS","Oman Air Boeing 787-8","469WY","Oman Air",510,"Approved","35000","Passenger","290","ROTW(2x)","Wed, 24 Dec 2025 00:00:00 GMT","Wed, 24 Dec 2025 20:08:33 GMT",
+"IBE731WY","LEMD","EHAM","Generic Airbus A320","340WY","Oman Air",159,"Approved","7855","Passenger","156","ROTW Non Oman(1.5x)","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 05:07:34 GMT",
+"731WY","OMAA","KIAD","Etihad Airways Boeing 787-9","731WY","Etihad",840,"Approved","80920","Passenger","303","None","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 06:18:35 GMT","Happy Crithmus"
+"RJ282","KIAD","OJAI","Royal Jordanian Boeing 787-8","223WY","Royal Jordanian",618,"Approved","37975","Passenger","240","None","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 07:56:31 GMT",
+"OMANAIR 366WY","EDDF","OOMS","Oman Air Boeing 787-8","Callsign Missing","Oman Air",334,"Approved","25125","Passenger","250","ROTW(2x)","Wed, 24 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 09:33:23 GMT",
+"QTR737","OTHH","KSFO","Qatar Airways Airbus A350","150WY","Qatar Airways",1024,"Approved","6180","Passenger","134","None","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 15:07:33 GMT",
+"OMANAIR 366WY","OOMS","VOCL","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",206,"Approved","6525","Passenger","200","ROTW(2x)","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 15:21:21 GMT",
+"TK2426","LTFM","LTAI","Oman Air Airbus A330-300","006WY","Oman Air",73,"Approved","10000","Passenger","247","None","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 16:04:45 GMT",
+"AS33","KSFO","PHNL","Generic Boeing 737-8 MAX","223WY","N/A",344,"Approved","12441","Passenger","121","ROTW Non Oman(1.5x)","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 16:47:03 GMT",
+"CA898","LEMD","ZBAA","Generic Boeing 787-9","118WY","N/A",767,"Approved","58500","Passenger","350","ROTW Non Oman(1.5x)","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 18:29:37 GMT",
+"CA898","SBGR","LEMD","Generic Boeing 787-9","006WY","Oman Air",550,"Approved","55975","Passenger","277","None","Tue, 23 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 18:31:16 GMT","Air China "
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","020WY ","Oman Air",358,"Approved","32949","Passenger","260","ROTW(2x)","Thu, 25 Dec 2025 00:00:00 GMT","Thu, 25 Dec 2025 22:19:56 GMT","Rotw"
+"CATHY 366WY HEAVY","KSFO","VHHH","Generic Boeing 777-300ER","Callsign Missing","Saudia",803,"Approved","75512","Passenger","503","ROTW Non Oman(1.5x)","Thu, 25 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 06:08:11 GMT","It was a Cathy pacific flight but can’t find it in the options here"
+"AAL3213WY","KMIA","TNCM","Generic Boeing 737-800","340WY","Oman Air",138,"Approved","5760","Passenger","173","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 06:16:52 GMT",
+"OMA291WY","OOMS","VOCL","Oman Air Boeing 737-8 MAX","340WY","Oman Air",162,"Approved","4917","Passenger","140","None","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 09:26:50 GMT",
+"OMAN AIR 743WY","SCSE","SCEL","Generic Airbus A320","011WY","Latam",152,"Approved","17500","Passenger","132","EVENT(5x)","Sat, 06 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 13:38:45 GMT",
+"601WY","OOPS","OOMS","Oman Air Boeing 737-8 MAX","011WY","阿曼航空",205,"Approved","167664","Passenger","189","GROUP FLİGHT(2.5x)","Fri, 05 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 13:41:11 GMT",
+"OMAN AIR 743WY","KLAX","OOMS","Qantas Airbus A380","011WY","Generic",1116,"Approved","20532","Passenger","0","ROTW(2x)","Wed, 03 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 13:43:19 GMT",
+"OMAN AIR 743WY","LGAV","EGCC","Aegean Airlines - 2020 Airbus A320","011WY","爱琴海",217,"Approved","75302","Passenger","74","None","Tue, 02 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 13:44:34 GMT",
+"OMAN AIR 743WY","GMMZ","OOMS","Malaysia Airlines MD-11","011WY","Omni Air International",403,"Approved","17559","Passenger","47","None","Sat, 29 Nov 2025 00:00:00 GMT","Fri, 26 Dec 2025 13:46:37 GMT",
+"SPEEDBIRD 366WY HEAVY","EGLL","OEJN","Generic Boeing 787-9","Callsign Missing","Oman Air",348,"Approved","31057","Passenger","16566","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 14:23:33 GMT","Was a British airways flight but couldn’t find it in the options"
+"WY291","OOMS","VOCL","Oman Air Boeing 737-8 MAX","223WY","Oman Air",179,"Approved","15000","Passenger","111","ROTW(2x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 15:04:34 GMT",
+"BA550","EGLL","LIRF","Generic Airbus A320","020WY ","N/A",131,"Approved","5604","Passenger","145","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 15:47:29 GMT","ROTW "
+"BA550","EGLL","LIRF","Generic Airbus A320","233WY","Oman Air",132,"Approved","6470","Passenger","117","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 16:24:24 GMT","British airways a320 was used for this flight "
+"MH860","WMKK","WIMM","Oman Air Boeing 737-8 MAX","718WY","Oman Air",55,"Approved","8733","Passenger","150","None","Sat, 27 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 16:35:30 GMT","First Flight for OAVA"
+"WY603","OOMS","OMDB","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",49,"Approved","2119","Passenger","140","None","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 17:21:17 GMT",
+"AS33","KSFO","PHNL","Generic Boeing 737-800","001WY","Oman Air",297,"Approved","50000","Passenger","200","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 21:13:35 GMT",
+"WY292","VOCL","OOMS","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",187,"Approved","6585","Passenger","170","ROTW(2x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 22:23:34 GMT","Rotw"
+"WY931","OOMS","VOCL","Oman Air Boeing 737-8 MAX","233WY","N/A",197,"Approved","21686","Passenger","168","ROTW(2x)","Fri, 26 Dec 2025 00:00:00 GMT","Fri, 26 Dec 2025 22:30:57 GMT",
+"AMERICAN 366WY HEAVY","EGLL","KDFW","Generic Boeing 777-300ER","Callsign Missing","Oman Air",493,"Approved","46745","Passenger","304","ROTW Non Oman(1.5x)","Fri, 26 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 03:40:13 GMT","It was American Airlines flight AA51. Can’t find the livery so added generic"
+"CA898B","LEMD","ZBAA","Generic Boeing 787-9","006WY","Oman Air",654,"Approved","63638","Passenger","296","ROTW Non Oman(1.5x)","Thu, 25 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 05:09:57 GMT","Air china"
+"WY291","OOMS","VOCL","Oman Air Boeing 737-8 MAX","006WY","Oman Air",179,"Approved","9611","Passenger","124","ROTW(2x)","Fri, 26 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 05:11:14 GMT",
+"WY601","OOMS","OMBD","Generic Boeing 737-8 MAX","200WY","N/A",40,"Approved","1","Passenger","1","ROTW Non Oman(1.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 09:03:11 GMT",
+"WY291","OOMS","VOCL","Oman Air Boeing 737-8 MAX","101WY","Oman Air",170,"Approved","8500","Passenger","150","ROTW(2x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 10:01:29 GMT",
+"WY118","EDDF","OOMS","Oman Air Boeing 787-8","093WY","N/A",372,"Approved","29068","Passenger","246","ROTW(2x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 12:53:44 GMT","ROTW"
+"THY2YJ","EHAM","OOMS","Oman Air Boeing 787-8","006WY","Oman Air",449,"Approved","45000","Passenger","183","None","Fri, 26 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 13:30:07 GMT",
+"WY661","OOMS","OTHH","Oman Air Boeing 737-8 MAX","116WY","Oman Air",79,"Approved","2717","Passenger","182","None","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 14:44:28 GMT",
+"006WY","OOMS","OMDB","Oman Air Boeing 737-8 MAX","006WY","Oman Air",60,"Approved","11256","Passenger","180","GROUP FLİGHT(2.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 18:25:59 GMT",
+"WY611","OOMS","OMDB","Oman Air Boeing 737-8 MAX","118WY","Oman Air",75,"Approved","2197","Passenger","169","GROUP FLİGHT(2.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 18:39:30 GMT",
+"WY611","OOMS","OMDB","Oman Air Boeing 737-8 MAX","101WY","Oman Air",76,"Approved","5141","Passenger","169","GROUP FLİGHT(2.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 18:49:09 GMT",
+"115WY","OOMS","VOCL","Oman Air Boeing 737-8 MAX","115WY","Oman Air",169,"Approved","123","Passenger","143","ROTW(2x)","Sat, 27 Dec 2025 00:00:00 GMT","Sat, 27 Dec 2025 22:52:34 GMT",
+"AIR CHINA 366WY HEAVY","LEMD","ZBAA","Generic Boeing 787-9","Callsign Missing","Oman Air",643,"Approved","52764","Passenger","293","ROTW Non Oman(1.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 02:15:28 GMT","Was an air china flight but couldn’t find the options"
+"WY931 ","OOMS","OOKB","Oman Air Boeing 737-8 MAX","101WY","Oman Air",50,"Approved","3600","Passenger","150","ROTW(2x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 06:47:58 GMT",
+"AA51","EGLL","KDFW","Generic Boeing 777-300ER","006WY","Oman Air",506,"Approved","81092","Passenger","340","ROTW Non Oman(1.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 07:12:06 GMT","American airlines"
+"OMAN AIR 011WY","OOMS","OMDB","Oman Air Boeing 737-8 MAX","011WY","阿曼航空",74,"Approved","82000","Passenger","132","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 07:41:58 GMT",
+"OMAN AIR 115WY HEAVY","GMMN","OOMS","Oman Air Boeing 787-8","115WY","N/A",398,"Approved","48913","Passenger","272","None","Sat, 27 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 09:50:09 GMT",
+"OMA118WY","EDDF","OOMS","Oman Air Boeing 787-8","340WY","Oman Air",337,"Approved","35683","Passenger","296","ROTW(2x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 10:04:13 GMT",
+"AAL1454WY","KCLT","KLAS","Generic Airbus A321","340WY","Oman Air",242,"Approved","8920","Passenger","123","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 10:10:18 GMT",
+"WY663","OOMS","OTHH","Oman Air Airbus A330-300","011WY","阿曼航空",159,"Approved","16798","Passenger","269","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 12:40:53 GMT",
+"006WY","OOMS","OTHH","Oman Air Airbus A330-300","006WY","N/A",76,"Approved","11256","Passenger","441","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 12:41:00 GMT",
+"WY663","OOMS","OTHH","Oman Air Airbus A330-300","101WY","Oman Air",72,"Approved","16798","Passenger","269","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 12:45:47 GMT",
+"WY663","OOMS","OTHH","Oman Air Boeing 737-8 MAX","115WY","Oman Air",63,"Approved","8999","Passenger","126","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 13:15:55 GMT","My game crashed between Qatar and The UAE and the my flight got cancelled at the same time so that is why my flight is only 1h03"
+"WY663","OOMS","OTHH","Oman Air Airbus A330-300","451WY","N/A",86,"Approved","7686","Passenger","269","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 13:19:11 GMT",
+"006WY","KSFO","VHHH","Turkish Airlines Boeing 777-300ER","006WY","N/A",788,"Approved","50000","Passenger","300","ROTW Non Oman(1.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 13:24:52 GMT",
+"WY252","VOMM","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",286,"Approved","11636","Passenger","130","None","Sun, 28 Dec 2025 00:00:00 GMT","Sun, 28 Dec 2025 17:08:41 GMT",
+"OMAN AIR 366WY","OOMS","VABB","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",61,"Approved","4258","Passenger","200","ROTW(2x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 01:50:30 GMT",
+"CPA873WY","KSFO","VHHH","Generic Boeing 777-300ER","340WY","Oman Air",950,"Approved","52736","Passenger","275","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 03:10:22 GMT",
+"ASA33WY","KSFO","PHNL","Generic Boeing 737-900","340WY","Oman Air",241,"Approved","10475","Passenger","135","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 07:53:57 GMT",
+"CX873","KSFO","VHHH","Generic Boeing 777-300ER","006WY","Oman Air",793,"Approved","127191","Passenger","372","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 08:03:11 GMT","Cathay pacific"
+"HO1660","EBBR","ZSPD","Generic Boeing 787-9","115WY","Oman Air",571,"Approved","78951","Passenger","327","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 08:53:15 GMT","For the aircraft I put 787-9 genereic because there isn't the B787-9 Juneyao and for operator again there isn't Juneyao so i put Oman Air"
+"WY202","OOMS","VABB","Oman Air Boeing 737-8 MAX","093WY","Oman Air",119,"Approved","3347","Passenger","178","ROTW(2x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 09:00:04 GMT",
+"WY406 ","HECA","OOMS","Oman Air Airbus A330-300","101WY","Oman Air",156,"Approved","20000","Passenger","200","ROTW(2x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 10:01:36 GMT",
+"HO1607","ZSPD","EFHK","Generic Boeing 787-9","002WY","juneyao",887,"Approved","86627","Passenger","35297","None","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 10:21:10 GMT",
+"LX39","KSFO","LSZH","Generic Boeing 777-300ER","718WY","Swiss-Edelweiss",770,"Approved","96850","Passenger","462","None","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 11:55:37 GMT","Long-Haul Codeshared Flight "
+"IB439","LEMD","LEBB","Generic Airbus A321","233WY","Oman Air",37,"Approved","5434","Passenger","155","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 12:24:26 GMT","Iberia a321 was used"
+"006WY","EDDF","OOMS","Oman Air Boeing 787-8","006WY","N/A",338,"Approved","11256","Passenger","200","ROTW(2x)","Sun, 28 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 14:14:27 GMT",
+"103WY","OOMS","EGLL","Oman Air Boeing 787-8","555WY","Oman Air",416,"Approved","137795","Passenger","130","ROTW(2x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 14:15:28 GMT",
+"WY165 ","OOMS","LTFM","Oman Air Boeing 737-8 MAX","101WY","Oman Air",203,"Approved","11500","Passenger","150","ROTW(2x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 16:43:41 GMT",
+"FR1081","LPPT","EGSS","Generic Boeing 737-8 MAX","223WY","Oman Air",132,"Approved","3721","Passenger","121","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 17:21:32 GMT",
+"IB439","LEMD","LEBB","Generic Airbus A321","555WY","Iberia",31,"Approved","1420","Passenger","0","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 17:40:09 GMT",
+"DHL1125","LEBL","EDDF","Lufthansa - 2018 Airbus A320","020WY ","N/A",93,"Approved","4074","Passenger","140","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 21:00:30 GMT","Rotw"
+"SV923","OERK","EBLG","Generic Boeing 777-200LR","115WY","Saudia",394,"Approved","7886","Passenger","23","None","Mon, 29 Dec 2025 00:00:00 GMT","Mon, 29 Dec 2025 22:07:21 GMT","Idk if at lperator I need to put Oman air or Saudia but I put Saudia "
+"AAL51WY","EGLL","KDFW","Generic Boeing 777-300ER","340WY","Oman Air",528,"Approved","27347","Passenger","310","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 02:36:38 GMT",
+"TK45","FACT","LTFM","Turkish Airlines Airbus A350","101WY","Turkish Airlines",595,"Approved","62000","Passenger","200","GROUP FLİGHT(2.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 06:55:57 GMT",
+"TK45","FACT","LTFM","Turkish Airlines Airbus A350","002WY","Türk Hava Yolları",592,"Approved","123","Passenger","123","GROUP FLİGHT(2.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 08:33:41 GMT",
+"QR740","KLAX","OTHH","Qatar Airways Airbus A350","004WY","Qatar Airways",848,"Approved","88370","Passenger","208","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 08:53:53 GMT","Fuel Calculations are bad because of AP+"
+"OMAN AIR 366WY HEAVY","OOMS","WSSS","Oman Air Boeing 787-8","Callsign Missing","Oman Air",339,"Approved","28738","Passenger","267","ROTW(2x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 10:25:16 GMT",
+"TK45","FACT","LTFM","Turkish Airlines Airbus A350","150WY","Turkish Airlines",604,"Approved","6180","Passenger","117","GROUP FLİGHT(2.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 10:27:17 GMT",
+"HO1660","EBBR","ZSPD","Generic Boeing 787-9","223WY","Oman Air",637,"Approved","45000","Passenger","245","ROTW Non Oman(1.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 10:55:36 GMT",
+"BAW133WY","EGLL","OEJN","Generic Boeing 787-9","340WY","Oman Air",315,"Approved","25788","Passenger","257","ROTW Non Oman(1.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 12:24:50 GMT",
+"WY611","OOMS","OMDB","Oman Air Boeing 737-8 MAX","001WY","Oman Air",52,"Approved","10000","Passenger","169","GROUP FLİGHT(2.5x)","Sat, 27 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 12:35:35 GMT",
+"HO1607","ZSPD","EFHK","Generic Boeing 787-9","001WY","Oman Air",872,"Approved","50000","Passenger","350","None","Sun, 28 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 12:39:13 GMT",
+"WY663","OOMS","OTHH","Oman Air Airbus A330-300","001WY","Oman Air",77,"Approved","15000","Passenger","269","GROUP FLİGHT(2.5x)","Sun, 28 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 12:41:22 GMT",
+"TK45","FACT","LTFM","Turkish Airlines Airbus A350","001WY","Turkish Airlines",587,"Approved","43297","Passenger","318","GROUP FLİGHT(2.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 12:45:36 GMT",
+"006WY","FACT","LTFM","Turkish Airlines Airbus A350","006WY","N/A",583,"Approved","11256","Passenger","441","ROTW Non Oman(1.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 14:24:21 GMT",
+"WY851","OOMS","WSSS","Oman Air Boeing 737-8 MAX","555WY","Oman Air",321,"Approved","22933","Passenger","0","ROTW(2x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 15:16:26 GMT",
+"JX10","RCTP","KONT","Starlux Airlines Airbus A330-900","006WY","Oman Air",673,"Approved","74000","Passenger","266","ROTW Non Oman(1.5x)","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 15:24:50 GMT","Starlux"
+"TK45","FACT","LTFM","Turkish Airlines Airbus A350","006WY","Turkish Airlines",674,"Approved","68311","Passenger","242","ROTW Non Oman(1.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 15:26:30 GMT",
+"006WY","LTBJ","EGCC","Jet2 Boeing 737-800","006WY","N/A",238,"Approved","9950","Passenger","300","None","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 19:22:44 GMT",
+"006WY","OOMS","WSSS","Oman Air Boeing 787-8","006WY","N/A",470,"Approved","37379","Passenger","300","None","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 20:30:45 GMT",
+"KQ509","DGAA","HKJK","Kenya Airways Boeing 787-8","223WY","Kenya Airways",228,"Approved","11000","Passenger","240","ROTW Non Oman(1.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 20:48:29 GMT",
+"QR780","SBGR","OTHH","Qatar Airways Boeing 777-200LR","115WY","Qatar Airways",1199,"Approved","0","Cargo","82286","None","Mon, 29 Dec 2025 00:00:00 GMT","Tue, 30 Dec 2025 22:43:34 GMT","For the fuel used I don’t know why but on infinite flight when I checked it said 0 fuel used… and normally it was a 13h flight but because I didn’t had my phone the whole day it took 20h"
+"WY851","OOMS","WSSS","Oman Air Boeing 787-8","101WY","Oman Air",470,"Approved","40454","Passenger","310","GROUP FLİGHT(2.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 05:08:17 GMT",
+"WY202","OOMS","VABB","Oman Air Boeing 737-8 MAX","555WY","Oman Air",106,"Approved","3161","Passenger","50","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 07:13:40 GMT",
+"WY202","OOMS","VABB","Oman Air Boeing 737-8 MAX","101WY","Oman Air",140,"Approved","5300","Passenger","150","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 08:17:48 GMT",
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","093WY","Oman Air",321,"Approved","9063","Passenger","178","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 09:34:52 GMT","ROTW"
+"WY851","OOMS","WSSS","Oman Air Boeing 787-8","011WY","阿曼航空",215,"Approved","40454","Passenger","310","GROUP FLİGHT(2.5x)","Tue, 30 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 12:07:44 GMT",
+"731WY","OOKB","OOMS","Oman Air E175","731WY","Oman Air",35,"Approved","1834","Passenger","86","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 12:16:56 GMT","almost Grade 3 🗣️🗣️🗣️"
+"QR740","KLAX","OTHH","Qatar Airways Airbus A350","555WY","Qatar Airways",827,"Approved","58262","Passenger","130","ROTW Non Oman(1.5x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 12:44:02 GMT",
+"TG653","RKSI","VTBS","Thai Airways Airbus A350","233WY","N/A",301,"Approved","254548","Passenger","215","ROTW Non Oman(1.5x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 14:06:08 GMT",
+"WY7392","OOMS","WSSS","Oman Air Boeing 787-8","118WY","Oman Air",384,"Approved","29825","Passenger","251","GROUP FLİGHT(2.5x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 18:01:35 GMT",
+"006WY","OOMS","VABB","Oman Air Boeing 737-8 MAX","006WY","N/A",116,"Approved","11256","Passenger","241","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Wed, 31 Dec 2025 21:07:43 GMT",
+"EY57","OMAA","EBBR","Etihad Airways Boeing 787-10","115WY","Etihad",427,"Approved","50436","Passenger","314","None","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 07:39:00 GMT",
+"WY662","OTHH","OOMS","Oman Air Boeing 737-8 MAX","116WY","Oman Air",64,"Approved","2146","Passenger","132","None","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 10:18:36 GMT",
+"OMAN AIR 366WY","OOMS","EGLL","Oman Air Boeing 787-8","Callsign Missing","Oman Air",427,"Approved","29077","Passenger","270","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Thu, 01 Jan 2026 10:19:53 GMT",
+"006WY","EBBR","ZSPD","Oman Air Boeing 787-8","006WY","Juneyao Air",697,"Approved","11256","Passenger","241","ROTW Non Oman(1.5x)","Wed, 31 Dec 2025 00:00:00 GMT","Thu, 01 Jan 2026 10:53:55 GMT",
+"TRTGW","OOMS","WSSS","Oman Air Boeing 787-8","006WY","Oman Air",360,"Approved","35000","Passenger","250","None","Wed, 31 Dec 2025 00:00:00 GMT","Thu, 01 Jan 2026 11:03:12 GMT",
+"JL52","YSSY","RJTT","Generic Boeing 777-300ER","006WY","Oman Air",514,"Approved","85256","Passenger","386","ROTW Non Oman(1.5x)","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 11:14:01 GMT","Japan airlines "
+"MS996","CYYZ","HECA","EgyptAir Boeing 777-300ER","223WY","Egypt Air",597,"Approved","56000","Passenger","248","ROTW Non Oman(1.5x)","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 13:24:15 GMT",
+"WY406","HECA","OOMS","Oman Air Airbus A330-300","093WY","Oman Air",191,"Approved","14180","Passenger","246","ROTW(2x)","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 15:03:34 GMT","ROTW"
+"MS996","CYYZ","HECA","EgyptAir Boeing 777-300ER","451WY","Egypt Air",576,"Approved","73445","Passenger","37766","None","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 15:23:29 GMT",
+"WY383","OOMS","VRMM","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",211,"Approved","6168","Passenger","174","None","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 15:24:25 GMT",
+"QR8271","OTHH","LEZG","Qatar Cargo Boeing 777F","101WY","Oman Air",390,"Approved","56000","Cargo","50000","ROTW(2x)","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 16:45:21 GMT",
+"WY101","OOMS","EGLL","Oman Air Airbus A330-300","150WY","Oman Air",445,"Approved","6180","Passenger","117","None","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 17:32:02 GMT",
+"WY1","OOMS","OTHH","Generic Boeing 737-800","469WY","Oman Air",90,"Approved","4800","Cargo","9000","ROTW(2x)","Thu, 01 Jan 2026 00:00:00 GMT","Thu, 01 Jan 2026 22:44:09 GMT",
+"OMAN AIR 366WY","HECA","OOMS","Oman Air Airbus A330-300","Callsign Missing","Oman Air",167,"Approved","13406","Passenger","289","ROTW(2x)","Thu, 01 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 02:57:26 GMT",
+"WY103","OOMS","EGLL","Oman Air Boeing 787-8","101WY","N/A",480,"Approved","80000","Passenger","2000","ROTW(2x)","Thu, 01 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 05:52:20 GMT",
+"AY802","ESSA","EFHK","Finnair Airbus A321","555WY","finair",31,"Approved","1477","Passenger","40","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 07:20:52 GMT",
+"QR8279","OTHH","LEZG","Qatar Cargo Boeing 777F","223WY","Qatar Airways",439,"Approved","64000","Cargo","18000","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 08:22:56 GMT",
+"RJ281","OJAI","KIAD","Royal Jordanian Boeing 787-8","555WY","Royal Jordanian",925,"Approved","35510","Passenger","136","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 08:35:33 GMT",
+"BA135","VABB","EGLL","Generic Boeing 787-9","006WY","Oman Air",532,"Approved","61258","Passenger","350","ROTW Non Oman(1.5x)","Thu, 01 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 10:37:43 GMT","British airways"
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","308WY","Oman Air",300,"Approved","1","Passenger","162","ROTW(2x)","Wed, 31 Dec 2025 00:00:00 GMT","Fri, 02 Jan 2026 11:44:51 GMT",
+"GA825","WSSS","WIII","Garuda Indonesia Boeing 777-300ER","555WY","Garuda Indonesia",61,"Approved","10725","Passenger","215","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 13:18:06 GMT",
+"006WY","LTBJ","EGCC","Jet2 Boeing 737-800","006WY","Jet 2",257,"Approved","11256","Passenger","221","GROUP FLİGHT(2.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 20:01:41 GMT",
+"AY802","ESSA","EFHK","Finnair Airbus A321","101WY","Oman Air",60,"Approved","5362","Passenger","192","GROUP FLİGHT(2.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 20:26:24 GMT",
+"WY344","OPLA","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",161,"Approved","45000","Passenger","125","None","Fri, 02 Jan 2026 00:00:00 GMT","Fri, 02 Jan 2026 23:49:18 GMT",
+"DHL1125","LEBL","EDDF","Lufthansa Airbus A320","555WY","Lufthansa",82,"Approved","2717","Passenger","65","ROTW Non Oman(1.5x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 05:50:58 GMT",
+"WY851","OOMS","WSSS","Oman Air Boeing 787-8","101WY","Oman Air",470,"Approved","42000","Passenger","2000","ROTW(2x)","Fri, 02 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 07:12:39 GMT",
+" WY851","OOMS","WSS","Oman Air Boeing 787-8","150WY","Oman Air",355,"Approved","6180","Passenger","134","None","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 09:36:25 GMT"," "
+"006WY","RCTP","KONT","Starlux Airlines Airbus A330-900","006WY","Starlux Airlines",583,"Approved","11256","Passenger","251","ROTW Non Oman(1.5x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 09:40:40 GMT",
+"WY1","OOMS","OTHH","Generic Boeing 737-800","718WY","Oman Air",69,"Approved","5049","Cargo","8408","ROTW(2x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 11:08:28 GMT","ROTW | Oman Air Cargo OOMS-OTHH"
+"WY166","LTFM","OOMS","Oman Air Airbus A330-300","038WY","Oman Air",256,"Approved","58","Passenger","161","None","Fri, 02 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 11:50:14 GMT",
+"QR740","KLAX","OTHH","Qatar Airways Airbus A350","555WY","Qatar Airways",1593,"Approved","59924","Passenger","135","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 12:43:12 GMT",
+"WY601,WY603,WY605,WY607,WY611,WY613","OOMS","OMDB","Oman Air Boeing 737-8 MAX","150WY","Oman Air",66,"Approved","23890","Passenger","134","None","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 13:01:37 GMT",
+"WY103","OOMS","EGLL","Oman Air Boeing 787-8","718WY","Oman Air",409,"Approved","48652","Passenger","339","ROTW(2x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 14:33:21 GMT","ROTW | Oman Air OOMS-EGLL"
+"WY384","VRMM","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","N/A",194,"Approved","7746","Passenger","171","None","Sun, 04 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 17:34:22 GMT",
+"B6117","KBOS","KJFK","Generic Airbus A320","115WY","Oman Air",45,"Approved","1759","Passenger","130","GROUP FLİGHT(2.5x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 18:27:31 GMT","I putted A320 generic because there isn't A320 jjetblue and Operator there isn't Jetblue so I put Oman Air "
+"B6117","KBOS","KJFK","Generic Airbus A320","150WY","jet blue",46,"Approved","6180","Passenger","117","GROUP FLİGHT(2.5x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 18:31:05 GMT","jet blue"
+"WY851","OOMS","WSSS","Oman Air Boeing 787-8","223WY","Oman Air",378,"Approved","40000","Passenger","268","ROTW(2x)","Sat, 03 Jan 2026 00:00:00 GMT","Sat, 03 Jan 2026 21:30:39 GMT",
+"B6117","KBOS","KFJK","Generic Airbus A320","101WY","Oman Air",60,"Approved","5218","Passenger","130","GROUP FLİGHT(2.5x)","Sat, 03 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 06:05:37 GMT",
+"DLH2283","EBBR","EDDM","Lufthansa - 2018 Airbus A320","718WY","Oman Air",53,"Approved","5946","Passenger","176","None","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 07:55:27 GMT",
+"HO1660","EBBR","ZSPD","Generic Boeing 787-9","006WY","Oman Air",611,"Approved","66137","Passenger","296","ROTW Non Oman(1.5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 10:36:32 GMT","Kuntal air"
+"WY171","OOMS","EHAM","Oman Air Boeing 787-8","115WY","Oman Air",446,"Approved","49243","Passenger","245","None","Sat, 03 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 10:40:32 GMT",
+"WY325","OOMS","OPKC","Oman Air Boeing 737-8 MAX","150WY","Oman Air",66,"Approved","6180","Passenger","117","None","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 12:24:44 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","115WY","Oman Air",44,"Approved","1907","Passenger","150","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 14:31:35 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","118WY","Oman Air",43,"Approved","2600","Passenger","156","EVENT(5x)","Fri, 04 Dec 2026 00:00:00 GMT","Sun, 04 Jan 2026 14:42:29 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","093WY","Oman Air",46,"Approved","1663","Passenger","178","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 14:48:30 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",66,"Approved","2600","Passenger","120","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 14:59:29 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","101WY","Oman Air",60,"Approved","2600","Passenger","120","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 15:11:06 GMT",
+"DHL1125","LEBL","EDDF","Lufthansa Airbus A320","101WY","Oman Air",120,"Approved","7000","Passenger","1000","ROTW(2x)","Sat, 03 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 17:56:58 GMT",
+"006WY","OMDB","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",42,"Approved","2600","Passenger","200","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 18:51:58 GMT",
+"006WY","OJAI","KIAD","Royal Jordanian Boeing 787-8","006WY","Oman Air",717,"Approved","11256","Passenger","364","ROTW Non Oman(1.5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 20:17:04 GMT",
+"MS996","CYYZ","HECA","EgyptAir Boeing 777-300ER","002WY","Egypt Air",551,"Approved","123","Passenger","386","ROTW Non Oman(1.5x)","Fri, 02 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 20:55:57 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","002WY","Umman Hava Yolları",45,"Approved","123","Passenger","120","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Sun, 04 Jan 2026 20:57:36 GMT",
+"031","OOMS","VABB","Oman Air Boeing 737-8 MAX","031WY","Oman Air",122,"Approved","0","Passenger","195","ROTW(2x)","Sun, 04 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 01:47:19 GMT",
+"WY103","OOMS","EGLL","Oman Air Boeing 787-8","555WY","Oman Air",722,"Approved","35870","Passenger","107","ROTW(2x)","Sun, 04 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 05:49:02 GMT",
+"WY601","OMDB","OOMS","Oman Air Boeing 737-8 MAX","011WY","阿曼航空",45,"Approved","2600","Passenger","120","EVENT(5x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 07:21:06 GMT",
+"BA135","VABB","EGLL","Generic Boeing 787-9","101WY","Oman Air",510,"Approved","55000","Passenger","200","ROTW(2x)","Sun, 04 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 08:59:45 GMT",
+"006WY","OOMS","EGLL","Oman Air Boeing 787-8","006WY","N/A",401,"Approved","11256","Passenger","251","ROTW(2x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 10:09:01 GMT",
+"SV741","VABB","OERK","Generic Boeing 777-300ER","101WY","Oman Air",240,"Approved","35000","Passenger","200","ROTW(2x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 14:58:39 GMT",
+"FR792","LIRN","EGPH","Generic Boeing 737-8 MAX","115WY","Oman Air",176,"Approved","597","Passenger","144","ROTW Non Oman(1.5x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 16:53:22 GMT","No 737 Max 8 for Ryanair and no Ryanair operator"
+"WY202","VABB","OOMS","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",142,"Approved","4942","Passenger","170","ROTW(2x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 17:17:35 GMT",
+"WY202","VABB","OOMS","Oman Air Boeing 737-8 MAX","718WY","Oman Air",192,"Approved","8566","Passenger","200","None","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 17:46:56 GMT",
+"WY201","OOMS","VABB","Oman Air Boeing 737-8 MAX","020WY ","Oman Air",148,"Approved","5854","Passenger","160","GROUP FLİGHT(2.5x)","Mon, 05 Jan 2026 00:00:00 GMT","Mon, 05 Jan 2026 20:09:38 GMT","Nice flight"
+"731WY","OOMS ","RPLL","Oman Air Boeing 787-8","731WY","N/A",480,"Approved","47146","Passenger","270","ROTW(2x)","Tue, 06 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 08:49:36 GMT","i was on this flight after OJAI - OOMS ☺️☺️☺️"
+"WY201","OOMS","VABB","Oman Air Boeing 737-8 MAX","101WY","Oman Air",120,"Approved","7000","Passenger","150","GROUP FLİGHT(2.5x)","Mon, 05 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 12:19:35 GMT",
+"006WY","EDDF","MMMX","Lufthansa - 2018 Boeing 747-8","006WY","Lufthansa",628,"Approved","80000","Passenger","340","ROTW Non Oman(1.5x)","Tue, 06 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 14:07:05 GMT",
+"LH2058","EDDM","EDDH","Lufthansa Airbus A321","008WY","N/A",64,"Approved","8321","Passenger","205","ROTW Non Oman(1.5x)","Tue, 06 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 15:11:22 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",391,"Approved","35180","Passenger","187","None","Tue, 06 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 18:00:26 GMT",
+"AS2276","CYEG","KSEA","Alaska Airlines E175","223WY","Oman Air",84,"Approved","2867","Passenger","95","ROTW Non Oman(1.5x)","Tue, 06 Jan 2026 00:00:00 GMT","Tue, 06 Jan 2026 22:01:30 GMT",
+"OMAN AIR 366WY","OOMS","RPLL","Oman Air Boeing 787-8","Callsign Missing","Oman Air",395,"Approved","29465","Passenger","288","ROTW(2x)","Tue, 06 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 02:45:35 GMT",
+"VN8","LFPG","VVNB","Vietnam Airlines Boeing 787-9","223WY","Oman Air",692,"Approved","55337","Passenger","235","None","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 03:28:47 GMT",
+"LH755","VOBL","EDDF","Lufthansa Boeing 747-400","555WY","Lufthansa",850,"Approved","65881","Passenger","160","ROTW Non Oman(1.5x)","Tue, 06 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 03:33:07 GMT",
+"KQ883","ZGGG","HKJK","Kenya Airways Boeing 787-8","718WY","Kenya Airways",681,"Approved","55108","Passenger","250","GROUP FLİGHT(2.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 06:07:23 GMT","Cross-Continent Run | Official Group Flight"
+"KQ883","ZGGG","HKJK","Kenya Airways Boeing 787-8","101WY","Oman Air",640,"Approved","55108","Passenger","250","GROUP FLİGHT(2.5x)","Tue, 06 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 07:27:08 GMT",
+"731WY","KIAH","OTHH","Qatar Airways Airbus A350","731WY","Qatar Airways",880,"Approved","92030","Passenger","282","ROTW Non Oman(1.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 10:39:45 GMT","FINAL GRADE 2 FLIGHT LET'S GOOOOO "
+"TG482","YPPH","VTBS","Thai Airways Boeing 787-8","115WY","Oman Air",392,"Approved","51023","Passenger","278","ROTW Non Oman(1.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 14:04:47 GMT","No Thai airways as operator so I put Oman"
+"IFATC","BIKF","BIKF","Oman Air Boeing 737-8 MAX","004WY","Oman Air",50,"Approved","100","Passenger","100","EVENT(5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 14:41:27 GMT","IFATC Service at OAV Event"
+"126WY","OMDV","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",42,"Denied","4000","Passenger","156","EVENT(5x)","Sun, 04 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 15:14:24 GMT",
+"126WY","OMDB","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",42,"Denied","4000","Passenger","156","None","Sun, 04 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 15:17:57 GMT",
+"WY707","OOMS","HTDA","Generic Boeing 737-800","469WY","Oman Air",285,"Approved","35000","Passenger","170","ROTW(2x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 18:34:39 GMT",
+"WY843","OOMS","RPLL","Oman Air Boeing 787-8","469WY","Oman Air",330,"Approved","28000","Passenger","290","None","Fri, 09 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 19:29:58 GMT",
+"006WY","EGLL","KDEN","Malaysia Airlines Boeing 777-200ER","006WY","N/A",555,"Approved","43130","Passenger","328","ROTW Non Oman(1.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 19:35:09 GMT",
+"LH2058","EDDM","EDDH","Lufthansa Airbus A321","223WY","Oman Air",70,"Approved","4113","Passenger","122","ROTW Non Oman(1.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Wed, 07 Jan 2026 22:51:19 GMT",
+"WY844","RPLL","OOMS","Oman Air Boeing 787-8","555WY","Oman Air",1279,"Approved","14718","Passenger","131","ROTW(2x)","Wed, 07 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 01:58:47 GMT",
+"031WY","EFHK","EVRA","Finnair E190","031WY","Finnair",59,"Approved","0","Passenger","85","None","Wed, 07 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 02:42:02 GMT",
+"FI689","BIKF","KMCO","Generic Boeing 737-8 MAX","718WY","Oman Air",396,"Approved","17209","Passenger","180","GROUP FLİGHT(2.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 05:40:07 GMT","Official Group Flight "
+"WY165","OOMS","LTFM","Oman Air Boeing 737-8 MAX","150WY","Oman Air",355,"Approved","6150","Passenger","163","None","Thu, 08 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 08:10:24 GMT",
+"FI689","BIKF","KMCO","Generic Boeing 737-8 MAX","101WY","Oman Air",420,"Approved","17209","Passenger","180","GROUP FLİGHT(2.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 08:55:59 GMT",
+"ICEAIR126","BIKF","KMCO","Generic Boeing 737-8 MAX","Callsign Missing","Oman Air",394,"Approved","15200","Passenger","180","GROUP FLİGHT(2.5x)","Thu, 08 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 10:07:42 GMT",
+"BA219","EGLL","KDEN","Generic Boeing 777-200LR","115WY","Oman Air",699,"Approved","60547","Passenger","320","ROTW Non Oman(1.5x)","Wed, 07 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 13:05:29 GMT","no B772 for british airways I put 11 hours because i was late for landing so it is 11 hours and not 9. My flight got deleteted on my descend for one or other reason and no british airways operator"
+"FI689","BIKF","KMCO","Icelandair Boeing 737-8 MAX","011WY","Oman Air",420,"Approved","17209","Passenger","180","GROUP FLİGHT(2.5x)","Thu, 08 Jan 2026 00:00:00 GMT","Thu, 08 Jan 2026 18:18:41 GMT",
+"WY843","OOMS","RPLL","Oman Air Boeing 787-8","555WY","Oman Air",1232,"Approved","63143","Passenger","164","ROTW(2x)","Thu, 08 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 04:26:14 GMT",
+"731WY","LIMC","VVNB","Vietnam Airlines Airbus A350","731WY","N/A",660,"Approved","75596","Passenger","295","ROTW Non Oman(1.5x)","Fri, 09 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 06:43:03 GMT","first grade 3 flight im feelin nervus 🥶🥶🥶"
+"WK17","KDEN","LSZH","Edelweiss Air Airbus A350","150WY","Swiss-Edelweiss",534,"Approved","6150","Passenger","199","GROUP FLİGHT(2.5x)","Fri, 09 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 09:43:42 GMT",
+"WK17","KDEN","LSZH","Edelweiss Air Airbus A350","101WY","Oman Air",633,"Approved","75000","Passenger","150","GROUP FLİGHT(2.5x)","Thu, 08 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 14:31:10 GMT",
+"WY843","RPLL","OOMS","Oman Air Boeing 787-8","469WY","Oman Air",483,"Approved","28000","Passenger","290","None","Fri, 09 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 15:27:03 GMT",
+"TK72","LTFM","ZGGG","Turkish Airlines Boeing 777-300ER","308WY","Turkish Airlines",444,"Approved","0","Passenger","349","ROTW Non Oman(1.5x)","Fri, 09 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 16:07:39 GMT",
+"006WY","EFHK","KJFK","Finnair Airbus A330-300","006WY","Finair",540,"Approved","11256","Passenger","200","ROTW Non Oman(1.5x)","Fri, 09 Jan 2026 00:00:00 GMT","Fri, 09 Jan 2026 20:20:08 GMT",
+"LH2058","EDDM","EDDH","Lufthansa Airbus A321","101WY","Oman Air",60,"Approved","4000","Passenger","150","ROTW(2x)","Fri, 09 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 05:57:22 GMT",
+"731WY","LGAV","LTFM","Aegean Airlines - 2020 Airbus A320","731WY","N/A",96,"Approved","7136","Passenger","176","ROTW Non Oman(1.5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 06:20:51 GMT",
+"006WY","LTFM","ZGGG","Turkish Airlines Boeing 777-300ER","006WY","Turkish Airlines",470,"Approved","11256","Passenger","501","ROTW Non Oman(1.5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 11:54:03 GMT",
+"006WY","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","006WY","Aegean",85,"Approved","5423","Passenger","170","EVENT(5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 15:18:19 GMT",
+"126WY","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","Callsign Missing","Oman Air",96,"Approved","4320","Passenger","176","EVENT(5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 15:21:25 GMT","Too much traffic and hold"
+"731WY","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","731WY","N/A",85,"Approved","7168","Passenger","176","GROUP FLİGHT(2.5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sat, 10 Jan 2026 15:24:36 GMT","7111"
+"A3 999","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","718WY","Aegean",70,"Approved","11734","Passenger","111","EVENT(5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 03:28:55 GMT",
+"A3999","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","101WY","Oman Air",111,"Approved","6746","Passenger","176","EVENT(5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 05:49:03 GMT",
+"126WY","EDDM","EDDH","Lufthansa Airbus A320","Callsign Missing","Oman Air",71,"Approved","3256","Passenger","148","ROTW Non Oman(1.5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 10:12:38 GMT",
+"SV979","ZGGG","OERK","Qatar Cargo Boeing 777F","223WY","Oman Air",535,"Approved","73559","Cargo","8900","ROTW Non Oman(1.5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 10:51:00 GMT",
+"011WY","LTFM","LGAV","Aegean Airlines - 2020 Airbus A320","011WY","阿曼航空",119,"Approved","7199","Passenger","176","GROUP FLİGHT(2.5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 13:34:57 GMT",
+"EY125","OMAA","EDDM","Etihad Airways Boeing 787-10","101WY","N/A",536,"Approved","36460","Passenger","440","GROUP FLİGHT(2.5x)","Sat, 10 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 13:40:20 GMT",
+"006WY","OMAA","EDDM","Etihad Airways Boeing 787-9","006WY","N/A",346,"Approved","11256","Passenger","250","ROTW Non Oman(1.5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 18:34:28 GMT",
+"WY3","LTFM","OOMS","Generic Boeing 737-800","308WY","Oman Air",233,"Approved","0","Cargo","0","ROTW(2x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 20:34:00 GMT",
+"006WY","EDDM","EDDH","Lufthansa Airbus A321","006WY","Lufthansa",69,"Approved","5423","Passenger","169","ROTW Non Oman(1.5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 20:41:06 GMT",
+"EW126","EDDH","EDDM","Generic Airbus A319","Callsign Missing","Oman Air",59,"Approved","3112","Passenger","102","EVENT(5x)","Sun, 11 Jan 2026 00:00:00 GMT","Sun, 11 Jan 2026 22:59:13 GMT","Flash flight "
+"006WY","EGCC","LTBJ","Jet2 Boeing 737-800","006WY","Jet2",196,"Approved","11256","Passenger","155","EVENT(5x)","Mon, 12 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 16:58:49 GMT",
+"011WY","EGCC","LTBJ","Jet2 Boeing 737-800","011WY","阿曼航空",228,"Approved","11606","Passenger","155","EVENT(5x)","Tue, 13 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 17:21:11 GMT",
+"LS1727","EGCC","LTBJ","Jet2 Boeing 737-800","101WY","Oman Air",210,"Approved","11606","Passenger","155","EVENT(5x)","Mon, 12 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 17:57:35 GMT",
+"LS1727","EGCC","LTBJ","Jet2 Boeing 737-800","718WY","Oman Air",222,"Approved","11606","Passenger","155","EVENT(5x)","Tue, 13 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 17:59:14 GMT","Oman Air Virtual World Hop Leg 1"
+"BA126","EGLL","KDEN","Generic Boeing 777-200LR","Callsign Missing","Oman Air",554,"Approved","30411","Passenger","330","ROTW Non Oman(1.5x)","Mon, 12 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 18:38:43 GMT",
+"BA126","EGLL","EGCC","British Airways Airbus A320","Callsign Missing","Oman Air",50,"Approved","2245","Passenger","128","None","Mon, 12 Jan 2026 00:00:00 GMT","Mon, 12 Jan 2026 21:37:18 GMT",
+"AS9674","KLAS","KSCL","Generic Boeing 737-800","223WY","Oman Air",55,"Approved","4475","Passenger","123","ROTW Non Oman(1.5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 07:26:07 GMT",
+"QR8172","OTHH","SBGR","Qatar Cargo Boeing 777F","223WY","Oman Air",870,"Approved","55650","Passenger","4","ROTW Non Oman(1.5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 11:31:51 GMT",
+"006WY","KIAH","OTHH","Qatar Cargo Boeing 777F","006WY","Qatar Airways",825,"Approved","11256","Cargo","254600","ROTW Non Oman(1.5x)","Mon, 12 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 12:11:05 GMT","İ landed this flight 2 times still it doenst count as a landing and still give me ap+ so i wrire down this numbers inspired to ROTW "
+"WY101","OOMS","EGLL","Oman Air Boeing 787-8","150WY","Oman Air",449,"Approved","96328","Passenger","134","None","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 15:46:29 GMT",
+"SV272","LTAI","OERK","Generic Airbus A330-300","018WY","Saudia",200,"Approved","12922","Passenger","235","None","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 15:51:13 GMT",
+"WY102","EGLL","OOMS","Oman Air Boeing 787-8","150WY","Oman Air",391,"Approved","35180","Passenger","199","None","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 15:51:25 GMT",
+"SV272","LTAI","OERK","Generic Airbus A330-300","101WY","Saudia",210,"Approved","28340","Passenger","235","EVENT(5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 18:50:51 GMT",
+"006WY","LTAI","OERK","Generic Airbus A330-300","006WY","Saudia",136,"Approved","28340","Passenger","235","EVENT(5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 19:14:01 GMT",
+"126WY","EHAM","KPHL","Oman Air Boeing 787-8","Callsign Missing","Oman Air",443,"Approved","12567","Passenger","286","ROTW Non Oman(1.5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 21:05:29 GMT","American airlines 787-8 "
+"AS9674","KLAS","KSLC","Generic Boeing 737-8 MAX","308WY","Oman Air",54,"Approved","0","Passenger","159","ROTW Non Oman(1.5x)","Tue, 13 Jan 2026 00:00:00 GMT","Tue, 13 Jan 2026 21:44:41 GMT","Operator Alaska Airlines"
+"SV272","LTAI","OERK","Generic Airbus A330-300","718WY","Saudia",210,"Approved","28300","Passenger","253","EVENT(5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 05:42:15 GMT","OAV World Hop - Leg 2"
+"TK76","CYVR","LTFM","Turkish Airlines Boeing 777-300ER","555WY","Turkish Airlines",1866,"Approved","46024","Passenger","151","ROTW Non Oman(1.5x)","Mon, 12 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 05:45:39 GMT",
+"TK76","CYVR","LTFM","Turkish Airlines Boeing 777-300ER","223WY","Turkish Airlines",620,"Approved","83615","Passenger","213","ROTW Non Oman(1.5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 06:52:15 GMT",
+"731WY","OERK","OOMS","Oman Air Boeing 737-8 MAX","731WY","Oman Air",89,"Approved","7575","Passenger","155","EVENT(5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 14:57:53 GMT","1 hour delay cus a bird broke a winglet 💔"
+"WY682,684","OERK","OOMS","Oman Air Boeing 737-8 MAX","101WY","Oman Air",100,"Approved","7272","Passenger","190","EVENT(5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 16:43:46 GMT",
+"WY602","OERK","OOMS","Oman Air Boeing 737-8 MAX","011WY","阿曼航空",76,"Approved","30025","Passenger","178","EVENT(5x)","Thu, 15 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 18:49:40 GMT",
+"006WY","RCTP","KSEA","Starlux Airbus A350","006WY","Starlux",525,"Approved","11256","Passenger","250","ROTW Non Oman(1.5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 19:10:19 GMT",
+"AA1524","KPHL","KSAN","Generic Airbus A321","115WY","Oman Air",332,"Approved","8520","Passenger","196","ROTW Non Oman(1.5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 20:00:51 GMT",
+"AA1524","KPHL","KSAN","Generic Airbus A321","223WY","Oman Air",319,"Approved","14378","Passenger","121","ROTW Non Oman(1.5x)","Wed, 14 Jan 2026 00:00:00 GMT","Wed, 14 Jan 2026 20:55:17 GMT",
+"126WY","KPHL","KSAN","Generic Airbus A321","Callsign Missing","Oman Air",331,"Approved","14954","Passenger","196","ROTW Non Oman(1.5x)","Wed, 14 Jan 2026 00:00:00 GMT","Thu, 15 Jan 2026 06:46:28 GMT","American airlines A321"
+"WY411","OOMS","OJAI","Oman Air Boeing 737-8 MAX","093WY","Oman Air",218,"Approved","6003","Passenger","178","ROTW(2x)","Thu, 15 Jan 2026 00:00:00 GMT","Thu, 15 Jan 2026 07:15:03 GMT","ROTW"
+"018WY","EBBR","EDDF","Generic Boeing 787-8","018WY","N/A",44,"Approved","9508","Passenger","250","None","Thu, 15 Jan 2026 00:00:00 GMT","Thu, 15 Jan 2026 10:11:37 GMT",
+"DHL1007","EBBR","EDDF","Lufthansa Airbus A320","018WY","N/A",44,"Approved","1103","Passenger","125","None","Thu, 15 Jan 2026 00:00:00 GMT","Thu, 15 Jan 2026 13:49:27 GMT",
+"011WY","OOMS","WIII","Oman Air Boeing 787-8","011WY","阿曼航空",411,"Approved","46266","Passenger","300","EVENT(5x)","Fri, 16 Jan 2026 00:00:00 GMT","Fri, 16 Jan 2026 00:09:12 GMT",
+"WY682","OOMS","WIII","Oman Air Boeing 787-8","018WY","Oman Air",208,"Approved","28932","Passenger","300","ROTW(2x)","Thu, 15 Jan 2026 00:00:00 GMT","Fri, 16 Jan 2026 03:01:37 GMT",
+"WY682","OOMS","WIII","Oman Air Boeing 787-8","101WY","Oman Air",415,"Approved","46266","Passenger","300","ROTW(2x)","Thu, 15 Jan 2026 00:00:00 GMT","Fri, 16 Jan 2026 03:32:03 GMT",
+"WY682","OOMS","WIII","Oman Air Boeing 737-8 MAX","150WY","Oman Air",485,"Approved","6150","Passenger","199","None","Fri, 16 Jan 2026 00:00:00 GMT","Fri, 16 Jan 2026 08:46:02 GMT",
+"AA1524","KPHL","KSAN","Generic Airbus A321","308WY","Oman Air",309,"Approved","0","Passenger","102","ROTW Non Oman(1.5x)","Fri, 16 Jan 2026 00:00:00 GMT","Fri, 16 Jan 2026 13:16:33 GMT","Operator American Airlines"
+"JX762","WIII","RCTP","Starlux Airlines Airbus A330-900","018WY","Oman Air",276,"Approved","18939","Passenger","269","EVENT(5x)","Fri, 16 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 02:23:43 GMT",
+"731WY","WIII","RCTP","Starlux Airlines Airbus A330-900","731WY","N/A",276,"Approved","33066","Passenger","269","EVENT(5x)","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 04:39:13 GMT","yippi"
+"BA118","VOBL","EGLL","Malaysia Airlines Boeing 777-200ER","Callsign Missing","Oman Air",636,"Approved","58888","Passenger","282","ROTW(2x)","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 08:12:11 GMT","Can't select British Airways 777-200ER"
+"QR8172","SBGR","SKBO","Qatar Cargo Boeing 777F","469WY","Qatar Airways",390,"Approved","300000","Cargo","103000","ROTW Non Oman(1.5x)","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 08:50:18 GMT",
+"WY689","WIII","RCTP","Starlux Airlines Airbus A330-900","011WY","阿曼航空",259,"Approved","23300","Passenger","231","EVENT(5x)","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 12:09:11 GMT",
+"006WY","OTHH","SBGR","Qatar Cargo Boeing 777F","006WY","Qatar Airways",850,"Approved","11256","Cargo","23560","ROTW Non Oman(1.5x)","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 13:39:27 GMT","Again my Ap+ fail again i write this number base of ROTW"
+"SV41","OEJN","KLAX","Generic Boeing 777-300ER","150WY","Saudia",1085,"Approved","96328","Passenger","134","None","Fri, 16 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 18:17:49 GMT","b777-300ER saudia "
+"WY602","OMDB","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",63,"Approved","1758","Passenger","140","None","Sat, 17 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 19:20:58 GMT",
+"TK76","CYVR","LTFM","Turkish Airlines Boeing 777-300ER","308WY","Turkish Airlines",736,"Approved","0","Passenger","349","ROTW Non Oman(1.5x)","Sun, 18 Jan 2026 00:00:00 GMT","Sat, 17 Jan 2026 22:45:50 GMT",
+"JX26","RCTP","KPHX","Starlux Airbus A350","018WY","Oman Air",676,"Approved","44514","Passenger","279","ROTW(2x)","Sat, 17 Jan 2026 00:00:00 GMT","Sun, 18 Jan 2026 02:53:20 GMT",
+"BA119","EGLL","VOBL","Generic Boeing 777-200LR","Callsign Missing","Oman Air",581,"Approved","55453","Passenger","320","ROTW Non Oman(1.5x)","Sun, 18 Jan 2026 00:00:00 GMT","Sun, 18 Jan 2026 06:39:10 GMT",
+"JX26","RCTP","KPHX","Starlux Airlines Airbus A330-900","101WY","Oman Air",725,"Approved","73756","Passenger","286","ROTW(2x)","Sat, 17 Jan 2026 00:00:00 GMT","Sun, 18 Jan 2026 07:22:05 GMT",
+"AA4161","CYYC","KORD","Alaska Airlines E175","Callsign Missing","Oman Air",152,"Denied","4390","Passenger","64","ROTW(2x)","Sun, 18 Jan 2026 00:00:00 GMT","Sun, 18 Jan 2026 12:45:08 GMT","can't select American Airlines E175"
+"JX26","RCTP","KPHX","Starlux Airbus A350","011WY","阿曼航空",628,"Approved","76126","Passenger","279","EVENT(5x)","Sun, 18 Jan 2026 00:00:00 GMT","Sun, 18 Jan 2026 17:01:59 GMT",
+"FR317","LPPR","ESSA","Ryanair Boeing 737-800","018WY","N/A",224,"Approved","3121","Passenger","121","ROTW Non Oman(1.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 08:37:50 GMT",
+"QR780","SBGR","OTHH","Qatar Airways Airbus A350","101WY","Oman Air",780,"Approved","93000","Passenger","300","ROTW(2x)","Sun, 18 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 10:56:02 GMT",
+"QR1424(B)","DIAP","DGAA","Qatar Airways Boeing 787-8","223WY","Qatar Airways",39,"Approved","42555","Passenger","245","ROTW Non Oman(1.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 14:28:57 GMT",
+"BA686","EGLL","LOWI","British Airways Airbus A320","118WY","british airways",108,"Approved","4527","Passenger","153","GROUP FLİGHT(2.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 16:14:16 GMT",
+"006WY","OOMS","EHAM","Generic Boeing 757-200","006WY","N/A",472,"Approved","11256","Passenger","250","ROTW Non Oman(1.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 16:55:49 GMT",
+"QR1424(C)","DGAA","OTHH","Qatar Airways Boeing 787-8","223WY","Qatar Airways",496,"Approved","65000","Passenger","246","ROTW Non Oman(1.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Mon, 19 Jan 2026 18:12:32 GMT","DGAA TO OTHH IF ERROR KSFO TO OTHH"
+"BA686","EGLL","LOWI","British Airways Airbus A320","718WY","Oman Air",207,"Approved","8406","Passenger","153","GROUP FLİGHT(2.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 00:38:48 GMT",
+"WY344","OPLA","OOMS","Oman Air Boeing 737-8 MAX","150WY","Oman Air",176,"Approved","35180","Passenger","117","None","Mon, 19 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 07:07:48 GMT",
+"009WY","EGGL","LOWI","British Airways Airbus A320","008WY","Oman Air",105,"Denied","6580","Passenger","153","GROUP FLİGHT(2.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 08:14:58 GMT",
+"WY3","OOMS","LTCG","Oman Air Boeing 737-8 MAX","093WY","Oman Air",229,"Denied","6546","Passenger","178","ROTW(2x)","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 09:50:10 GMT","ROTW"
+"WY115","OOMS","EDDF","Oman Air Boeing 787-8","469WY","Oman Air",131,"Approved","35000","Passenger","280","ROTW(2x)","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 10:47:39 GMT",
+"BA83","EGLL","DNAA","Generic Boeing 777-200LR","018WY","N/A",371,"Approved","43348","Passenger","320","ROTW Non Oman(1.5x)","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 11:51:47 GMT",
+"BA686","EGLL","LOWI","British Airways Airbus A320","101WY","Oman Air",131,"Approved","8478","Passenger","153","GROUP FLİGHT(2.5x)","Mon, 19 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 15:18:21 GMT",
+"AT515","GMMN","DGAA","Generic Boeing 737-8 MAX","101WY","Oman Air",222,"Approved","13099","Passenger","184","GROUP FLİGHT(2.5x)","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 16:59:43 GMT",
+"FR433 ","GCTS","LOWW","Ryanair Boeing 737-8 MAX","115WY","Oman Air",313,"Approved","6951","Passenger","171","ROTW(2x)","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 21:11:22 GMT","no Ryanair operator"
+"JL901","RJTT","ROAH ","Edelweiss Air Airbus A350","015WY","N/A",162,"Approved","8593","Passenger","206","None","Tue, 20 Jan 2026 00:00:00 GMT","Tue, 20 Jan 2026 21:42:09 GMT","Nice flight :) "
+"AT515","GMMN","DGAA","Generic Boeing 737-8 MAX","018WY","N/A",297,"Approved","11658","Passenger","184","GROUP FLİGHT(2.5x)","Tue, 20 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 02:37:37 GMT",
+"EY005","OMAA","KIAD","Etihad Airways Boeing 787-9","150WY","Etihad",937,"Approved","96328","Passenger","163","None","Tue, 20 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 05:07:28 GMT",
+"126WY","LPPT","LPMA","Generic Airbus A320","Callsign Missing","Oman Air",101,"Approved","4208","Passenger","176","GROUP FLİGHT(2.5x)","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 15:07:17 GMT","Tap air portugal a320 1 go around"
+"TP1685","LPPT","LPMA","Generic Airbus A320","101WY","Oman Air",87,"Approved","8290","Passenger","176","GROUP FLİGHT(2.5x)","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 15:13:32 GMT",
+"TP1685","LPPT","LPMA","Generic Airbus A320","018WY","N/A",101,"Approved","12500","Passenger","176","GROUP FLİGHT(2.5x)","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 15:30:24 GMT",
+"QR1424(C)","DGAA","OTHH","Qatar Airways Boeing 787-8","018WY","Qatar Airways",517,"Approved","38500","Passenger","230","ROTW(2x)","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 15:37:39 GMT",
+"EY6","KIAD","OMAA","Etihad Airways Boeing 787-9","150WY","Etihad",644,"Approved","96328","Passenger","199","None","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 16:33:47 GMT",
+"WY1","OOMS","OODQ","Generic Boeing 737-800","Callsign Missing","Oman Air",58,"Approved","2518","Passenger","131","ROTW(2x)","Wed, 21 Jan 2026 00:00:00 GMT","Wed, 21 Jan 2026 18:00:55 GMT",
+"RX14","OERK","KATL","Generic Boeing 787-9","789WY","Riyadh Air",966,"Approved","86753","Passenger","307","ROTW Non Oman(1.5x)","Tue, 20 Jan 2026 00:00:00 GMT","Thu, 22 Jan 2026 03:46:52 GMT",
+"CA855","ZBAA","EGLL","Qatar Airways Airbus A350","150WY","china airline",840,"Approved","96328","Passenger","258","None","Wed, 21 Jan 2026 00:00:00 GMT","Thu, 22 Jan 2026 13:04:55 GMT","A350-900 China airline"
+"HO1607","ZSPD","EFHK","Generic Boeing 787-9","223WY","Oman Air",925,"Approved","52000","Passenger","245","ROTW Non Oman(1.5x)","Thu, 22 Jan 2026 00:00:00 GMT","Thu, 22 Jan 2026 14:55:27 GMT",
+"WY101","OOMS","EGCC","Oman Air Boeing 787-8","Callsign Missing","Oman Air",495,"Approved","42202","Passenger","253","ROTW(2x)","Thu, 22 Jan 2026 00:00:00 GMT","Thu, 22 Jan 2026 17:12:58 GMT",
+"AA4371","KLGA","KDCA","Oman Air E175","Callsign Missing","Oman Air",55,"Denied","1664","Passenger","76","ROTW(2x)","Thu, 22 Jan 2026 00:00:00 GMT","Thu, 22 Jan 2026 18:45:45 GMT","Can't select American Airlines E175"
+"RX14","OERK","KATL","Generic Boeing 787-9","018WY","N/A",947,"Approved","65279","Passenger","319","None","Thu, 22 Jan 2026 00:00:00 GMT","Fri, 23 Jan 2026 05:03:06 GMT",
+"EY022","CYYZ","OOMA","Etihad Airways Airbus A380","718WY","Oman Air",1175,"Approved","270000","Passenger","580","None","Fri, 23 Jan 2026 00:00:00 GMT","Fri, 23 Jan 2026 14:56:07 GMT",
+"006WY","ESSA","VTBS","Thai Airways Airbus A350","006WY","N/A",649,"Approved","11256","Passenger","250","ROTW Non Oman(1.5x)","Fri, 23 Jan 2026 00:00:00 GMT","Fri, 23 Jan 2026 17:35:55 GMT",
+"WY 292","VOCL","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",202,"Approved","8109","Passenger","155","None","Sat, 24 Jan 2026 00:00:00 GMT","Fri, 23 Jan 2026 19:39:14 GMT","Route cannot be found ( WY292)"
+"WY3","OOMS","LTCG","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",233,"Approved","14858","Passenger","145","ROTW(2x)","Sat, 24 Jan 2026 00:00:00 GMT","Fri, 23 Jan 2026 22:02:31 GMT",
+"SV993","ZGSZ","OERK","Saudia Cargo Boeing 777F","101WY","Oman Air",580,"Approved","112600","Passenger","0","ROTW(2x)","Thu, 22 Jan 2026 00:00:00 GMT","Sat, 24 Jan 2026 05:55:46 GMT",
+"OMAN AIR 366WY","OOMS","LTCG","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",234,"Approved","8544","Passenger","200","ROTW(2x)","Fri, 23 Jan 2026 00:00:00 GMT","Sat, 24 Jan 2026 07:20:47 GMT","Any reason why this was denied?"
+"WY1","OOMS","OODQ","Generic Boeing 737-800","Callsign Missing","Oman Air",52,"Approved","2900","Passenger","140","ROTW(2x)","Sat, 24 Jan 2026 00:00:00 GMT","Sat, 24 Jan 2026 09:47:37 GMT",
+"OMAN AIR 366WY","OOMS","OODQ","Oman Air Boeing 787-8","Callsign Missing","Oman Air",44,"Approved","5017","Passenger","280","ROTW(2x)","Sat, 24 Jan 2026 00:00:00 GMT","Sat, 24 Jan 2026 13:42:43 GMT",
+"HO1607","EFHK","ZSPD","Generic Boeing 787-9","Callsign Missing","JUNEYAO AIR",730,"Approved","61371","Passenger","328","ROTW Non Oman(1.5x)","Sat, 24 Jan 2026 00:00:00 GMT","Sat, 24 Jan 2026 19:07:14 GMT",
+"THAI 366WY","ESSA","VTBS","Thai Airways Airbus A350","Callsign Missing","N/A",565,"Approved","38259","Passenger","280","ROTW Non Oman(1.5x)","Sat, 24 Jan 2026 00:00:00 GMT","Sun, 25 Jan 2026 05:09:43 GMT",
+"126WY","EGLL","OMAA","Etihad Airways Airbus A380","Callsign Missing","Etihad",419,"Approved","65983","Passenger","469","None","Sun, 25 Jan 2026 00:00:00 GMT","Sun, 25 Jan 2026 13:40:17 GMT","Avoided restricted airspaces"
+"006WY","OERK","KATL","Generic Boeing 787-9","006WY","N/A",839,"Approved","11256","Passenger","300","ROTW Non Oman(1.5x)","Sun, 25 Jan 2026 00:00:00 GMT","Sun, 25 Jan 2026 19:33:48 GMT",
+"FR317","LPPR","ESSA","Ryanair Boeing 737-8 MAX","Callsign Missing","Ryan Air",220,"Approved","8610","Passenger","180","ROTW Non Oman(1.5x)","Sun, 25 Jan 2026 00:00:00 GMT","Sun, 25 Jan 2026 20:18:55 GMT",
+"WY148","EKCH","OOMS","Oman Air Boeing 787-8","018WY","N/A",365,"Approved","25632","Passenger","242","None","Sun, 25 Jan 2026 00:00:00 GMT","Mon, 26 Jan 2026 02:38:11 GMT",
+"WY146","EKCH","OOMS","Oman Air Boeing 787-8","718WY","Oman Air",373,"Approved","33552","Passenger","242","GROUP FLİGHT(2.5x)","Mon, 26 Jan 2026 00:00:00 GMT","Mon, 26 Jan 2026 06:30:15 GMT",
+"WY425A","OOMS","ORBI","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",173,"Approved","6542","Passenger","147","ROTW(2x)","Mon, 26 Jan 2026 00:00:00 GMT","Mon, 26 Jan 2026 18:38:02 GMT",
+"WY425B","ORBI","EKCH","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",347,"Approved","10262","Passenger","150","ROTW(2x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 04:58:22 GMT",
+"9W101","VIDP","VECC","Generic Boeing 737-900","101WY","Oman Air",98,"Approved","10036","Passenger","174","GROUP FLİGHT(2.5x)","Mon, 26 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 06:49:18 GMT",
+"WY325","OOMS","OPKC","Oman Air Boeing 737-8 MAX","116WY","Oman Air",72,"Denied","2480","Passenger","189","None","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 07:08:45 GMT",
+"QF1(B)","WSSS","EGLL","Qantas Airbus A380","223WY","Oman Air",862,"Approved","112365","Passenger","342","ROTW Non Oman(1.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 08:16:17 GMT",
+"OMAN AIR 366WY","OOMS","ORBI","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",156,"Approved","6299","Passenger","200","ROTW(2x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 08:35:48 GMT","Checked my logbook and shows the flight there "
+"WY822 ","WMKK","OOMS","Oman Air Boeing 787-8","093WY","Oman Air",350,"Approved","43067","Passenger","246","ROTW(2x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 09:57:48 GMT","ROTW"
+"006WY","LFPG","LEMD","Generic Airbus A321","006WY","N/A",109,"Approved","11256","Passenger","161","GROUP FLİGHT(2.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 13:01:48 GMT",
+"006WY","TJSJ","MYAB","Generic Airbus A321","006WY","American Airlines",137,"Denied","11256","Passenger","250","EVENT(5x)","Mon, 26 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 13:42:03 GMT","i must land in MYAB normal dest KMIA"
+"IB586","LFPG","LEMD","Generic Airbus A321","018WY","N/A",101,"Denied","4531","Passenger","216","GROUP FLİGHT(2.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 13:57:41 GMT",
+"OMAN AIR 366WY","OOMS","EKCH","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",280,"Approved","9105","Passenger","200","ROTW(2x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 15:24:53 GMT","Checked my logbook and the flight shows "
+"TG349","VTBS","OPIS","Thai International Airways Airbus A330-300","223WY","Oman Air",280,"Approved","45000","Passenger","212","ROTW Non Oman(1.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 17:13:25 GMT",
+"034WY","WMKK","OOMS","Oman Air Boeing 737-8 MAX","006WY","Oman Air",379,"Approved","25000","Passenger","200","None","Tue, 27 Jan 2026 00:00:00 GMT","Tue, 27 Jan 2026 18:12:55 GMT","i landed  but  ap+ have a glicht "
+"QANTAS 366WY HEAVY","WSSS","EGLL","Qatar Airways Airbus A380","Callsign Missing","Oman Air",690,"Approved","88533","Passenger","485","ROTW Non Oman(1.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Wed, 28 Jan 2026 03:33:56 GMT","Qantas options not there in operator. Again flight shows in my logbook"
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300","150WY","Oman Air",489,"Approved","96328","Passenger","163","None","Wed, 28 Jan 2026 00:00:00 GMT","Wed, 28 Jan 2026 09:17:13 GMT",
+"WY132","LFPG","OOMS","Oman Air Airbus A330-300","101WY","Oman Air",440,"Approved","43659","Passenger","335","GROUP FLİGHT(2.5x)","Tue, 27 Jan 2026 00:00:00 GMT","Wed, 28 Jan 2026 10:41:11 GMT",
+"006WY","EGLL","WSSS","Qantas Airbus A380","006WY","Qantas",688,"Approved","111256","Passenger","375","None","Wed, 28 Jan 2026 00:00:00 GMT","Wed, 28 Jan 2026 11:49:09 GMT",
+"006WY","KJFK","TXKF","Generic Boeing 737-8 MAX","006WY","American Airlines",92,"Approved","11256","Passenger","200","GROUP FLİGHT(2.5x)","Wed, 28 Jan 2026 00:00:00 GMT","Wed, 28 Jan 2026 15:06:11 GMT",
+"WK17","KDEN","LSZH","Edelweiss Air Airbus A350","223WY","Swiss-Edelweiss",540,"Approved","65300","Passenger","243","ROTW Non Oman(1.5x)","Thu, 29 Jan 2026 00:00:00 GMT","Thu, 29 Jan 2026 12:48:19 GMT","IF flight time error "
+"WY682","OERK","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","N/A",97,"Approved","2820","Passenger","195","None","Thu, 29 Jan 2026 00:00:00 GMT","Thu, 29 Jan 2026 18:15:17 GMT",
+"WY832","VTSP","OOMS","Oman Air Boeing 737-8 MAX","Callsign Missing","Oman Air",341,"Approved","14430","Passenger","146","ROTW(2x)","Thu, 29 Jan 2026 00:00:00 GMT","Thu, 29 Jan 2026 18:35:23 GMT",
+"VN651","VVTS","WSSS","Vietnam Airlines Airbus A321","101WY","Oman Air",108,"Approved","9064","Passenger","202","ROTW(2x)","Fri, 30 Jan 2026 00:00:00 GMT","Fri, 30 Jan 2026 09:57:06 GMT",
+"QFA72","YPPH","WSSS","Qantas Airbus A380","101WY","Oman Air",293,"Pending","92686","Passenger","450","GROUP FLİGHT(2.5x)","Fri, 30 Jan 2026 00:00:00 GMT","Fri, 30 Jan 2026 18:01:48 GMT",
+"207WY","YPPH","WSSS","Generic Boeing 787-9","Callsign Missing","Oman Air",61,"Pending","189824","Passenger","286","GROUP FLİGHT(2.5x)","Fri, 30 Jan 2026 00:00:00 GMT","Fri, 30 Jan 2026 19:22:31 GMT",
+"QR8162(A) (B)","OTHH","KORD","Qatar Cargo Boeing 777F","Callsign Missing","Qatar Airways",997,"Pending","76144","Cargo","338513","ROTW Non Oman(1.5x)","Thu, 29 Jan 2026 00:00:00 GMT","Fri, 30 Jan 2026 23:58:24 GMT","Layover at EDDF. "
+"QF1(B)","WSSS","EGLL","Qantas Airbus A380","101WY","Oman Air",722,"Pending","192503","Passenger","469","ROTW(2x)","Fri, 30 Jan 2026 00:00:00 GMT","Sat, 31 Jan 2026 07:08:19 GMT",

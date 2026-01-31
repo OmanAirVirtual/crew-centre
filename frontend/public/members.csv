@@ -1,0 +1,66 @@
+"callsign","manualRank","pilotRank","atcRank","flightTime","controlTime","operationCount","joinDate","pirepCount","operationReportCount"
+"001WY",false,"Falcon Commander","N/A","1342h 23m","0h 0m",0,"Thu, 23 Oct 2025 14:28:48 GMT",30,0
+"002WY",false,"Senior Captain","N/A","261h 12m","0h 0m",0,"Thu, 23 Oct 2025 17:22:09 GMT",13,0
+"004WY",false,"Elite Captain","N/A","338h 23m","0h 0m",0,"Fri, 24 Oct 2025 15:48:03 GMT",4,0
+"008WY",false,"Cadet","N/A","22h 8m","0h 0m",0,"Fri, 24 Oct 2025 16:15:11 GMT",2,0
+"789WY",false,"Captain","N/A","125h 57m","0h 0m",0,"Sun, 26 Oct 2025 13:17:29 GMT",6,0
+"308WY",false,"Senior First Officer ","N/A","98h 42m","0h 0m",0,"Sun, 26 Oct 2025 19:11:18 GMT",7,0
+"150WY",false,"Special Commander","N/A","977h 13m","0h 0m",0,"Sun, 26 Oct 2025 23:31:07 GMT",77,0
+"212WY",false,"Senior Captain","N/A","217h 17m","0h 0m",0,"Sun, 26 Oct 2025 23:31:11 GMT",13,0
+"738WY",false,"Elite Captain","N/A","395h 55m","0h 0m",0,"Mon, 27 Oct 2025 06:35:46 GMT",21,0
+"340WY",false,"Senior Captain","N/A","252h 12m","0h 0m",0,"Mon, 27 Oct 2025 06:35:53 GMT",29,0
+"116WY",false,"Cadet","N/A","5h 9m","0h 0m",0,"Mon, 27 Oct 2025 06:36:01 GMT",5,0
+"224WY",false,"Senior First Officer ","N/A","101h 34m","0h 0m",0,"Mon, 27 Oct 2025 07:59:25 GMT",15,0
+"006WY",false,"Falcon Commander","N/A","1241h 4m","0h 0m",0,"Mon, 27 Oct 2025 09:41:04 GMT",24,0
+"200WY",false,"First Officer ","N/A","65h 23m","0h 0m",0,"Tue, 28 Oct 2025 11:08:14 GMT",1,0
+"221WY",false,"Elite Captain","N/A","345h 2m","0h 0m",0,"Wed, 29 Oct 2025 13:07:46 GMT",33,0
+"223WY",false,"Crown Captain","N/A","519h 26m","0h 0m",0,"Sat, 01 Nov 2025 13:46:52 GMT",39,0
+"233WY",false,"Senior Captain","N/A","202h 53m","0h 0m",0,"Mon, 03 Nov 2025 09:24:21 GMT",16,0
+"469WY",false,"Senior Captain","N/A","247h 55m","0h 0m",0,"Wed, 05 Nov 2025 20:21:28 GMT",30,0
+"015WY",false,"Senior First Officer ","N/A","92h 38m","0h 0m",0,"Thu, 06 Nov 2025 20:50:37 GMT",11,0
+"155WY",false,"Cadet","N/A","32h 28m","0h 0m",0,"Fri, 14 Nov 2025 21:35:20 GMT",2,0
+"441WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sat, 15 Nov 2025 16:00:11 GMT",0,0
+,false,"Cadet","N/A","29h 49m","0h 0m",0,"Sat, 15 Nov 2025 20:15:22 GMT",2,0
+"006WY",false,"Crown Captain","N/A","721h 27m","0h 0m",0,"Sun, 16 Nov 2025 13:45:59 GMT",68,0
+"020WY ",false,"Senior First Officer ","N/A","91h 48m","0h 0m",0,"Wed, 19 Nov 2025 06:25:28 GMT",19,0
+,false,"Cadet","N/A","7h 22m","0h 0m",0,"Sun, 30 Nov 2025 14:22:04 GMT",1,0
+"920WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sun, 30 Nov 2025 21:28:40 GMT",0,0
+,false,"Cadet","N/A","28h 13m","0h 0m",0,"Sat, 06 Dec 2025 08:25:25 GMT",4,0
+"011WY",false,"Senior Captain","N/A","247h 5m","0h 0m",0,"Sun, 07 Dec 2025 00:16:14 GMT",16,0
+"NA",false,"Cadet","N/A","0h 0m","0h 0m",0,"Mon, 08 Dec 2025 14:02:41 GMT",0,0
+"093WY",false,"Senior First Officer ","N/A","106h 20m","0h 0m",0,"Wed, 10 Dec 2025 07:49:12 GMT",11,0
+"202WY",false,"Cadet","N/A","2h 7m","0h 0m",0,"Wed, 10 Dec 2025 08:01:38 GMT",1,0
+"731WY",false,"Captain","N/A","152h 49m","0h 0m",0,"Sun, 14 Dec 2025 07:15:47 GMT",16,0
+,false,"Captain","N/A","176h 37m","0h 0m",0,"Tue, 16 Dec 2025 06:57:43 GMT",17,0
+"777WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Wed, 17 Dec 2025 10:48:20 GMT",0,0
+"118WY",false,"Captain","N/A","123h 13m","0h 0m",0,"Wed, 17 Dec 2025 17:26:45 GMT",9,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Tue, 23 Dec 2025 13:32:26 GMT",0,0
+"006WY",false,"Cadet","N/A","21h 1m","0h 0m",0,"Wed, 24 Dec 2025 11:38:37 GMT",4,0
+"101WY",false,"Elite Captain","N/A","438h 17m","0h 0m",0,"Thu, 25 Dec 2025 19:02:50 GMT",40,0
+,false,"Cadet","N/A","6h 45m","0h 0m",0,"Fri, 26 Dec 2025 08:33:59 GMT",2,0
+"718WY",false,"Captain","N/A","164h 12m","0h 0m",0,"Fri, 26 Dec 2025 15:23:03 GMT",14,0
+"555WY",false,"Elite Captain","N/A","302h 28m","0h 0m",0,"Sat, 27 Dec 2025 09:08:27 GMT",15,0
+"281WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sat, 27 Dec 2025 09:47:48 GMT",0,0
+"115WY",false,"Captain","N/A","126h 11m","0h 0m",0,"Sat, 27 Dec 2025 13:24:02 GMT",15,0
+"451WY",false,"Cadet","N/A","13h 11m","0h 0m",0,"Sat, 27 Dec 2025 18:02:34 GMT",2,0
+"237WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sat, 27 Dec 2025 23:24:43 GMT",0,0
+,false,"First Officer ","N/A","76h 18m","0h 0m",0,"Mon, 29 Dec 2025 20:47:33 GMT",12,0
+"044WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Tue, 30 Dec 2025 08:25:48 GMT",0,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Tue, 30 Dec 2025 17:32:03 GMT",0,0
+"031WY",false,"Cadet","N/A","5h 3m","0h 0m",0,"Fri, 02 Jan 2026 08:17:47 GMT",2,0
+"038WY",false,"Cadet","N/A","4h 16m","0h 0m",0,"Fri, 02 Jan 2026 15:17:33 GMT",1,0
+"911WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Fri, 02 Jan 2026 21:38:15 GMT",0,0
+"149WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Wed, 07 Jan 2026 19:09:08 GMT",0,0
+"010WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Thu, 08 Jan 2026 07:57:49 GMT",0,0
+"027WY ",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sun, 11 Jan 2026 11:26:58 GMT",0,0
+"018WY",false,"Captain","N/A","127h 48m","0h 0m",0,"Mon, 12 Jan 2026 11:20:18 GMT",14,0
+"831WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Tue, 13 Jan 2026 16:51:18 GMT",0,0
+,false,"Cadet","N/A","21h 12m","0h 0m",0,"Thu, 15 Jan 2026 20:06:46 GMT",3,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Fri, 16 Jan 2026 17:41:13 GMT",0,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Sat, 17 Jan 2026 05:56:54 GMT",0,0
+,false,"First Officer ","N/A","44h 18m","0h 0m",0,"Sat, 17 Jan 2026 19:01:13 GMT",6,0
+,false,"First Officer ","N/A","56h 38m","0h 0m",0,"Wed, 21 Jan 2026 06:54:49 GMT",7,0
+"014WY",false,"Cadet","N/A","0h 0m","0h 0m",0,"Sat, 24 Jan 2026 08:19:35 GMT",0,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Mon, 26 Jan 2026 06:57:58 GMT",1,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Fri, 30 Jan 2026 18:46:46 GMT",1,0
+,false,"Cadet","N/A","0h 0m","0h 0m",0,"Fri, 30 Jan 2026 19:20:45 GMT",0,0
