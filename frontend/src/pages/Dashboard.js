@@ -24,17 +24,16 @@ const Dashboard = () => {
       const response = await axios.get('/api/pireps?pilotId=' + user.id);
       const pireps = response.data;
       const pending = pireps.filter(p => p.status === 'pending').length;
-      const totalHours = pireps.reduce((sum, p) => sum + (p.flightTime / 60), 0);
-      
+
       setStats({
-        totalFlights: pireps.length,
-        totalHours: totalHours.toFixed(1),
+        totalFlights: user.totalFlights || pireps.length,
+        totalHours: user.totalHours || 0,
         pendingPIREPs: pending
       });
     } catch (error) {
       console.error('Error fetching stats:', error);
     }
-  }, [user.id]);
+  }, [user.id, user.totalHours, user.totalFlights]);
 
   useEffect(() => {
     fetchStats();
@@ -97,7 +96,7 @@ const Dashboard = () => {
               <FiClock />
             </div>
             <div className="stat-content">
-              <h3>{stats.totalHours}h</h3>
+              <h3>{typeof stats.totalHours === 'number' ? stats.totalHours.toFixed(1) : stats.totalHours}h</h3>
               <p>Total Hours</p>
             </div>
           </div>
