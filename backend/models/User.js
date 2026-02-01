@@ -38,7 +38,7 @@ const userSchema = new mongoose.Schema({
   },
   role: {
     type: String,
-    enum: ['pilot', 'Event Leader', 'CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'],
+    enum: ['pilot', 'Event Leader', 'Chief Pilot', 'CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'],
     default: 'pilot'
   },
   status: {

@@ -6,7 +6,7 @@ const { auth, adminAuth } = require('../middleware/auth');
 const router = express.Router();
 
 // Get all users
-router.get('/users', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'), async (req, res) => {
+router.get('/users', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager', 'Event Leader', 'Chief Pilot'), async (req, res) => {
   try {
     const users = await User.find().select('-password').sort({ createdAt: -1 });
     res.json(users);
@@ -74,7 +74,7 @@ router.post('/users/:id/reset-exam', auth, adminAuth('CEO', 'CAO', 'CFI', 'CMO',
 });
 
 // Get dashboard stats
-router.get('/stats', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Manager'), async (req, res) => {
+router.get('/stats', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Manager', 'Recruiter', 'Routes Manager', 'Event Leader', 'Chief Pilot'), async (req, res) => {
   try {
     const totalUsers = await User.countDocuments();
     const activeUsers = await User.countDocuments({ status: 'active' });

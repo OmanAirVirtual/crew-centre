@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { FiBriefcase, FiUser, FiArrowLeft } from 'react-icons/fi';
+import Loading from '../components/Loading';
 import './StaffPage.css';
 
 const ROLE_LABELS = {
@@ -12,6 +13,7 @@ const ROLE_LABELS = {
   Recruiter: 'Recruiter',
   'Routes Manager': 'Routes Manager',
   'Crew Centre Manager': 'Crew Centre Manager',
+  'Chief Pilot': 'Chief Pilot',
 };
 
 const StaffPage = () => {
@@ -39,7 +41,7 @@ const StaffPage = () => {
     return acc;
   }, {});
 
-  const roleOrder = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'];
+  const roleOrder = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager', 'Chief Pilot'];
 
   return (
     <div className="staff-page">
@@ -59,7 +61,7 @@ const StaffPage = () => {
       <section className="staff-list">
         <div className="container">
           {loading ? (
-            <div className="staff-loading">Loading…</div>
+            <Loading />
           ) : staff.length === 0 ? (
             <div className="staff-empty">
               <FiBriefcase className="staff-empty-icon" />

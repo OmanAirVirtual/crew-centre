@@ -20,13 +20,38 @@
 }
 
 .spinner {
-    width: 50px;
-    height: 50px;
-    border: 4px solid rgba(102, 126, 234, 0.1);
-    border-left-color: #667eea;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+}
+
+.spinner::after {
+    content: '';
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 4px;
+    left: 4px;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin-bottom: 1rem;
+    border: 4px solid transparent;
+    border-top-color: #667eea;
+    border-bottom-color: #764ba2;
+    animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.spinner::before {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top-color: #f093fb;
+    border-bottom-color: #f5576c;
+    animation: spin 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite reverse;
 }
 
 .loading-text {

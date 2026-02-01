@@ -6,7 +6,7 @@ const PIREP = require('../models/PIREP');
 const router = express.Router();
 
 const STAFF_ROLES = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'];
-const PILOT_ROLES = ['pilot', 'Event Leader'];
+const PILOT_ROLES = ['pilot', 'Event Leader', 'Chief Pilot'];
 
 // Public home page stats (no auth)
 router.get('/stats', async (req, res) => {

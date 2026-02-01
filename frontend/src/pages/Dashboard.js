@@ -6,7 +6,7 @@ import axios from 'axios';
 import { FiFileText, FiMap, FiRadio, FiBook, FiTrendingUp, FiClock, FiAward } from 'react-icons/fi';
 import './Dashboard.css';
 
-const PILOT_ROLES = ['pilot', 'Event Leader'];
+const PILOT_ROLES = ['pilot', 'Event Leader', 'Chief Pilot'];
 
 const Dashboard = () => {
   const { user, fetchUser } = useContext(AuthContext);

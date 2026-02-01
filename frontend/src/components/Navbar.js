@@ -5,7 +5,7 @@ import { getPilotRank } from '../utils/pilotRanks';
 import { FiHome, FiFileText, FiMap, FiRadio, FiBook, FiSettings, FiLogOut, FiUser, FiSearch, FiBriefcase, FiMenu, FiX } from 'react-icons/fi';
 import './Navbar.css';
 
-const PILOT_ROLES = ['pilot', 'Event Leader'];
+const PILOT_ROLES = ['pilot', 'Event Leader', 'Chief Pilot'];
 
 const Navbar = () => {
   const { user, logout, isAdmin } = useContext(AuthContext);

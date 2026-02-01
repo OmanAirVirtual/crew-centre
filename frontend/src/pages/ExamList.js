@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { FiBook, FiClock, FiCheckCircle } from 'react-icons/fi';
+import Loading from '../components/Loading';
 
 const ExamList = () => {
   const { user } = useContext(AuthContext);
@@ -34,7 +35,7 @@ const ExamList = () => {
   };
 
   if (loading) {
-    return <div className="container"><div className="card">Loading...</div></div>;
+    return <Loading />;
   }
 
   return (
@@ -62,7 +63,7 @@ const ExamList = () => {
                 <div key={exam._id} className="card" style={{ marginBottom: 0 }}>
                   <h3 style={{ color: '#667eea', marginBottom: '0.5rem' }}>{exam.title}</h3>
                   <p style={{ color: '#666', marginBottom: '1rem' }}>{exam.description}</p>
-                  
+
                   <div style={{ display: 'flex', gap: '2rem', marginBottom: '1rem', color: '#666' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                       <FiClock />
@@ -77,8 +78,8 @@ const ExamList = () => {
                   </div>
 
                   {attempt ? (
-                    <div style={{ 
-                      padding: '1rem', 
+                    <div style={{
+                      padding: '1rem',
                       background: attempt.passed ? '#d4edda' : '#f8d7da',
                       borderRadius: '8px',
                       marginTop: '1rem'
@@ -92,8 +93,8 @@ const ExamList = () => {
                       </div>
                     </div>
                   ) : (
-                    <Link 
-                      to={`/exams/${exam._id}`} 
+                    <Link
+                      to={`/exams/${exam._id}`}
                       className="btn btn-primary"
                       style={{ marginTop: '1rem' }}
                     >

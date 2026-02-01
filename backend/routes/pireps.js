@@ -42,8 +42,8 @@ router.get('/', auth, async (req, res) => {
     if (status) query.status = status;
     if (pilotId) query.pilotId = pilotId;
 
-    // Pilots and Event Leaders see only their own PIREPs
-    if (req.user.role === 'pilot' || req.user.role === 'Event Leader') {
+    // Pilots, Event Leaders, and Chief Pilots see only their own PIREPs
+    if (req.user.role === 'pilot' || req.user.role === 'Event Leader' || req.user.role === 'Chief Pilot') {
       query.pilotId = req.user._id;
     }
 
@@ -69,8 +69,8 @@ router.get('/:id', auth, async (req, res) => {
       return res.status(404).json({ message: 'PIREP not found' });
     }
 
-    // Check if user has access (pilots and Event Leaders see only their own)
-    if ((req.user.role === 'pilot' || req.user.role === 'Event Leader') && pirep.pilotId._id.toString() !== req.user._id.toString()) {
+    // Check if user has access (pilots, Event Leaders, and Chief Pilots see only their own)
+    if ((req.user.role === 'pilot' || req.user.role === 'Event Leader' || req.user.role === 'Chief Pilot') && pirep.pilotId._id.toString() !== req.user._id.toString()) {
       return res.status(403).json({ message: 'Access denied' });
     }
 

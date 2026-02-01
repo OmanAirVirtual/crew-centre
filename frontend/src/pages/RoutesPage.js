@@ -3,6 +3,7 @@ import axios from 'axios';
 import { FiMapPin, FiClock } from 'react-icons/fi';
 import { FaPlane } from 'react-icons/fa';
 import { AuthContext } from '../context/AuthContext';
+import Loading from '../components/Loading';
 
 const RoutesPage = () => {
   const { user } = useContext(AuthContext);
@@ -110,7 +111,7 @@ const RoutesPage = () => {
   };
 
   if (loading) {
-    return <div className="container"><div className="card">Loading...</div></div>;
+    return <Loading />;
   }
 
   return (

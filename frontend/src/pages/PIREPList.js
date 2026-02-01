@@ -2,6 +2,7 @@ import React, { useState, useEffect, useContext, useCallback } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { FiClock, FiCheckCircle, FiXCircle } from 'react-icons/fi';
+import Loading from '../components/Loading';
 
 const PIREPList = () => {
   const { user } = useContext(AuthContext);
@@ -43,7 +44,7 @@ const PIREPList = () => {
   };
 
   if (loading) {
-    return <div className="container"><div className="card">Loading...</div></div>;
+    return <Loading />;
   }
 
   return (

@@ -3,6 +3,7 @@ import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import { FiUsers, FiFileText, FiTrendingUp, FiCheckCircle, FiXCircle } from 'react-icons/fi';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import Loading from '../components/Loading';
 
 const AdminDashboard = () => {
   const { user } = useContext(AuthContext);
@@ -15,7 +16,7 @@ const AdminDashboard = () => {
   const [error, setError] = useState('');
 
   const canManageUsers = ['CEO', 'CAO'].includes(user?.role);
-  const canViewUsers = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'].includes(user?.role);
+  const canViewUsers = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager', 'Event Leader', 'Chief Pilot'].includes(user?.role);
   const canReviewExams = ['CEO', 'CAO', 'CFI', 'CMO', 'Recruiter'].includes(user?.role);
   const canReviewPIREPs = ['CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Manager'].includes(user?.role);
   const canEditStats = ['CFI'].includes(user?.role);
@@ -258,7 +259,7 @@ const AdminDashboard = () => {
   };
 
   if (loading) {
-    return <div className="container"><div className="card">Loading...</div></div>;
+    return <Loading />;
   }
 
   const chartData = [
@@ -516,6 +517,7 @@ const AdminDashboard = () => {
                       >
                         <option value="pilot">Pilot</option>
                         <option value="Event Leader">Event Leader</option>
+                        <option value="Chief Pilot">Chief Pilot</option>
                         <option value="CEO">CEO</option>
                         <option value="CAO">CAO</option>
                         <option value="CMO">CMO</option>

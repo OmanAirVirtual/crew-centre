@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const isAdmin = () => {
-    const adminRoles = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'];
+    const adminRoles = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager', 'Event Leader', 'Chief Pilot'];
     return user && adminRoles.includes(user.role);
   };
 
