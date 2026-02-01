@@ -67,7 +67,7 @@ const AdminDashboard = () => {
     } finally {
       setLoading(false);
     }
-  }, [canManageUsers, canReviewExams, canReviewPIREPs]);
+  }, [canReviewExams, canReviewPIREPs, canViewUsers]);
 
   useEffect(() => {
     fetchData();
