@@ -8,7 +8,12 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+// Middleware
+app.use(cors({
+  origin: '*', // Allow all origins for now to prevent CORS issues on deployment. You can restrict this later.
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -26,8 +31,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/oman-air-
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.then(() => console.log('MongoDB Connected'))
-.catch(err => console.error('MongoDB connection error:', err));
+  .then(() => console.log('MongoDB Connected'))
+  .catch(err => console.error('MongoDB connection error:', err));
 
 const PORT = process.env.PORT || 5002;
 
