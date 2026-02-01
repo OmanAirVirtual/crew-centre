@@ -151,3 +151,22 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+@media (max-width: 768px) {
+  .staff-hero {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .staff-title {
+    font-size: 2rem;
+  }
+
+  .staff-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .staff-list {
+    padding: 1rem 1rem 3rem;
+  }
+}

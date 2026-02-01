@@ -12,6 +12,7 @@ const AdminDashboard = () => {
   const [examAttempts, setExamAttempts] = useState([]);
   const [activeTab, setActiveTab] = useState('overview');
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
 
   const canManageUsers = ['CEO', 'CAO'].includes(user?.role);
   const canViewUsers = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager'].includes(user?.role);
@@ -64,6 +65,7 @@ const AdminDashboard = () => {
       }
     } catch (error) {
       console.error('Error fetching admin data:', error);
+      setError('Failed to load dashboard data: ' + (error.response?.data?.message || error.message));
     } finally {
       setLoading(false);
     }
@@ -270,6 +272,12 @@ const AdminDashboard = () => {
   return (
     <div className="container">
       <h1 style={{ color: 'white', marginBottom: '2rem' }}>Admin Dashboard</h1>
+
+      {error && (
+        <div className="alert alert-danger" style={{ marginBottom: '1rem', background: '#f8d7da', color: '#721c24', padding: '1rem', borderRadius: '4px' }}>
+          {error}
+        </div>
+      )}
 
       <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
         <button

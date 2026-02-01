@@ -177,3 +177,31 @@
   color: #666;
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 1rem 0;
+  }
+
+  .dashboard-header {
+    margin-bottom: 2rem;
+  }
+
+  .dashboard-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-grid,
+  .actions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .rank-card {
+    padding: 1rem;
+  }
+
+  .rank-title {
+    font-size: 1.25rem;
+  }
+}

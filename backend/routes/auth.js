@@ -199,8 +199,8 @@ router.post('/reset-password-with-otp', async (req, res) => {
 // Update user profile
 router.put('/profile', auth, async (req, res) => {
   try {
-    const { email, username, firstName, lastName } = req.body;
-    const userId = req.user.userId;
+    const { email, username, firstName, lastName, discordId } = req.body;
+    const userId = req.user._id;
 
     // Find current user
     const user = await User.findById(userId);
@@ -228,6 +228,7 @@ router.put('/profile', auth, async (req, res) => {
     // Update other fields
     if (firstName !== undefined) user.firstName = firstName.trim();
     if (lastName !== undefined) user.lastName = lastName ? lastName.trim() : '';
+    if (discordId !== undefined) user.discordId = discordId.trim();
 
     await user.save();
 
@@ -238,6 +239,7 @@ router.put('/profile', auth, async (req, res) => {
         email: user.email,
         firstName: user.firstName,
         lastName: user.lastName,
+        discordId: user.discordId,
         role: user.role,
         examCompleted: user.examCompleted
       }

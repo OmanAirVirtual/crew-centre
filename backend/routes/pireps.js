@@ -9,7 +9,7 @@ const router = express.Router();
 router.post('/', auth, async (req, res) => {
   try {
     const pilot = await User.findById(req.user._id);
-    
+
     const pirep = new PIREP({
       ...req.body,
       pilotId: req.user._id,
@@ -21,7 +21,7 @@ router.post('/', auth, async (req, res) => {
 
     // Update pilot stats
     await User.findByIdAndUpdate(req.user._id, {
-      $inc: { 
+      $inc: {
         totalFlights: 1,
         totalHours: req.body.flightTime / 60
       }
@@ -84,7 +84,7 @@ router.get('/:id', auth, async (req, res) => {
 router.patch('/:id/review', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Manager'), async (req, res) => {
   try {
     const { status } = req.body;
-    
+
     const pirep = await PIREP.findByIdAndUpdate(
       req.params.id,
       {

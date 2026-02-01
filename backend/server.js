@@ -8,7 +8,6 @@ dotenv.config();
 const app = express();
 
 // Middleware
-// Middleware
 app.use(cors({
   origin: '*', // Allow all origins for now to prevent CORS issues on deployment. You can restrict this later.
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
@@ -25,6 +24,11 @@ app.use('/api/tracking', require('./routes/tracking'));
 app.use('/api/exams', require('./routes/exams'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/home', require('./routes/home'));
+
+// Health check route
+app.get('/', (req, res) => {
+  res.send('Oman Air Virtual API is running');
+});
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/oman-air-virtual', {

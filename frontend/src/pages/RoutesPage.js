@@ -116,10 +116,11 @@ const RoutesPage = () => {
   return (
     <div className="container">
       <div className="card">
+
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="routes-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
             <h1 style={{ color: '#333', margin: 0 }}>Routes</h1>
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+            <div className="routes-actions" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'flex-start' }}>
               <button
                 className={filter === 'all' ? 'btn btn-primary' : 'btn btn-secondary'}
                 onClick={() => setFilter('all')}

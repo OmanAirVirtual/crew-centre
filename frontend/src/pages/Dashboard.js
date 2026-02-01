@@ -9,7 +9,7 @@ import './Dashboard.css';
 const PILOT_ROLES = ['pilot', 'Event Leader'];
 
 const Dashboard = () => {
-  const { user } = useContext(AuthContext);
+  const { user, fetchUser } = useContext(AuthContext);
   const hoursForRank = typeof user?.totalHours === 'number' ? user.totalHours : 0;
   const isPilot = user && PILOT_ROLES.includes(user.role);
   const rank = isPilot ? getPilotRank(hoursForRank) : null;
@@ -36,8 +36,9 @@ const Dashboard = () => {
   }, [user.id, user.totalHours, user.totalFlights]);
 
   useEffect(() => {
+    fetchUser(); // Refresh user data (stats) from backend on every visit
     fetchStats();
-  }, [fetchStats]);
+  }, [fetchUser, fetchStats]);
 
   return (
     <div className="dashboard">

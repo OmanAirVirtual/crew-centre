@@ -2,18 +2,19 @@ import React, { useState, useContext } from 'react';
 import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
-import { FiUser, FiMail, FiEdit } from 'react-icons/fi';
+import { FiUser, FiMail, FiEdit, FiHash } from 'react-icons/fi';
 import './Auth.css';
 
 const ProfileSettings = () => {
-    const { user, login } = useContext(AuthContext);
+    const { user, updateUser } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
         email: user?.email || '',
         username: user?.username || '',
         firstName: user?.firstName || '',
-        lastName: user?.lastName || ''
+        lastName: user?.lastName || '',
+        discordId: user?.discordId || ''
     });
 
     const [loading, setLoading] = useState(false);
@@ -37,7 +38,7 @@ const ProfileSettings = () => {
             const response = await axios.put('/api/auth/profile', formData);
 
             // Update user context with new data
-            login(localStorage.getItem('token'), response.data.user);
+            updateUser(response.data.user);
 
             setMessage('Profile updated successfully!');
             setTimeout(() => {
@@ -128,6 +129,7 @@ const ProfileSettings = () => {
                         />
                     </div>
 
+
                     <div className="form-group">
                         <label>
                             <FiUser /> Last Name (Optional)
@@ -138,6 +140,20 @@ const ProfileSettings = () => {
                             value={formData.lastName}
                             onChange={handleChange}
                             placeholder="Your last name"
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label>
+                            <FiHash /> Discord ID (Required)
+                        </label>
+                        <input
+                            type="text"
+                            name="discordId"
+                            value={formData.discordId}
+                            onChange={handleChange}
+                            required
+                            placeholder="Your Discord ID"
                         />
                     </div>
 
