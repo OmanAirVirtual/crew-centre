@@ -12,18 +12,7 @@ const Leaderboard = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
-    useEffect(() => {
-        const token = localStorage.getItem('careerToken');
-        if (!token) {
-            navigate('/career/login');
-            return;
-        }
-
-        fetchUser();
-        fetchLeaderboard();
-    }, [navigate, metric]);
-
-    const fetchUser = async () => {
+    const fetchUser = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/auth/me', {
@@ -33,9 +22,9 @@ const Leaderboard = () => {
         } catch (err) {
             console.error('Error fetching user:', err);
         }
-    };
+    }, []);
 
-    const fetchLeaderboard = async () => {
+    const fetchLeaderboard = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get(`/api/career/stats/leaderboard?metric=${metric}`, {
@@ -48,7 +37,18 @@ const Leaderboard = () => {
             setError('Failed to load leaderboard');
             setLoading(false);
         }
-    };
+    }, [metric]);
+
+    useEffect(() => {
+        const token = localStorage.getItem('careerToken');
+        if (!token) {
+            navigate('/career/login');
+            return;
+        }
+
+        fetchUser();
+        fetchLeaderboard();
+    }, [navigate, fetchUser, fetchLeaderboard]);
 
     const handleLogout = () => {
         localStorage.removeItem('careerToken');

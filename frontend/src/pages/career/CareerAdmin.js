@@ -14,18 +14,7 @@ const CareerAdmin = () => {
     const [error, setError] = useState('');
     const [activeTab, setActiveTab] = useState('users'); // users, pireps, analytics
 
-    useEffect(() => {
-        const token = localStorage.getItem('careerToken');
-        if (!token) {
-            navigate('/career/login');
-            return;
-        }
-
-        fetchUser();
-        fetchData();
-    }, [navigate, activeTab]);
-
-    const fetchUser = async () => {
+    const fetchUser = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/auth/me', {
@@ -45,9 +34,9 @@ const CareerAdmin = () => {
             console.error('Error fetching user:', err);
             navigate('/career/dashboard');
         }
-    };
+    }, [navigate]);
 
-    const fetchData = async () => {
+    const fetchData = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
 
@@ -74,7 +63,18 @@ const CareerAdmin = () => {
             setError('Failed to load admin data');
             setLoading(false);
         }
-    };
+    }, [activeTab]);
+
+    useEffect(() => {
+        const token = localStorage.getItem('careerToken');
+        if (!token) {
+            navigate('/career/login');
+            return;
+        }
+
+        fetchUser();
+        fetchData();
+    }, [navigate, activeTab, fetchUser, fetchData]);
 
     const handleApproveUser = async (userId) => {
         try {

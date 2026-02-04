@@ -29,24 +29,9 @@ const PIREPBuilder = () => {
         notes: '',
     });
 
-    const [earnings, setEarnings] = useState(null);
+    // const [earnings, setEarnings] = useState(null);
 
-    useEffect(() => {
-        const token = localStorage.getItem('careerToken');
-        if (!token) {
-            navigate('/career/login');
-            return;
-        }
-
-        fetchUser();
-        if (flightIdParam) {
-            fetchFlight(flightIdParam);
-        } else {
-            setLoading(false);
-        }
-    }, [navigate, flightIdParam]);
-
-    const fetchUser = async () => {
+    const fetchUser = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/auth/me', {
@@ -57,9 +42,9 @@ const PIREPBuilder = () => {
         } catch (err) {
             console.error('Error fetching user:', err);
         }
-    };
+    }, []);
 
-    const fetchFlight = async (flightId) => {
+    const fetchFlight = React.useCallback(async (flightId) => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/flights', {
@@ -79,7 +64,22 @@ const PIREPBuilder = () => {
             console.error('Error fetching flight:', err);
             setLoading(false);
         }
-    };
+    }, [setFormData]);
+
+    useEffect(() => {
+        const token = localStorage.getItem('careerToken');
+        if (!token) {
+            navigate('/career/login');
+            return;
+        }
+
+        fetchUser();
+        if (flightIdParam) {
+            fetchFlight(flightIdParam);
+        } else {
+            setLoading(false);
+        }
+    }, [navigate, flightIdParam, fetchUser, fetchFlight]);
 
     const handleChange = (e) => {
         setFormData({
@@ -98,7 +98,7 @@ const PIREPBuilder = () => {
 
         try {
             const token = localStorage.getItem('careerToken');
-            const res = await axios.post('/api/career/pireps', {
+            await axios.post('/api/career/pireps', {
                 flightId: flight._id,
                 ...formData,
                 aircraftType: flight.aircraftType,
@@ -106,12 +106,14 @@ const PIREPBuilder = () => {
                 headers: { Authorization: `Bearer ${token}` }
             });
 
-            setEarnings(res.data.earnings);
+            // setEarnings(res.data.earnings);
             alert('PIREP filed successfully! Awaiting admin approval.');
             navigate('/career/flights');
         } catch (err) {
             console.error('Error filing PIREP:', err);
-            alert(err.response?.data?.message || 'Failed to file PIREP');
+            const errMsg = err.response?.data?.message || 'Failed to file PIREP';
+            setError(errMsg);
+            alert(errMsg);
         }
     };
 

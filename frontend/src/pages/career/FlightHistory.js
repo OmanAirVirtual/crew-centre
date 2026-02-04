@@ -15,18 +15,7 @@ const FlightHistory = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
-    useEffect(() => {
-        const token = localStorage.getItem('careerToken');
-        if (!token) {
-            navigate('/career/login');
-            return;
-        }
-
-        fetchUser();
-        fetchHistory();
-    }, [navigate, timeFilter]);
-
-    const fetchUser = async () => {
+    const fetchUser = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/auth/me', {
@@ -36,9 +25,9 @@ const FlightHistory = () => {
         } catch (err) {
             console.error('Error fetching user:', err);
         }
-    };
+    }, []);
 
-    const fetchHistory = async () => {
+    const fetchHistory = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get(`/api/career/stats/history?filter=${timeFilter}`, {
@@ -51,7 +40,18 @@ const FlightHistory = () => {
             setError('Failed to load flight history');
             setLoading(false);
         }
-    };
+    }, [timeFilter]);
+
+    useEffect(() => {
+        const token = localStorage.getItem('careerToken');
+        if (!token) {
+            navigate('/career/login');
+            return;
+        }
+
+        fetchUser();
+        fetchHistory();
+    }, [navigate, fetchUser, fetchHistory]);
 
     const handleLogout = () => {
         localStorage.removeItem('careerToken');

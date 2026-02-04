@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
-import { FiUser, FiDollarSign, FiClock, FiMapPin, FiLogOut, FiMenu, FiSettings } from 'react-icons/fi';
+import { FiUser, FiLogOut, FiMenu } from 'react-icons/fi';
 import './Career.css';
 
 const CareerDashboard = () => {
@@ -9,20 +9,14 @@ const CareerDashboard = () => {
     const [user, setUser] = useState(null);
     const [stats, setStats] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState('');
 
-    useEffect(() => {
-        const token = localStorage.getItem('careerToken');
-        if (!token) {
-            navigate('/career/login');
-            return;
-        }
-
-        fetchUserData();
-        fetchStats();
+    const handleLogout = React.useCallback(() => {
+        localStorage.removeItem('careerToken');
+        localStorage.removeItem('careerUser');
+        navigate('/career/login');
     }, [navigate]);
 
-    const fetchUserData = async () => {
+    const fetchUserData = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/auth/me', {
@@ -36,9 +30,9 @@ const CareerDashboard = () => {
                 handleLogout();
             }
         }
-    };
+    }, [handleLogout]);
 
-    const fetchStats = async () => {
+    const fetchStats = React.useCallback(async () => {
         try {
             const token = localStorage.getItem('careerToken');
             const res = await axios.get('/api/career/stats/me', {
@@ -48,13 +42,20 @@ const CareerDashboard = () => {
         } catch (err) {
             console.error('Error fetching stats:', err);
         }
-    };
+    }, []);
 
-    const handleLogout = () => {
-        localStorage.removeItem('careerToken');
-        localStorage.removeItem('careerUser');
-        navigate('/career/login');
-    };
+    useEffect(() => {
+        const token = localStorage.getItem('careerToken');
+        if (!token) {
+            navigate('/career/login');
+            return;
+        }
+
+        fetchUserData();
+        fetchStats();
+    }, [navigate, fetchUserData, fetchStats]);
+
+
 
     if (loading) {
         return (
@@ -91,11 +92,7 @@ const CareerDashboard = () => {
 
             {/* Content */}
             <div className="career-content">
-                {error && (
-                    <div className="career-alert career-alert-error">
-                        {error}
-                    </div>
-                )}
+
 
                 {/* Welcome Section */}
                 <div className="career-card">
