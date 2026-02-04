@@ -1,7 +1,13 @@
 // Add starting funds to a user's career account
 const mongoose = require('mongoose');
 
-const MONGODB_URI = 'mongodb+srv://deepvirtual111:mvZK1Ip4q2Fki8KZ@cluster0.pvkxnw1.mongodb.net/oman_air_virtual?retryWrites=true&w=majority&appName=Cluster0';
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
+const MONGODB_URI = process.env.MONGODB_URI;
+
+if (!MONGODB_URI) {
+    console.error('❌ MONGODB_URI not found in environment variables');
+    process.exit(1);
+}
 
 async function addStartingFunds() {
     try {

@@ -3,8 +3,15 @@
 
 const mongoose = require('mongoose');
 
+require('dotenv').config({ path: require('path').resolve(__dirname, '../.env') });
+
 // Hardcode the MongoDB URI for this migration
-const MONGODB_URI = 'mongodb+srv://deepvirtual111:mvZK1Ip4q2Fki8KZ@cluster0.pvkxnw1.mongodb.net/oman_air_virtual?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI;
+
+if (!MONGODB_URI) {
+    console.error('❌ MONGODB_URI not found in environment variables');
+    process.exit(1);
+}
 
 async function approveCFI() {
     try {
