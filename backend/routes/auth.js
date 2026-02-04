@@ -25,6 +25,9 @@ function getMailer() {
     port: port ? parseInt(port, 10) : 587,
     secure: port === '465',
     auth: { user, pass },
+    connectionTimeout: 10000, // 10 seconds
+    greetingTimeout: 10000,   // 10 seconds
+    socketTimeout: 10000,     // 10 seconds
   });
 }
 
@@ -157,8 +160,17 @@ router.post('/forgot-password', async (req, res) => {
     const otp = generateOTP();
     const expiresAt = new Date(Date.now() + OTP_EXPIRY_MS);
     otpStore.set(email.trim().toLowerCase(), { otp, expiresAt });
-    await sendOTPEmail(user.email, otp);
-    res.json({ message: 'OTP sent to your email. Check your inbox (and spam).' });
+
+    try {
+      await sendOTPEmail(user.email, otp);
+      res.json({ message: 'OTP sent to your email. Check your inbox (and spam).' });
+    } catch (emailError) {
+      console.error('Failed to send OTP email:', emailError.message);
+      // OTP is stored, but email failed to send
+      res.status(500).json({
+        message: 'Failed to send OTP email. Please check your email configuration or try again later.'
+      });
+    }
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -193,6 +205,7 @@ router.post('/reset-password-with-otp', async (req, res) => {
     otpStore.delete(key);
     res.json({ message: 'Password reset successfully. You can log in with your new password.' });
   } catch (error) {
+    res.status(500).json({ message: error.message });
   }
 });
 
