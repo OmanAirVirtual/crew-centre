@@ -10,8 +10,16 @@ const PILOT_ROLES = ['pilot', 'Event Leader', 'Chief Pilot'];
 
 const Dashboard = () => {
   const { user, fetchUser } = useContext(AuthContext);
-  const hoursForRank = typeof user?.totalHours === 'number' ? user.totalHours : 0;
-  const isPilot = user && PILOT_ROLES.includes(user.role);
+  const hoursForRank = Number(user?.totalHours) || 0;
+  const isPilot = user && PILOT_ROLES.map(r => r.toLowerCase()).includes(user.role?.toLowerCase());
+
+  console.log('Dashboard Debug:', {
+    role: user?.role,
+    isPilot,
+    rawHours: user?.totalHours,
+    hoursForRank
+  });
+
   const rank = isPilot ? getPilotRank(hoursForRank) : null;
   const [stats, setStats] = useState({
     totalFlights: 0,

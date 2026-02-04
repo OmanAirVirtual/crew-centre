@@ -62,6 +62,31 @@ const userSchema = new mongoose.Schema({
     type: Number,
     default: 0
   },
+  // Career Mode Fields
+  careerModeApproved: {
+    type: Boolean,
+    default: false
+  },
+  careerActiveFamily: {
+    type: String,
+    default: ''
+  },
+  careerRank: {
+    type: String,
+    default: 'Cadet'
+  },
+  careerEarnings: {
+    type: Number,
+    default: 0
+  },
+  careerTotalDistance: {
+    type: Number,
+    default: 0
+  },
+  careerTotalTime: {
+    type: Number,
+    default: 0
+  },
   createdAt: {
     type: Date,
     default: Date.now
@@ -78,6 +103,27 @@ userSchema.pre('save', async function (next) {
 // Compare password method
 userSchema.methods.comparePassword = async function (candidatePassword) {
   return await bcrypt.compare(candidatePassword, this.password);
+};
+
+// Check for rank promotion
+userSchema.methods.checkPromotion = async function () {
+  const { RANK_SYSTEM } = require('../config/ranks');
+
+  // Find the highest rank the user qualifies for
+  let newRank = this.careerRank;
+  for (const rank of RANK_SYSTEM) {
+    if (this.careerTotalTime >= rank.hours) {
+      newRank = rank.name;
+    }
+  }
+
+  // Update if rank changed
+  if (newRank !== this.careerRank) {
+    this.careerRank = newRank;
+    await this.save();
+    return newRank;
+  }
+  return null;
 };
 
 module.exports = mongoose.model('User', userSchema);

@@ -25,6 +25,14 @@ app.use('/api/exams', require('./routes/exams'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/home', require('./routes/home'));
 
+// Career Mode Routes
+app.use('/api/career/auth', require('./routes/careerAuth'));
+app.use('/api/career/type-ratings', require('./routes/careerTypeRatings'));
+app.use('/api/career/flights', require('./routes/careerFlights'));
+app.use('/api/career/pireps', require('./routes/careerPireps'));
+app.use('/api/career/admin', require('./routes/careerAdmin'));
+app.use('/api/career/stats', require('./routes/careerStats'));
+
 // Health check route
 app.get('/', (req, res) => {
   res.send('Oman Air Virtual API is running');

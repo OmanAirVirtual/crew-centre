@@ -91,9 +91,9 @@ const LiveTracking = () => {
       setDetailsError('');
       setFlightRoute([]);
       setFlightPlan(null);
-       setLiveryInfo(null);
-       setOriginAirport(null);
-       setDestinationAirport(null);
+      setLiveryInfo(null);
+      setOriginAirport(null);
+      setDestinationAirport(null);
 
       const [routeResp, planResp] = await Promise.allSettled([
         axios.get(`/api/tracking/flight-route?sessionId=${encodeURIComponent(sid)}&flightId=${encodeURIComponent(fid)}`),
@@ -176,29 +176,29 @@ const LiveTracking = () => {
 
   return (
     <div className="container">
-        <div className="card" style={{ paddingTop: '1.5rem' }}>
-          {/* Floating header rectangle */}
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              marginBottom: '2rem',
-              padding: '1rem 1.5rem',
-              borderRadius: '16px',
-              boxShadow: '0 12px 30px rgba(0,0,0,0.12)',
-              background: 'linear-gradient(135deg, rgba(102,126,234,0.95) 0%, rgba(118,75,162,0.96) 100%)',
-              color: 'white',
-              gap: '1.5rem',
-            }}
-          >
-            <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0, fontSize: '1.6rem' }}>
-              <FiRadio /> Oman Air Virtual – Live Tracking
-            </h1>
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-              <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-                <span style={{ fontWeight: 600 }}>Server</span>
-                <select
+      <div className="card" style={{ paddingTop: '1.5rem' }}>
+        {/* Floating header rectangle */}
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            marginBottom: '2rem',
+            padding: '1rem 1.5rem',
+            borderRadius: '16px',
+            boxShadow: '0 12px 30px rgba(0,0,0,0.12)',
+            background: 'linear-gradient(135deg, rgba(102,126,234,0.95) 0%, rgba(118,75,162,0.96) 100%)',
+            color: 'white',
+            gap: '1.5rem',
+          }}
+        >
+          <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0, fontSize: '1.6rem' }}>
+            <FiRadio /> Oman Air Virtual – Live Tracking
+          </h1>
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+              <span style={{ fontWeight: 600 }}>Server</span>
+              <select
                 value={sessionId || `world:${worldType}`}
                 onChange={(e) => {
                   const v = e.target.value;
@@ -246,7 +246,7 @@ const LiveTracking = () => {
               Auto Refresh
             </label>
           </div>
-          </div>
+        </div>
 
         {error && <div className="alert alert-error">{error}</div>}
 
@@ -313,67 +313,94 @@ const LiveTracking = () => {
         {/* Selected flight details under map */}
         {selectedFlight && (
           <div className="card" style={{ marginBottom: '2rem' }}>
-                <h2 style={{ marginBottom: '0.5rem', color: '#333' }}>
-                  Selected: {selectedFlight.callsign}
-                </h2>
-                {detailsError && <div className="alert alert-error">{detailsError}</div>}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', color: '#666' }}>
-                  <div><strong>Aircraft:</strong> {selectedFlight.aircraft || '—'}</div>
-                  {liveryInfo && (
-                    <div><strong>Livery:</strong> {liveryInfo.name}</div>
-                  )}
-                  <div><strong>Pilot:</strong> {selectedFlight.username || '—'}</div>
-                  <div><strong>Alt:</strong> {selectedFlight.altitude ?? '—'} ft</div>
-                  <div><strong>Speed:</strong> {selectedFlight.speed ?? '—'} kts</div>
-                  <div><strong>Heading:</strong> {selectedFlight.heading ?? '—'}°</div>
-                  <div><strong>Last report:</strong> {selectedFlight.lastReport || '—'}</div>
-                </div>
+            <h2 style={{ marginBottom: '0.5rem', color: '#333' }}>
+              Selected: {selectedFlight.callsign}
+            </h2>
+            {detailsError && <div className="alert alert-error">{detailsError}</div>}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', color: '#666' }}>
+              <div><strong>Aircraft:</strong> {selectedFlight.aircraft || '—'}</div>
+              {liveryInfo && (
+                <div><strong>Livery:</strong> {liveryInfo.name}</div>
+              )}
+              <div><strong>Pilot:</strong> {selectedFlight.username || '—'}</div>
+              <div><strong>Alt:</strong> {selectedFlight.altitude ?? '—'} ft</div>
+              <div><strong>Speed:</strong> {selectedFlight.speed ?? '—'} kts</div>
+              <div><strong>Heading:</strong> {selectedFlight.heading ?? '—'}°</div>
+              <div><strong>Last report:</strong> {selectedFlight.lastReport || '—'}</div>
+            </div>
 
-                {(originAirport || destinationAirport) && (
-                  <div style={{ marginTop: '1rem', color: '#666' }}>
-                    <strong>Route:</strong>{' '}
-                    {originAirport
-                      ? `${originAirport.icao} (${originAirport.name})`
-                      : '—'}{' '}
-                    →{' '}
-                    {destinationAirport
-                      ? `${destinationAirport.icao} (${destinationAirport.name})`
-                      : '—'}
-                  </div>
-                )}
-
-                {flightPlan?.flightPlanItems && (
-                  <div style={{ marginTop: '1rem' }}>
-                    <strong>Flight plan:</strong>{' '}
-                    <div style={{ marginTop: '0.5rem', color: '#666', fontFamily: 'monospace', fontSize: '0.9rem' }}>
-                      ================== FLIGHT PLAN ==================
-                      <ul style={{ listStyle: 'none', paddingLeft: 0, marginTop: '0.5rem' }}>
-                        {flightPlan.flightPlanItems.slice(0, 40).map((wp, idx) => (
-                          <li key={idx} style={{ padding: '0.15rem 0' }}>
-                            {idx + 1}. {wp?.name || '(unknown)'}
-                          </li>
-                        ))}
-                      </ul>
-                      =================================================
-                    </div>
-                  </div>
-                )}
-
-                {liveryInfo && (
-                  <div style={{ marginTop: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <div style={{ width: '160px', height: '80px', borderRadius: '8px', overflow: 'hidden', background: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <span style={{ fontSize: '0.75rem', color: '#666', textAlign: 'center', padding: '0.5rem' }}>
-                        Livery art not provided by API
-                      </span>
-                    </div>
-                    <div style={{ color: '#666' }}>
-                      <strong>Livery details:</strong>
-                      <div>Name: {liveryInfo.name}</div>
-                      <div>ID: {liveryInfo.id}</div>
-                    </div>
-                  </div>
-                )}
+            {(originAirport || destinationAirport) && (
+              <div style={{ marginTop: '1rem', color: '#666' }}>
+                <strong>Route:</strong>{' '}
+                {originAirport
+                  ? `${originAirport.icao} (${originAirport.name})`
+                  : '—'}{' '}
+                →{' '}
+                {destinationAirport
+                  ? `${destinationAirport.icao} (${destinationAirport.name})`
+                  : '—'}
               </div>
+            )}
+
+            {flightPlan?.flightPlanItems && (
+              <div style={{ marginTop: '1rem' }}>
+                <strong>Flight plan:</strong>{' '}
+                <div style={{ marginTop: '0.5rem', color: '#666', fontFamily: 'monospace', fontSize: '0.9rem' }}>
+                  ================== FLIGHT PLAN ==================
+                  <ul style={{ listStyle: 'none', paddingLeft: 0, marginTop: '0.5rem' }}>
+                    {(() => {
+                      let waypointCounter = 0;
+                      const renderWaypoint = (wp, indent = 0) => {
+                        const items = [];
+                        waypointCounter++;
+                        const num = waypointCounter;
+                        const altText = wp?.altitude && wp.altitude !== -1
+                          ? `FL${Math.floor(wp.altitude / 100).toString().padStart(3, '0')}`
+                          : 'N/A';
+                        const wpName = wp?.name || '(unknown)';
+                        const procedureType = wp?.type !== undefined && wp?.children
+                          ? ['SID', 'STAR', 'APP', 'TRK', '', 'UNK'][wp.type] || ''
+                          : '';
+
+                        items.push(
+                          <li key={`wp-${num}`} style={{ padding: '0.15rem 0', paddingLeft: `${indent * 1.5}rem` }}>
+                            {num}. {wpName} {procedureType && `[${procedureType}]`} - {altText}
+                          </li>
+                        );
+
+                        // Render children (waypoints inside procedures)
+                        if (wp?.children && Array.isArray(wp.children)) {
+                          wp.children.forEach((child) => {
+                            items.push(...renderWaypoint(child, indent + 1));
+                          });
+                        }
+
+                        return items;
+                      };
+
+                      return flightPlan.flightPlanItems.slice(0, 40).flatMap((wp) => renderWaypoint(wp));
+                    })()}
+                  </ul>
+                  =================================================
+                </div>
+              </div>
+            )}
+
+            {liveryInfo && (
+              <div style={{ marginTop: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div style={{ width: '160px', height: '80px', borderRadius: '8px', overflow: 'hidden', background: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontSize: '0.75rem', color: '#666', textAlign: 'center', padding: '0.5rem' }}>
+                    Livery art not provided by API
+                  </span>
+                </div>
+                <div style={{ color: '#666' }}>
+                  <strong>Livery details:</strong>
+                  <div>Name: {liveryInfo.name}</div>
+                  <div>ID: {liveryInfo.id}</div>
+                </div>
+              </div>
+            )}
+          </div>
         )}
 
         {/* Flight list at bottom */}
@@ -401,9 +428,9 @@ const LiveTracking = () => {
               />
             </div>
             <div style={{ marginBottom: '2rem' }}>
-              <div style={{ 
-                background: '#f8f9fa', 
-                padding: '1rem', 
+              <div style={{
+                background: '#f8f9fa',
+                padding: '1rem',
                 borderRadius: '8px',
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
@@ -414,8 +441,8 @@ const LiveTracking = () => {
                     key={flight.flightId || idx}
                     onClick={() => setSelectedFlightId(String(flight.flightId || ''))}
                     style={{
-                      background: 'white', 
-                      padding: '1rem', 
+                      background: 'white',
+                      padding: '1rem',
                       borderRadius: '8px',
                       border: selectedFlightId === flight.flightId ? '2px solid #667eea' : '1px solid #e0e0e0',
                       cursor: 'pointer'

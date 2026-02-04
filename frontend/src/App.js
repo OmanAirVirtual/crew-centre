@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
 import Navbar from './components/Navbar';
@@ -18,14 +18,35 @@ import ExamList from './pages/ExamList';
 import ExamTake from './pages/ExamTake';
 import AdminDashboard from './pages/AdminDashboard';
 import ProfileSettings from './pages/ProfileSettings';
+
+// Career Mode Pages
+import CareerLogin from './pages/career/CareerLogin';
+import CareerDashboard from './pages/career/CareerDashboard';
+import TypeRatings from './pages/career/TypeRatings';
+import FlightLegs from './pages/career/FlightLegs';
+import PIREPBuilder from './pages/career/PIREPBuilder';
+import FlightHistory from './pages/career/FlightHistory';
+import CareerAdmin from './pages/career/CareerAdmin';
+import Leaderboard from './pages/career/Leaderboard';
+
 import './App.css';
+
+// Helper component to conditionally render Navbar
+const NavbarWrapper = () => {
+  const location = useLocation();
+  // Hide navbar if path starts with /career
+  if (location.pathname.startsWith('/career')) {
+    return null;
+  }
+  return <Navbar />;
+};
 
 function App() {
   return (
     <AuthProvider>
       <Router>
         <div className="App">
-          <Navbar />
+          <NavbarWrapper />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/staff" element={<StaffPage />} />
@@ -112,6 +133,16 @@ function App() {
                 </PrivateRoute>
               }
             />
+
+            {/* Career Mode Routes */}
+            <Route path="/career/login" element={<CareerLogin />} />
+            <Route path="/career/dashboard" element={<CareerDashboard />} />
+            <Route path="/career/type-ratings" element={<TypeRatings />} />
+            <Route path="/career/flights" element={<FlightLegs />} />
+            <Route path="/career/pirep/new" element={<PIREPBuilder />} />
+            <Route path="/career/history" element={<FlightHistory />} />
+            <Route path="/career/admin" element={<CareerAdmin />} />
+            <Route path="/career/leaderboard" element={<Leaderboard />} />
           </Routes>
         </div>
       </Router>

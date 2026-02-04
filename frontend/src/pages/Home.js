@@ -133,6 +133,11 @@ const Home = () => {
               <h3>Routes</h3>
               <p>Explore our network (login required)</p>
             </Link>
+            <Link to="/career/login" className="cta-card cta-card-career">
+              <FiBriefcase className="cta-icon" />
+              <h3>Career Mode</h3>
+              <p>Professional pilot progression system</p>
+            </Link>
           </div>
         </div>
       </section>
