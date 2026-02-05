@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext, useCallback } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
-import { FiUsers, FiFileText, FiTrendingUp, FiCheckCircle, FiXCircle } from 'react-icons/fi';
+import { FiUsers, FiFileText, FiTrendingUp, FiCheckCircle, FiXCircle, FiUserPlus } from 'react-icons/fi';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Loading from '../components/Loading';
 
@@ -15,11 +15,24 @@ const AdminDashboard = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
+  // Password reset state
+  const [resetEmail, setResetEmail] = useState('');
+  const [resetPassword, setResetPassword] = useState('');
+  const [resetConfirmPassword, setResetConfirmPassword] = useState('');
+  const [resetMessage, setResetMessage] = useState('');
+  const [resetError, setResetError] = useState('');
+  const [resetLoading, setResetLoading] = useState(false);
+
+  // Signup toggle state
+  const [signupsEnabled, setSignupsEnabled] = useState(true);
+  const [toggleLoading, setToggleLoading] = useState(false);
+
   const canManageUsers = ['CEO', 'CAO'].includes(user?.role);
   const canViewUsers = ['CEO', 'CAO', 'CMO', 'CFI', 'Recruiter', 'Routes Manager', 'Crew Centre Manager', 'Event Leader', 'Chief Pilot'].includes(user?.role);
   const canReviewExams = ['CEO', 'CAO', 'CFI', 'CMO', 'Recruiter'].includes(user?.role);
   const canReviewPIREPs = ['CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Manager'].includes(user?.role);
   const canEditStats = ['CFI'].includes(user?.role);
+  const canResetPasswords = ['CEO', 'CAO', 'CFI'].includes(user?.role);
 
   const [homeStats, setHomeStats] = useState({ codeshare: '15+', pireps: '750+', pilots: '95+' });
   const [statsForm, setStatsForm] = useState({ codeshare: '15+', pireps: '750+', pilots: '95+' });
@@ -74,11 +87,21 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     fetchData();
+    // Fetch signup status
+    const fetchSignupStatus = async () => {
+      try {
+        const response = await axios.get('/api/auth/signup-status');
+        setSignupsEnabled(response.data.enabled);
+      } catch (err) {
+        console.error('Error fetching signup status:', err);
+      }
+    };
+    fetchSignupStatus();
   }, [fetchData]);
 
   const handleReviewPIREP = async (pirepId, status) => {
     try {
-      await axios.patch(`/api/pireps/${pirepId}/review`, { status });
+      await axios.patch(`/ api / pireps / ${pirepId}/review`, { status });
       fetchData();
     } catch (error) {
       alert('Error reviewing PIREP: ' + (error.response?.data?.message || error.message));
@@ -258,6 +281,56 @@ const AdminDashboard = () => {
     }
   };
 
+  const handleResetUserPassword = async (e) => {
+    e.preventDefault();
+    setResetError('');
+    setResetMessage('');
+
+    // Validation
+    if (!resetEmail || !resetPassword) {
+      setResetError('Email and password are required');
+      return;
+    }
+    if (resetPassword.length < 6) {
+      setResetError('Password must be at least 6 characters');
+      return;
+    }
+    if (resetPassword !== resetConfirmPassword) {
+      setResetError('Passwords do not match');
+      return;
+    }
+
+    setResetLoading(true);
+    try {
+      const response = await axios.post('/api/admin/reset-user-password', {
+        email: resetEmail.trim(),
+        newPassword: resetPassword
+      });
+      setResetMessage(response.data.message);
+      // Clear form
+      setResetEmail('');
+      setResetPassword('');
+      setResetConfirmPassword('');
+    } catch (error) {
+      setResetError(error.response?.data?.message || 'Failed to reset password');
+    } finally {
+      setResetLoading(false);
+    }
+  };
+
+  const handleToggleSignups = async () => {
+    setToggleLoading(true);
+    try {
+      const response = await axios.post('/api/auth/toggle-signups');
+      setSignupsEnabled(response.data.enabled);
+      alert(response.data.message);
+    } catch (err) {
+      alert('Error toggling signups: ' + (err.response?.data?.message || err.message));
+    } finally {
+      setToggleLoading(false);
+    }
+  };
+
   if (loading) {
     return <Loading />;
   }
@@ -319,6 +392,14 @@ const AdminDashboard = () => {
             Stats Editor
           </button>
         )}
+        {canResetPasswords && (
+          <button
+            className={activeTab === 'reset-password' ? 'btn btn-primary' : 'btn btn-secondary'}
+            onClick={() => setActiveTab('reset-password')}
+          >
+            Reset Password
+          </button>
+        )}
       </div>
 
       {activeTab === 'overview' && stats && (
@@ -342,6 +423,33 @@ const AdminDashboard = () => {
               <h3>{stats.pireps.total}</h3>
               <p>Total PIREPs</p>
               <small>{stats.pireps.pending} Pending</small>
+            </div>
+          </div>
+
+          <div className="stat-card">
+            <div className="stat-icon" style={{ background: signupsEnabled ? 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)' : 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' }}>
+              <FiUserPlus />
+            </div>
+            <div className="stat-content">
+              <h3>{signupsEnabled ? 'Open' : 'Closed'}</h3>
+              <p>Signups</p>
+              <button
+                className="btn"
+                style={{
+                  marginTop: '0.5rem',
+                  padding: '0.25rem 0.5rem',
+                  fontSize: '0.8rem',
+                  backgroundColor: signupsEnabled ? '#dc3545' : '#28a745',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: 'pointer'
+                }}
+                onClick={handleToggleSignups}
+                disabled={toggleLoading}
+              >
+                {toggleLoading ? '...' : (signupsEnabled ? 'Close Signups' : 'Open Signups')}
+              </button>
             </div>
           </div>
 
@@ -645,6 +753,82 @@ const AdminDashboard = () => {
               <li>Pilots: {homeStats.pilots}</li>
             </ul>
           </div>
+        </div>
+      )}
+
+      {activeTab === 'reset-password' && canResetPasswords && (
+        <div className="card" style={{ marginTop: '2rem' }}>
+          <h2 style={{ marginBottom: '1rem' }}>Reset User Password</h2>
+          <p style={{ color: '#666', marginBottom: '1.5rem' }}>
+            Reset any user's password by entering their email address and a new password.
+          </p>
+
+          {resetError && (
+            <div className="alert alert-error" style={{ marginBottom: '1rem', background: '#f8d7da', color: '#721c24', padding: '1rem', borderRadius: '4px' }}>
+              {resetError}
+            </div>
+          )}
+          {resetMessage && (
+            <div className="alert alert-success" style={{ marginBottom: '1rem', background: '#d4edda', color: '#155724', padding: '1rem', borderRadius: '4px' }}>
+              {resetMessage}
+            </div>
+          )}
+
+          <form onSubmit={handleResetUserPassword} style={{ maxWidth: '500px' }}>
+            <div className="form-group" style={{ marginBottom: '1rem' }}>
+              <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>
+                User Email
+              </label>
+              <input
+                type="email"
+                className="input"
+                value={resetEmail}
+                onChange={(e) => setResetEmail(e.target.value)}
+                placeholder="user@example.com"
+                required
+                disabled={resetLoading}
+              />
+            </div>
+
+            <div className="form-group" style={{ marginBottom: '1rem' }}>
+              <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>
+                New Password
+              </label>
+              <input
+                type="password"
+                className="input"
+                value={resetPassword}
+                onChange={(e) => setResetPassword(e.target.value)}
+                placeholder="Minimum 6 characters"
+                required
+                minLength={6}
+                disabled={resetLoading}
+              />
+            </div>
+
+            <div className="form-group" style={{ marginBottom: '1.5rem' }}>
+              <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>
+                Confirm Password
+              </label>
+              <input
+                type="password"
+                className="input"
+                value={resetConfirmPassword}
+                onChange={(e) => setResetConfirmPassword(e.target.value)}
+                placeholder="Confirm new password"
+                required
+                disabled={resetLoading}
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="btn btn-primary"
+              disabled={resetLoading}
+            >
+              {resetLoading ? 'Resetting...' : 'Reset Password'}
+            </button>
+          </form>
         </div>
       )}
     </div>

@@ -1,5 +1,6 @@
-import React, { useState, useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useContext, useEffect } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import axios from 'axios';
 import { AuthContext } from '../context/AuthContext';
 import { FiUserPlus, FiUser, FiMail, FiLock, FiRadio } from 'react-icons/fi';
 import './Auth.css';
@@ -16,8 +17,24 @@ const Register = () => {
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [signupsEnabled, setSignupsEnabled] = useState(true);
+  const [checkingStatus, setCheckingStatus] = useState(true);
   const { register } = useContext(AuthContext);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const checkSignupStatus = async () => {
+      try {
+        const response = await axios.get('/api/auth/signup-status');
+        setSignupsEnabled(response.data.enabled);
+      } catch (err) {
+        console.error('Error checking signup status:', err);
+      } finally {
+        setCheckingStatus(false);
+      }
+    };
+    checkSignupStatus();
+  }, []);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -25,6 +42,10 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!signupsEnabled) {
+      setError('Registration is currently disabled.');
+      return;
+    }
     setError('');
     setLoading(true);
 
@@ -37,6 +58,29 @@ const Register = () => {
       setLoading(false);
     }
   };
+
+  if (checkingStatus) {
+    return <div className="auth-container"><div className="auth-card">Checking status...</div></div>;
+  }
+
+  if (!signupsEnabled) {
+    return (
+      <div className="auth-container">
+        <div className="auth-card">
+          <div className="auth-header">
+            <FiUserPlus className="auth-icon" />
+            <h1>Signups Closed</h1>
+            <p style={{ marginTop: '1rem', color: '#f5576c', fontWeight: 'bold' }}>
+              Please go back and login with default credentials
+            </p>
+          </div>
+          <div style={{ marginTop: '2rem', textAlign: 'center' }}>
+            <Link to="/login" className="btn btn-primary">Go to Login</Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="auth-container">
@@ -155,7 +199,7 @@ const Register = () => {
         </form>
 
         <p className="auth-footer">
-          Already have an account? <a href="/login">Login here</a>
+          Already have an account? <Link to="/login">Login here</Link>
         </p>
       </div>
     </div>

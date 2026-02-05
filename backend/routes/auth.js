@@ -10,6 +10,9 @@ const router = express.Router();
 const otpStore = new Map();
 const OTP_EXPIRY_MS = 10 * 60 * 1000; // 10 minutes
 
+// In-memory signup toggle (can be toggled by CFI/CEO/CAO)
+let signupsEnabled = true;
+
 function generateOTP() {
   return String(Math.floor(100000 + Math.random() * 900000));
 }
@@ -48,9 +51,30 @@ async function sendOTPEmail(email, otp) {
   });
 }
 
+// Get signup status (public endpoint)
+router.get('/signup-status', (req, res) => {
+  res.json({ enabled: signupsEnabled });
+});
+
+// Toggle signups (CFI, CEO, CAO only)
+router.post('/toggle-signups', auth, adminAuth('CEO', 'CAO', 'CFI'), (req, res) => {
+  signupsEnabled = !signupsEnabled;
+  res.json({
+    enabled: signupsEnabled,
+    message: signupsEnabled ? 'Signups enabled' : 'Signups disabled'
+  });
+});
+
 // Register
 router.post('/register', async (req, res) => {
   try {
+    // Check if signups are enabled
+    if (!signupsEnabled) {
+      return res.status(403).json({
+        message: 'Signups are currently disabled. Please go back and login with default credentials'
+      });
+    }
+
     const { username, email, password, firstName, lastName, callsign, discordId } = req.body;
 
     // Check if user exists

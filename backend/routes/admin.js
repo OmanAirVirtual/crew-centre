@@ -103,4 +103,35 @@ router.get('/stats', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Ma
   }
 });
 
+// Admin reset user password by email (CFI, CEO, CAO only)
+router.post('/reset-user-password', auth, adminAuth('CEO', 'CAO', 'CFI'), async (req, res) => {
+  try {
+    const { email, newPassword } = req.body;
+
+    // Validation
+    if (!email || typeof email !== 'string') {
+      return res.status(400).json({ message: 'Email is required' });
+    }
+    if (!newPassword || typeof newPassword !== 'string' || newPassword.length < 6) {
+      return res.status(400).json({ message: 'Password must be at least 6 characters' });
+    }
+
+    // Find user by email (case-insensitive)
+    const user = await User.findOne({ email: email.trim().toLowerCase() });
+    if (!user) {
+      return res.status(404).json({ message: 'User not found with this email' });
+    }
+
+    // Update password (will be hashed by User model pre-save hook)
+    user.password = newPassword;
+    await user.save();
+
+    res.json({
+      message: `Password reset successfully for ${user.firstName} ${user.lastName} (${user.email})`
+    });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 module.exports = router;
