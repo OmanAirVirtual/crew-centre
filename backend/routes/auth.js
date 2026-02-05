@@ -65,6 +65,20 @@ router.post('/toggle-signups', auth, adminAuth('CEO', 'CAO', 'CFI'), (req, res) 
   });
 });
 
+// Get signup status (public endpoint)
+router.get('/signup-status', (req, res) => {
+  res.json({ enabled: signupsEnabled });
+});
+
+// Toggle signups (CFI, CEO, CAO only)
+router.post('/toggle-signups', auth, adminAuth('CEO', 'CAO', 'CFI'), (req, res) => {
+  signupsEnabled = !signupsEnabled;
+  res.json({
+    enabled: signupsEnabled,
+    message: signupsEnabled ? 'Signups enabled' : 'Signups disabled'
+  });
+});
+
 // Register
 router.post('/register', async (req, res) => {
   try {

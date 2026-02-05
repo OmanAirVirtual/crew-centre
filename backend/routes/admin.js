@@ -103,6 +103,8 @@ router.get('/stats', auth, adminAuth('CEO', 'CAO', 'CMO', 'CFI', 'Crew Centre Ma
   }
 });
 
+const bcrypt = require('bcryptjs'); // Add at top of file, or require inside function if needed, but better at top.
+
 // Admin reset user password by email (CFI, CEO, CAO only)
 router.post('/reset-user-password', auth, adminAuth('CEO', 'CAO', 'CFI'), async (req, res) => {
   try {
@@ -117,19 +119,24 @@ router.post('/reset-user-password', auth, adminAuth('CEO', 'CAO', 'CFI'), async 
     }
 
     // Find user by email (case-insensitive)
-    const user = await User.findOne({ email: email.trim().toLowerCase() });
+    const normalizedEmail = email.trim().toLowerCase();
+    const user = await User.findOne({ email: normalizedEmail });
     if (!user) {
       return res.status(404).json({ message: 'User not found with this email' });
     }
 
-    // Update password (will be hashed by User model pre-save hook)
-    user.password = newPassword;
-    await user.save();
+    // Hash password manually to avoid full document validation with user.save()
+    // This handles legacy users who might be missing required fields like discordId
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(newPassword, salt);
+
+    await User.findByIdAndUpdate(user._id, { password: hashedPassword });
 
     res.json({
       message: `Password reset successfully for ${user.firstName} ${user.lastName} (${user.email})`
     });
   } catch (error) {
+    console.error('Password reset error:', error);
     res.status(500).json({ message: error.message });
   }
 });
